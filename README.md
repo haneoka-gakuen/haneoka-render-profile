@@ -29,3 +29,11 @@ dart analyze lib
 ```
 
 公共绘制合同固定到 `render-kernel-flutter` 的 Git 版本；本地联调可使用各包自己的 `pubspec_overrides.yaml`。根目录的 `assets`、`shaders` 是通向 `flutter/` 的兼容链接，现有资源生产器继续写入同一份文件。
+
+正式故事字体与精灵使用已校验的 descriptor、对象档案和输出文件更新：
+
+```sh
+node tool/export-story-assets.mjs --inputs tool/story-assets-v56.json --profile flutter/assets/profile
+```
+
+工具沿用正式字体 compact 格式，核验输入 SHA256，记录每份资产的服务器、资源版本和原始输出；布局和动画保持原有来源。生产工具使用 Node.js 24+。
