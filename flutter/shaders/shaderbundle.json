@@ -1,0 +1,114 @@
+{
+  "HaneokaTexturedVertex": {
+    "file": "shaders/textured.vert",
+    "type": "vertex"
+  },
+  "HaneokaTexturedFragment": {
+    "file": "shaders/textured.frag",
+    "type": "fragment"
+  },
+  "HaneokaPremultipliedFragment": {
+    "file": "shaders/textured_premultiplied.frag",
+    "type": "fragment"
+  },
+  "HaneokaSolidFragment": {
+    "file": "shaders/solid.frag",
+    "type": "fragment"
+  },
+  "HaneokaGameComposeFragment": {
+    "file": "shaders/game_compose.frag",
+    "type": "fragment"
+  },
+  "HaneokaHoldVertex": {
+    "file": "shaders/hold.vert",
+    "type": "vertex"
+  },
+  "HaneokaHoldFragment": {
+    "file": "shaders/hold.frag",
+    "type": "fragment"
+  },
+  "HaneokaCubismVertex": {
+    "file": "shaders/cubism.vert",
+    "type": "vertex"
+  },
+  "HaneokaCubismFragment": {
+    "file": "shaders/cubism.frag",
+    "type": "fragment"
+  },
+  "HaneokaCubismMaskFragment": {
+    "file": "shaders/cubism_mask.frag",
+    "type": "fragment"
+  },
+  "HaneokaPostFragment": {
+    "file": "shaders/post.frag",
+    "type": "fragment"
+  },
+  "HaneokaSdfFragment": {
+    "file": "shaders/sdf_text.frag",
+    "type": "fragment"
+  },
+  "HaneokaMobileHdrFragment": {
+    "file": "shaders/mobile_hdr.frag",
+    "type": "fragment"
+  },
+  "HaneokaUiAdditiveStraightFragment": {
+    "file": "shaders/ui_additive_straight.frag",
+    "type": "fragment"
+  },
+  "HaneokaUiAdditivePremultipliedFragment": {
+    "file": "shaders/ui_additive_premultiplied.frag",
+    "type": "fragment"
+  },
+  "HaneokaOpaqueColorTransferFragment": {
+    "file": "shaders/opaque_color_transfer.frag",
+    "type": "fragment"
+  },
+  "HaneokaRuleTransitionFragment": {
+    "file": "shaders/rule_transition.frag",
+    "type": "fragment"
+  },
+  "HaneokaStoryBokehFragment": {
+    "file": "shaders/story_bokeh.frag",
+    "type": "fragment"
+  },
+  "HaneokaStoryLutLdrFragment": {
+    "file": "shaders/story_lut_ldr.frag",
+    "type": "fragment"
+  },
+  "HaneokaStoryUberFragment": {
+    "file": "shaders/story_uber.frag",
+    "type": "fragment"
+  },
+  "HaneokaStoryCurvedFragment": {
+    "file": "shaders/story_curved.frag",
+    "type": "fragment"
+  },
+  "HaneokaUiMaskedVertex": {
+    "file": "shaders/ui_masked.vert",
+    "type": "vertex"
+  },
+  "HaneokaUiMaskedTexturedFragment": {
+    "file": "shaders/ui_masked_textured.frag",
+    "type": "fragment"
+  },
+  "HaneokaUiMaskedPremultipliedFragment": {
+    "file": "shaders/ui_masked_premultiplied.frag",
+    "type": "fragment"
+  },
+  "HaneokaUiMaskedSdfFragment": {
+    "file": "shaders/ui_masked_sdf.frag",
+    "type": "fragment"
+  },
+  "HaneokaUiMaskedSolidFragment": {
+    "file": "shaders/ui_masked_solid.frag",
+    "type": "fragment"
+  },
+  "HaneokaCoverageMaskFragment": {
+    "file": "shaders/coverage_mask.frag",
+    "type": "fragment"
+  },
+  "HaneokaUiMaskedCoverageMaskFragment": {
+    "file": "shaders/ui_masked_coverage_mask.frag",
+    "type": "fragment"
+  }
+}

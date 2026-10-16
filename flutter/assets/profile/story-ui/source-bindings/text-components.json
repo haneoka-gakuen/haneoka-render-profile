@@ -1,0 +1,1247 @@
+{
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "sources": [
+    {
+      "mode": "Default",
+      "sourceUiPath": "Assets/AddressableResources/UI/Prefab/Parts/Adv/Talk/UIDefaultTalkWindow.prefab",
+      "descriptorHash": "069e4242ad4895d2e6d150b516409e396e8c0ce1bc8e8c8dbb22970035303244",
+      "sourceUiHash": "8be31c635ad14a3f0b996ca179c82840a7bd1e12fafd289ef90bef3775f34e53",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/5c89ffc2aca2e958309b9aabf6420bd4e0cd9d7bdddd2cc03033f6d8611b9403.jsonl.gz",
+      "objectId": "7652627220368314412",
+      "script": "UIAdvTalkWindow",
+      "typingDelaySeconds": 0.05000000074505806,
+      "archiveSHA256": "8be31c635ad14a3f0b996ca179c82840a7bd1e12fafd289ef90bef3775f34e53",
+      "originalHeader": {
+        "bundle": "ui_assets_embui_prefab_parts_adv_talk_uidefaulttalkwindow_02ceb872d11b5bea62463d575dd25741.bundle",
+        "bundleSha256": "5c89ffc2aca2e958309b9aabf6420bd4e0cd9d7bdddd2cc03033f6d8611b9403",
+        "format": "haneoka-unity-objects-jsonl-v1",
+        "record": "header",
+        "serializedFiles": [
+          "CAB-8b57beff085d9472c8b26d41689c7ae4"
+        ]
+      },
+      "selectedObjects": [
+        {
+          "pathId": "3605347048448118828",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        {
+          "pathId": "-8373647341561982932",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        {
+          "pathId": "-2027504578395189204",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        {
+          "pathId": "-100325698232528852",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        }
+      ]
+    },
+    {
+      "mode": "Center",
+      "sourceUiPath": "Assets/AddressableResources/UI/Prefab/Parts/Adv/Talk/UICenterTalkWindow.prefab",
+      "descriptorHash": "7024aa4c220e3c4db240ef644a7f1b61756245e03238f83fae277b1fd3fb0b14",
+      "sourceUiHash": "7a7fe7d3a9dbbed73a35f2d100383bc3c07aad5c26cd75f8d4b3b63d1e37ae02",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/7c5b2d1cc2625abe4b621468be87fb4afc24790e9987861ce3992d43f11f51e9.jsonl.gz",
+      "objectId": "5667057683337401556",
+      "script": "UIAdvTalkWindow",
+      "typingDelaySeconds": 0.05000000074505806,
+      "archiveSHA256": "7a7fe7d3a9dbbed73a35f2d100383bc3c07aad5c26cd75f8d4b3b63d1e37ae02",
+      "originalHeader": {
+        "bundle": "ui_assets_embui_prefab_parts_adv_talk_uicentertalkwindow_1c3d98ec328e51f16818cb544d9b7a1b.bundle",
+        "bundleSha256": "7c5b2d1cc2625abe4b621468be87fb4afc24790e9987861ce3992d43f11f51e9",
+        "format": "haneoka-unity-objects-jsonl-v1",
+        "record": "header",
+        "serializedFiles": [
+          "CAB-8a45009dbd0a58d0e0701455d51da5c4"
+        ]
+      },
+      "selectedObjects": [
+        {
+          "pathId": "7936126029710251220",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "MonoBehaviour"
+        },
+        {
+          "pathId": "3442760723399726292",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "MonoBehaviour"
+        },
+        {
+          "pathId": "-7048934823292021548",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "MonoBehaviour"
+        },
+        {
+          "pathId": "-1168852620659698476",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "MonoBehaviour"
+        }
+      ]
+    }
+  ],
+  "Default": {
+    "TalkText": {
+      "_rubyLineHeight": "",
+      "_rubyMargin": 10.0,
+      "_rubyScale": 0.5,
+      "_rubyShowType": 0,
+      "_rubyVerticalOffset": "1em",
+      "_uneditedText": "",
+      "checkPaddingRequired": 0,
+      "m_ActiveFontFeatures": [
+        0
+      ],
+      "m_Color": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "m_EmojiFallbackSupport": 1,
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 4331207836503625772
+      },
+      "m_HorizontalAlignment": 1,
+      "m_IsTextObjectScaleStatic": 0,
+      "m_Maskable": 1,
+      "m_Material": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Name": "",
+      "m_OnCullStateChanged": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "m_RaycastPadding": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_RaycastTarget": 0,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 8806661878714021696,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "RubyEmojiTextMeshProUGUI",
+          "pathId": "8806661878714021696",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      },
+      "m_StyleSheet": {
+        "m_FileID": 4,
+        "m_PathID": 5478408642870474550,
+        "reference": {
+          "externalPath": "archive:/CAB-7cc09aa35d23975558210efae97eb649/CAB-7cc09aa35d23975558210efae97eb649",
+          "name": "StyleSheet",
+          "pathId": "5478408642870474550",
+          "serializedFile": "CAB-7cc09aa35d23975558210efae97eb649",
+          "status": "resolved",
+          "type": "MonoBehaviour"
+        }
+      },
+      "m_TextStyleHashCode": 0,
+      "m_TextWrappingMode": 0,
+      "m_VertexBufferAutoSizeReduction": 0,
+      "m_VerticalAlignment": 256,
+      "m_baseMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_charWidthMaxAdj": 0.0,
+      "m_characterHorizontalScale": 1.0,
+      "m_characterSpacing": 2.0,
+      "m_colorMode": 3,
+      "m_enableAutoSizing": 0,
+      "m_enableExtraPadding": 0,
+      "m_enableKerning": 0,
+      "m_enableVertexGradient": 0,
+      "m_faceColor": {
+        "rgba": 4294967295
+      },
+      "m_fontAsset": {
+        "m_FileID": 3,
+        "m_PathID": 3866620057837799242,
+        "reference": {
+          "externalPath": "archive:/CAB-ddfc6812aebf4e1007ac491baf92810e/CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "name": "A-OTF-ShinGoPr6N-Regular SDF",
+          "pathId": "3866620057837799242",
+          "serializedFile": "CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "status": "resolved",
+          "type": "MonoBehaviour"
+        }
+      },
+      "m_fontColor": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "m_fontColor32": {
+        "rgba": 4294967295
+      },
+      "m_fontColorGradient": {
+        "bottomLeft": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "bottomRight": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "topLeft": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "topRight": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_fontColorGradientPreset": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_fontMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_fontMaterials": [],
+      "m_fontSharedMaterials": [],
+      "m_fontSize": 36.0,
+      "m_fontSizeBase": 36.0,
+      "m_fontSizeMax": 36.0,
+      "m_fontSizeMin": 18.0,
+      "m_fontStyle": 0,
+      "m_fontWeight": 400,
+      "m_geometrySortingOrder": 0,
+      "m_hasFontAssetChanged": 0,
+      "m_horizontalMapping": 0,
+      "m_isCullingEnabled": 0,
+      "m_isOrthographic": 1,
+      "m_isRichText": 1,
+      "m_isRightToLeft": 0,
+      "m_isUsingLegacyAnimationComponent": 0,
+      "m_isVolumetricText": 0,
+      "m_lineSpacing": -54.0,
+      "m_lineSpacingMax": 0.0,
+      "m_linkedTextComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_margin": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_maskOffset": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_monospaceDistEm": 0.0,
+      "m_overflowMode": 0,
+      "m_overrideHtmlColors": 0,
+      "m_pageToDisplay": 1,
+      "m_paragraphSpacing": 0.0,
+      "m_parseCtrlCharacters": 1,
+      "m_sharedMaterial": {
+        "m_FileID": 3,
+        "m_PathID": -3891810390053638786,
+        "reference": {
+          "externalPath": "archive:/CAB-ddfc6812aebf4e1007ac491baf92810e/CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "name": "A-OTF-ShinGoPr6N-Regular - Default",
+          "pathId": "-3891810390053638786",
+          "serializedFile": "CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "status": "resolved",
+          "type": "Material"
+        }
+      },
+      "m_spriteAsset": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_text": "",
+      "m_textAlignment": 65535,
+      "m_tintAllSprites": 0,
+      "m_useMaxVisibleDescender": 1,
+      "m_uvLineOffset": 0.0,
+      "m_verticalMapping": 0,
+      "m_wordSpacing": 0.0,
+      "m_wordWrappingRatios": 0.4000000059604645,
+      "parentLinkedComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "SpeakerText": {
+      "_rubyLineHeight": "",
+      "_rubyMargin": 10.0,
+      "_rubyScale": 0.5,
+      "_rubyShowType": 0,
+      "_rubyVerticalOffset": "1em",
+      "_uneditedText": "咲子",
+      "checkPaddingRequired": 0,
+      "m_ActiveFontFeatures": [
+        1801810542
+      ],
+      "m_Color": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "m_EmojiFallbackSupport": 1,
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -3544319349734977492
+      },
+      "m_HorizontalAlignment": 1,
+      "m_IsTextObjectScaleStatic": 0,
+      "m_Maskable": 1,
+      "m_Material": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Name": "",
+      "m_OnCullStateChanged": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "m_RaycastPadding": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_RaycastTarget": 0,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 6160950311084150853,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "RubyTextMeshProUGUI",
+          "pathId": "6160950311084150853",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      },
+      "m_StyleSheet": {
+        "m_FileID": 4,
+        "m_PathID": 5478408642870474550,
+        "reference": {
+          "externalPath": "archive:/CAB-7cc09aa35d23975558210efae97eb649/CAB-7cc09aa35d23975558210efae97eb649",
+          "name": "StyleSheet",
+          "pathId": "5478408642870474550",
+          "serializedFile": "CAB-7cc09aa35d23975558210efae97eb649",
+          "status": "resolved",
+          "type": "MonoBehaviour"
+        }
+      },
+      "m_TextStyleHashCode": -1183493901,
+      "m_TextWrappingMode": 1,
+      "m_VertexBufferAutoSizeReduction": 0,
+      "m_VerticalAlignment": 512,
+      "m_baseMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_charWidthMaxAdj": 0.0,
+      "m_characterHorizontalScale": 1.0,
+      "m_characterSpacing": 2.0,
+      "m_colorMode": 3,
+      "m_enableAutoSizing": 0,
+      "m_enableExtraPadding": 0,
+      "m_enableKerning": 0,
+      "m_enableVertexGradient": 0,
+      "m_faceColor": {
+        "rgba": 4294967295
+      },
+      "m_fontAsset": {
+        "m_FileID": 3,
+        "m_PathID": 3866620057837799242,
+        "reference": {
+          "externalPath": "archive:/CAB-ddfc6812aebf4e1007ac491baf92810e/CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "name": "A-OTF-ShinGoPr6N-Regular SDF",
+          "pathId": "3866620057837799242",
+          "serializedFile": "CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "status": "resolved",
+          "type": "MonoBehaviour"
+        }
+      },
+      "m_fontColor": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "m_fontColor32": {
+        "rgba": 4294967295
+      },
+      "m_fontColorGradient": {
+        "bottomLeft": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "bottomRight": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "topLeft": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "topRight": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_fontColorGradientPreset": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_fontMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_fontMaterials": [],
+      "m_fontSharedMaterials": [],
+      "m_fontSize": 36.0,
+      "m_fontSizeBase": 36.0,
+      "m_fontSizeMax": 36.0,
+      "m_fontSizeMin": 18.0,
+      "m_fontStyle": 1,
+      "m_fontWeight": 400,
+      "m_geometrySortingOrder": 0,
+      "m_hasFontAssetChanged": 0,
+      "m_horizontalMapping": 0,
+      "m_isCullingEnabled": 0,
+      "m_isOrthographic": 1,
+      "m_isRichText": 1,
+      "m_isRightToLeft": 0,
+      "m_isUsingLegacyAnimationComponent": 0,
+      "m_isVolumetricText": 0,
+      "m_lineSpacing": 0.0,
+      "m_lineSpacingMax": 0.0,
+      "m_linkedTextComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_margin": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_maskOffset": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_overflowMode": 0,
+      "m_overrideHtmlColors": 0,
+      "m_pageToDisplay": 1,
+      "m_paragraphSpacing": 0.0,
+      "m_parseCtrlCharacters": 1,
+      "m_sharedMaterial": {
+        "m_FileID": 3,
+        "m_PathID": -9054838721446464938,
+        "reference": {
+          "externalPath": "archive:/CAB-ddfc6812aebf4e1007ac491baf92810e/CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "name": "A-OTF-ShinGoPr6N-Regular - OutlineAdvCommon",
+          "pathId": "-9054838721446464938",
+          "serializedFile": "CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "status": "resolved",
+          "type": "Material"
+        }
+      },
+      "m_spriteAsset": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_text": "咲子",
+      "m_textAlignment": 65535,
+      "m_tintAllSprites": 0,
+      "m_useMaxVisibleDescender": 1,
+      "m_uvLineOffset": 0.0,
+      "m_verticalMapping": 0,
+      "m_wordSpacing": 0.0,
+      "m_wordWrappingRatios": 0.4000000059604645,
+      "parentLinkedComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "TalkRuby": {
+      "_localizeText": {
+        "m_FileID": 0,
+        "m_PathID": 1762552121572053036
+      },
+      "_rubyMarginTop": -22.0,
+      "_targetText": {
+        "m_FileID": 0,
+        "m_PathID": 3605347048448118828
+      },
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 4331207836503625772
+      },
+      "m_Name": "",
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -6988697001438609265,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "UIRubyText",
+          "pathId": "-6988697001438609265",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      }
+    },
+    "SpeakerRuby": {
+      "_localizeText": {
+        "m_FileID": 0,
+        "m_PathID": 8599825174726168620
+      },
+      "_rubyMarginTop": -24.0,
+      "_targetText": {
+        "m_FileID": 0,
+        "m_PathID": -8373647341561982932
+      },
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -3544319349734977492
+      },
+      "m_Name": "",
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -6988697001438609265,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "UIRubyText",
+          "pathId": "-6988697001438609265",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      }
+    },
+    "SpeakerContentSizeFitter": {
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": "-6100093508434079700"
+      },
+      "m_HorizontalFit": 2,
+      "m_Name": "",
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": "93356951997354507",
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "ContentSizeFitter",
+          "pathId": "93356951997354507",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      },
+      "m_VerticalFit": 0
+    },
+    "SpeakerLayoutGroup": {
+      "m_ChildAlignment": 3,
+      "m_ChildControlHeight": 0,
+      "m_ChildControlWidth": 1,
+      "m_ChildForceExpandHeight": 0,
+      "m_ChildForceExpandWidth": 0,
+      "m_ChildScaleHeight": 0,
+      "m_ChildScaleWidth": 0,
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": "-6100093508434079700"
+      },
+      "m_Name": "",
+      "m_Padding": {
+        "m_Bottom": 0,
+        "m_Left": 20,
+        "m_Right": 80,
+        "m_Top": 0
+      },
+      "m_ReverseArrangement": 0,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": "-3229211799126679632",
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "HorizontalLayoutGroup",
+          "pathId": "-3229211799126679632",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      },
+      "m_Spacing": 0.0
+    }
+  },
+  "Center": {
+    "TalkText": {
+      "_rubyLineHeight": "",
+      "_rubyMargin": 10.0,
+      "_rubyScale": 0.5,
+      "_rubyShowType": 0,
+      "_rubyVerticalOffset": "1em",
+      "_uneditedText": "",
+      "checkPaddingRequired": 0,
+      "m_ActiveFontFeatures": [
+        0
+      ],
+      "m_Color": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "m_EmojiFallbackSupport": 1,
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -1841335273178049324
+      },
+      "m_HorizontalAlignment": 2,
+      "m_IsTextObjectScaleStatic": 0,
+      "m_Maskable": 1,
+      "m_Material": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Name": "",
+      "m_OnCullStateChanged": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "m_RaycastPadding": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_RaycastTarget": 0,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 8806661878714021696,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "RubyEmojiTextMeshProUGUI",
+          "pathId": "8806661878714021696",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      },
+      "m_StyleSheet": {
+        "m_FileID": 4,
+        "m_PathID": 5478408642870474550,
+        "reference": {
+          "externalPath": "archive:/CAB-7cc09aa35d23975558210efae97eb649/CAB-7cc09aa35d23975558210efae97eb649",
+          "name": "StyleSheet",
+          "pathId": "5478408642870474550",
+          "serializedFile": "CAB-7cc09aa35d23975558210efae97eb649",
+          "status": "resolved",
+          "type": "MonoBehaviour"
+        }
+      },
+      "m_TextStyleHashCode": 0,
+      "m_TextWrappingMode": 1,
+      "m_VertexBufferAutoSizeReduction": 0,
+      "m_VerticalAlignment": 256,
+      "m_baseMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_charWidthMaxAdj": 0.0,
+      "m_characterHorizontalScale": 1.0,
+      "m_characterSpacing": 2.0,
+      "m_colorMode": 3,
+      "m_enableAutoSizing": 0,
+      "m_enableExtraPadding": 0,
+      "m_enableKerning": 0,
+      "m_enableVertexGradient": 0,
+      "m_faceColor": {
+        "rgba": 4294967295
+      },
+      "m_fontAsset": {
+        "m_FileID": 3,
+        "m_PathID": 3866620057837799242,
+        "reference": {
+          "externalPath": "archive:/CAB-ddfc6812aebf4e1007ac491baf92810e/CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "name": "A-OTF-ShinGoPr6N-Regular SDF",
+          "pathId": "3866620057837799242",
+          "serializedFile": "CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "status": "resolved",
+          "type": "MonoBehaviour"
+        }
+      },
+      "m_fontColor": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "m_fontColor32": {
+        "rgba": 4294967295
+      },
+      "m_fontColorGradient": {
+        "bottomLeft": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "bottomRight": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "topLeft": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "topRight": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        }
+      },
+      "m_fontColorGradientPreset": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_fontMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_fontMaterials": [],
+      "m_fontSharedMaterials": [],
+      "m_fontSize": 36.0,
+      "m_fontSizeBase": 36.0,
+      "m_fontSizeMax": 36.0,
+      "m_fontSizeMin": 18.0,
+      "m_fontStyle": 0,
+      "m_fontWeight": 400,
+      "m_geometrySortingOrder": 0,
+      "m_hasFontAssetChanged": 0,
+      "m_horizontalMapping": 0,
+      "m_isCullingEnabled": 0,
+      "m_isOrthographic": 1,
+      "m_isRichText": 1,
+      "m_isRightToLeft": 0,
+      "m_isUsingLegacyAnimationComponent": 0,
+      "m_isVolumetricText": 0,
+      "m_lineSpacing": -54.0,
+      "m_lineSpacingMax": 0.0,
+      "m_linkedTextComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_margin": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_maskOffset": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_monospaceDistEm": 0.0,
+      "m_overflowMode": 0,
+      "m_overrideHtmlColors": 0,
+      "m_pageToDisplay": 1,
+      "m_paragraphSpacing": 0.0,
+      "m_parseCtrlCharacters": 1,
+      "m_sharedMaterial": {
+        "m_FileID": 3,
+        "m_PathID": 6551736024394408551,
+        "reference": {
+          "externalPath": "archive:/CAB-ddfc6812aebf4e1007ac491baf92810e/CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "name": "A-OTF-ShinGoPr6N-Regular - OutlineLightGray",
+          "pathId": "6551736024394408551",
+          "serializedFile": "CAB-ddfc6812aebf4e1007ac491baf92810e",
+          "status": "resolved",
+          "type": "Material"
+        }
+      },
+      "m_spriteAsset": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_text": "",
+      "m_textAlignment": 65535,
+      "m_tintAllSprites": 0,
+      "m_useMaxVisibleDescender": 1,
+      "m_uvLineOffset": 0.0,
+      "m_verticalMapping": 0,
+      "m_wordSpacing": 0.0,
+      "m_wordWrappingRatios": 0.4000000059604645,
+      "parentLinkedComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "TalkRuby": {
+      "_localizeText": {
+        "m_FileID": 0,
+        "m_PathID": 6426943035675727060
+      },
+      "_rubyMarginTop": -22.0,
+      "_targetText": {
+        "m_FileID": 0,
+        "m_PathID": 7936126029710251220
+      },
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -1841335273178049324
+      },
+      "m_Name": "",
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -6988697001438609265,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "UIRubyText",
+          "pathId": "-6988697001438609265",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      }
+    },
+    "LayoutGroup": {
+      "m_ChildAlignment": 4,
+      "m_ChildControlHeight": 1,
+      "m_ChildControlWidth": 1,
+      "m_ChildForceExpandHeight": 0,
+      "m_ChildForceExpandWidth": 1,
+      "m_ChildScaleHeight": 0,
+      "m_ChildScaleWidth": 0,
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 5736189462766834900
+      },
+      "m_Name": "",
+      "m_Padding": {
+        "m_Bottom": 0,
+        "m_Left": 0,
+        "m_Right": 0,
+        "m_Top": 0
+      },
+      "m_ReverseArrangement": 0,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -3229211799126679632,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "HorizontalLayoutGroup",
+          "pathId": "-3229211799126679632",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      },
+      "m_Spacing": 40.0
+    },
+    "ContentSizeFitter": {
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 5736189462766834900
+      },
+      "m_HorizontalFit": 0,
+      "m_Name": "",
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 93356951997354507,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "ContentSizeFitter",
+          "pathId": "93356951997354507",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      },
+      "m_VerticalFit": 2
+    }
+  },
+  "additionalSourceBindings": {
+    "sourceUiPath": "Assets/AddressableResources/UI/Prefab/Parts/Adv/Talk/UIDefaultTalkWindow.prefab",
+    "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/5c89ffc2aca2e958309b9aabf6420bd4e0cd9d7bdddd2cc03033f6d8611b9403.jsonl.gz",
+    "archiveSHA256": "8be31c635ad14a3f0b996ca179c82840a7bd1e12fafd289ef90bef3775f34e53",
+    "previousBindingSHA256": "25c3ba0363f1cb8463f25bbc73e57154b814ac694529cbf9e634f0af4bc66d93",
+    "selected": [
+      {
+        "script": "ContentSizeFitter",
+        "component": {
+          "data": {
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": "-6100093508434079700"
+            },
+            "m_HorizontalFit": 2,
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": "93356951997354507",
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "ContentSizeFitter",
+                "pathId": "93356951997354507",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_VerticalFit": 0
+          },
+          "pathId": "1611115917745115180",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "-6430441393134317524"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "437705682268573740"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "-8565868810827673556"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "7446842154390507564"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "4879853342501687340"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "2607265491369578540"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "1611115917745115180"
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Back",
+            "m_Tag": 0
+          },
+          "pathId": "-6100093508434079700",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "transform": {
+          "data": {
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0.0,
+              "y": -26.899993896484375
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": "5374035990835679276"
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": "5870757451219587116"
+            },
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": "-6100093508434079700"
+            },
+            "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_LocalRotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Pivot": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 60.0
+            }
+          },
+          "pathId": "-6430441393134317524",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "RectTransform"
+        },
+        "hierarchyPath": "/UIDefaultTalkWindow/TalkArea/Content/Speaker/Back"
+      },
+      {
+        "script": "HorizontalLayoutGroup",
+        "component": {
+          "data": {
+            "m_ChildAlignment": 3,
+            "m_ChildControlHeight": 0,
+            "m_ChildControlWidth": 1,
+            "m_ChildForceExpandHeight": 0,
+            "m_ChildForceExpandWidth": 0,
+            "m_ChildScaleHeight": 0,
+            "m_ChildScaleWidth": 0,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": "-6100093508434079700"
+            },
+            "m_Name": "",
+            "m_Padding": {
+              "m_Bottom": 0,
+              "m_Left": 20,
+              "m_Right": 80,
+              "m_Top": 0
+            },
+            "m_ReverseArrangement": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": "-3229211799126679632",
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "HorizontalLayoutGroup",
+                "pathId": "-3229211799126679632",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Spacing": 0.0
+          },
+          "pathId": "2607265491369578540",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "-6430441393134317524"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "437705682268573740"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "-8565868810827673556"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "7446842154390507564"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "4879853342501687340"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "2607265491369578540"
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": "1611115917745115180"
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Back",
+            "m_Tag": 0
+          },
+          "pathId": "-6100093508434079700",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "transform": {
+          "data": {
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0.0,
+              "y": -26.899993896484375
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": "5374035990835679276"
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": "5870757451219587116"
+            },
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": "-6100093508434079700"
+            },
+            "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_LocalRotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Pivot": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 60.0
+            }
+          },
+          "pathId": "-6430441393134317524",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "RectTransform"
+        },
+        "hierarchyPath": "/UIDefaultTalkWindow/TalkArea/Content/Speaker/Back"
+      }
+    ]
+  }
+}

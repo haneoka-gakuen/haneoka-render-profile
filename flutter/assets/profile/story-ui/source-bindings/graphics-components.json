@@ -1,0 +1,5545 @@
+{
+  "Default": {
+    "source": {
+      "sourceUiPath": "Assets/AddressableResources/UI/Prefab/Parts/Adv/Talk/UIDefaultTalkWindow.prefab",
+      "descriptorHash": "069e4242ad4895d2e6d150b516409e396e8c0ce1bc8e8c8dbb22970035303244",
+      "sourceUiHash": "8be31c635ad14a3f0b996ca179c82840a7bd1e12fafd289ef90bef3775f34e53",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/5c89ffc2aca2e958309b9aabf6420bd4e0cd9d7bdddd2cc03033f6d8611b9403.jsonl.gz",
+      "objectId": "7652627220368314412",
+      "script": "UIAdvTalkWindow",
+      "typingDelaySeconds": 0.05000000074505806
+    },
+    "archiveSHA256": "8be31c635ad14a3f0b996ca179c82840a7bd1e12fafd289ef90bef3775f34e53",
+    "controller": {
+      "data": {
+        "SpeakerText": {
+          "m_FileID": 0,
+          "m_PathID": -100325698232528852
+        },
+        "TalkArea": {
+          "m_FileID": 0,
+          "m_PathID": 2857367736435265580
+        },
+        "TalkText": {
+          "m_FileID": 0,
+          "m_PathID": -2027504578395189204
+        },
+        "_autoIcon": {
+          "m_FileID": 0,
+          "m_PathID": 1774596549954031660
+        },
+        "_backdropFilterColor": {
+          "a": 0.4000000059604645,
+          "b": 0.0,
+          "g": 0.0,
+          "r": 0.0
+        },
+        "_fastIcon": {
+          "m_FileID": 0,
+          "m_PathID": -7566898629321502676
+        },
+        "_safeAreaTalkBackgroundExpansionFactor": 2.0,
+        "_speakerNameObjects": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -5514504864153612244
+          }
+        ],
+        "_talkBackground": {
+          "m_FileID": 0,
+          "m_PathID": 2506785887001563180
+        },
+        "_talkNextIndicator": {
+          "m_FileID": 0,
+          "m_PathID": 8526093948781842476
+        },
+        "_talkTextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "_talkTextOutlineColor": {
+          "a": 0.4000000059604645,
+          "b": 0.16078431904315948,
+          "g": 0.07058823853731155,
+          "r": 0.0941176488995552
+        },
+        "_typingDelay": 0.05000000074505806,
+        "_useBackdropFilter": 0,
+        "m_Enabled": 1,
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": -6648104197539377108
+        },
+        "m_Name": "",
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7714528935413232923,
+          "reference": {
+            "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+            "name": "UIAdvTalkWindow",
+            "pathId": "7714528935413232923",
+            "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+            "status": "resolved",
+            "type": "MonoScript"
+          }
+        }
+      },
+      "pathId": "7652627220368314412",
+      "record": "object",
+      "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+      "type": "MonoBehaviour"
+    },
+    "controllerRefs": {
+      "_talkNextIndicator": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 8526093948781842476
+        },
+        "object": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -5549525097123426260
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 9072862073186996268
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6829407873555812396
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -2686429406744883156
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "TalkNextIndicator",
+            "m_Tag": 0
+          },
+          "pathId": "8526093948781842476",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/TalkNextIndicator"
+      },
+      "_autoIcon": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 1774596549954031660
+        },
+        "object": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 3326796406753447980
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 9029819603709579308
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "AutoIcon",
+            "m_Tag": 0
+          },
+          "pathId": "1774596549954031660",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/AutoIcon"
+      },
+      "_fastIcon": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": -7566898629321502676
+        },
+        "object": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -189848437896064980
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "FastIcon",
+            "m_Tag": 0
+          },
+          "pathId": "-7566898629321502676",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/FastIcon"
+      },
+      "_talkBackground": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 2506785887001563180
+        },
+        "object": {
+          "data": {
+            "m_Alpha": 1.0,
+            "m_BlocksRaycasts": false,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 481218758901223468
+            },
+            "m_IgnoreParentGroups": false,
+            "m_Interactable": false
+          },
+          "pathId": "2506785887001563180",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "CanvasGroup"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkBackground"
+      },
+      "TalkArea": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 2857367736435265580
+        },
+        "object": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 450960450579583020
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "TalkArea",
+            "m_Tag": 0
+          },
+          "pathId": "2857367736435265580",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea"
+      },
+      "TalkText": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": -2027504578395189204
+        },
+        "object": {
+          "data": {
+            "_localizeText": {
+              "m_FileID": 0,
+              "m_PathID": 1762552121572053036
+            },
+            "_rubyMarginTop": -22.0,
+            "_targetText": {
+              "m_FileID": 0,
+              "m_PathID": 3605347048448118828
+            },
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 4331207836503625772
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": -6988697001438609265,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "UIRubyText",
+                "pathId": "-6988697001438609265",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            }
+          },
+          "pathId": "-2027504578395189204",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/TalkText"
+      },
+      "SpeakerText": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": -100325698232528852
+        },
+        "object": {
+          "data": {
+            "_localizeText": {
+              "m_FileID": 0,
+              "m_PathID": 8599825174726168620
+            },
+            "_rubyMarginTop": -24.0,
+            "_targetText": {
+              "m_FileID": 0,
+              "m_PathID": -8373647341561982932
+            },
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -3544319349734977492
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": -6988697001438609265,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "UIRubyText",
+                "pathId": "-6988697001438609265",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            }
+          },
+          "pathId": "-100325698232528852",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/Speaker/Back/SpeakerText"
+      }
+    },
+    "graphics": [
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "m_Enabled": 0,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -6100093508434079700
+            },
+            "m_Maskable": 0,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 0,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": 258144246005254427,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "WhiteRect",
+                "pathId": "258144246005254427",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "-8565868810827673556",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/Speaker/Back",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -6430441393134317524
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 437705682268573740
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -8565868810827673556
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 7446842154390507564
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 4879853342501687340
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 2607265491369578540
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 1611115917745115180
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Back",
+            "m_Tag": 0
+          },
+          "pathId": "-6100093508434079700",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "WhiteRect",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 6,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 4
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\n\\xd7\\xa3\\xbc\\n\\xd7\\xa3<\\x00\\x00\\x00\\x00\\n\\xd7\\xa3<\\n\\xd7\\xa3<\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbc\\n\\xd7\\xa3\\xbc\\x00\\x00\\x00\\x00\\n\\xd7\\xa3<\\n\\xd7\\xa3\\xbc\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 4
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 4.0,
+                  "width": 4.0,
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "textureRectOffset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "uvTransform": {
+                  "w": 2.0,
+                  "x": 100.0,
+                  "y": 2.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 4.0,
+                "width": 4.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 960854199,
+                  "data[1]": 3729605895,
+                  "data[2]": 124793742,
+                  "data[3]": 3225409714
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "258144246005254427",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -2967599334879014868
+            },
+            "m_Maskable": 0,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 0,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": -7593696196485039872,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "IconAuto",
+                "pathId": "-7593696196485039872",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "-2620863175298330580",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/AutoIcon/Icon",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 7377047668209995820
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 7107573896686456876
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -2620863175298330580
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Icon",
+            "m_Tag": 0
+          },
+          "pathId": "-2967599334879014868",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "IconAuto",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  17,
+                  0,
+                  16,
+                  0,
+                  15,
+                  0,
+                  2,
+                  0,
+                  15,
+                  0,
+                  16,
+                  0,
+                  0,
+                  0,
+                  15,
+                  0,
+                  2,
+                  0,
+                  12,
+                  0,
+                  15,
+                  0,
+                  0,
+                  0,
+                  14,
+                  0,
+                  12,
+                  0,
+                  0,
+                  0,
+                  11,
+                  0,
+                  12,
+                  0,
+                  14,
+                  0,
+                  13,
+                  0,
+                  12,
+                  0,
+                  11,
+                  0,
+                  10,
+                  0,
+                  9,
+                  0,
+                  8,
+                  0,
+                  6,
+                  0,
+                  8,
+                  0,
+                  9,
+                  0,
+                  7,
+                  0,
+                  8,
+                  0,
+                  6,
+                  0,
+                  2,
+                  0,
+                  7,
+                  0,
+                  6,
+                  0,
+                  5,
+                  0,
+                  2,
+                  0,
+                  6,
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  5,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 51,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 18
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\xaeG\\xe1=)\\\\\\x0f>\\x00\\x00\\x00\\x00\\n\\xd7\\xa3=\\xb8\\x1e\\x05>\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbc\\n\\xd7#<\\x00\\x00\\x00\\x00\\x9a\\x99\\x19>\\xaeGa>\\x00\\x00\\x00\\x00\\n\\xd7#>\\\\\\x8fB>\\x00\\x00\\x00\\x00\\n\\xd7\\xa3=q=\\x8a>\\x00\\x00\\x00\\x00\\xaeG\\xe1\\xbdq=\\x8a>\\x00\\x00\\x00\\x00\\n\\xd7#\\xbe\\xb8\\x1e\\x05\\xbe\\x00\\x00\\x00\\x00\\x8f\\xc2u\\xbe\\xb8\\x1e\\x05\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbe\\xb8\\x1e\\x05>\\x00\\x00\\x00\\x00\\x00\\x00\\x80\\xbe\\xcd\\xcc\\xcc\\xbd\\x00\\x00\\x00\\x00=\\nW>)\\\\\\x0f>\\x00\\x00\\x00\\x00\\x8f\\xc2u>\\xecQ8\\xbe\\x00\\x00\\x00\\x00\\x8f\\xc2u>\\n\\xd7\\xa3=\\x00\\x00\\x00\\x00\\xb8\\x1e\\x05>)\\\\\\x0f>\\x00\\x00\\x00\\x00\\xcd\\xcc\\xcc=\\xb8\\x1e\\x85\\xbe\\x00\\x00\\x00\\x00{\\x14.\\xbe{\\x14.\\xbe\\x00\\x00\\x00\\x00{\\x14.\\xbe\\xb8\\x1e\\x85\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 18
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 52.847755432128906,
+                  "width": 48.847755432128906,
+                  "x": 7.076120376586914,
+                  "y": 6.076120376586914
+                },
+                "textureRectOffset": {
+                  "x": 7.076120376586914,
+                  "y": 6.076120376586914
+                },
+                "uvTransform": {
+                  "w": 32.0,
+                  "x": 100.0,
+                  "y": 32.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 64.0,
+                "width": 64.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 3905990479,
+                  "data[1]": 407268456,
+                  "data[2]": 889288375,
+                  "data[3]": 4070442140
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "-7593696196485039872",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 0.6980392336845398,
+              "b": 0.9333333373069763,
+              "g": 0.8196078538894653,
+              "r": 0.4313725531101227
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 5481280904160923692
+            },
+            "m_Maskable": 0,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 0,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": -9149866001729646765,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "IconAutoGlow",
+                "pathId": "-9149866001729646765",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "-2442519725045264340",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/AutoIcon/GlowIcon",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 8582760197478469676
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -150057683750236116
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -2442519725045264340
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "GlowIcon",
+            "m_Tag": 0
+          },
+          "pathId": "5481280904160923692",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "IconAutoGlow",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  7,
+                  0,
+                  6,
+                  0,
+                  5,
+                  0,
+                  4,
+                  0,
+                  5,
+                  0,
+                  6,
+                  0,
+                  1,
+                  0,
+                  5,
+                  0,
+                  4,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 18,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 8
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\n\\xd7\\xa3>R\\xb8\\x1e>\\x00\\x00\\x00\\x00\\x00\\x00\\x80>ff\\xa6\\xbe\\x00\\x00\\x00\\x00\\n\\xd7\\xa3>\\xaeG\\xa1\\xbe\\x00\\x00\\x00\\x00\\xaeGa>ff\\xa6>\\x00\\x00\\x00\\x00\\xaeGa\\xbeff\\xa6>\\x00\\x00\\x00\\x00\\xe1z\\x94\\xbeff\\xa6\\xbe\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbe=\\n\\x97>\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbe\\\\\\x8f\\x82\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 8
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 65.0,
+                  "width": 63.92387771606445,
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "textureRectOffset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "uvTransform": {
+                  "w": 32.5,
+                  "x": 100.0,
+                  "y": 32.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 65.0,
+                "width": 64.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 1140198261,
+                  "data[1]": 374010874,
+                  "data[2]": 98201226,
+                  "data[3]": 2517557955
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "-9149866001729646765",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1765387814966579244
+            },
+            "m_Maskable": 0,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 0,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": 140230145516670430,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "IconFast",
+                "pathId": "140230145516670430",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "828216928135204908",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/FastIcon/Icon",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -7147992389025017812
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -5525878672749899732
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 828216928135204908
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Icon",
+            "m_Tag": 0
+          },
+          "pathId": "1765387814966579244",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "IconFast",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  6,
+                  0,
+                  5,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  5,
+                  0,
+                  3,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 15,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 7
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\x8f\\xc2u=)\\\\\\x0f>\\x00\\x00\\x00\\x00\\x8f\\xc2u>\\x8f\\xc2\\xf5\\xbc\\x00\\x00\\x00\\x00\\x8f\\xc2u>\\n\\xd7\\xa3<\\x00\\x00\\x00\\x00\\n\\xd7#=\\x9a\\x99\\x19\\xbe\\x00\\x00\\x00\\x00=\\nW\\xbe\\x9a\\x99\\x19\\xbe\\x00\\x00\\x00\\x00\\x1f\\x85k\\xbe)\\\\\\x0f>\\x00\\x00\\x00\\x00\\x1f\\x85k\\xbe\\xb8\\x1e\\x05\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 7
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 28.921934127807617,
+                  "width": 46.847755432128906,
+                  "x": 9.076120376586914,
+                  "y": 17.026750564575195
+                },
+                "textureRectOffset": {
+                  "x": 9.076120376586914,
+                  "y": 17.026750564575195
+                },
+                "uvTransform": {
+                  "w": 32.0,
+                  "x": 100.0,
+                  "y": 32.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 64.0,
+                "width": 64.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 3561428359,
+                  "data[1]": 222432118,
+                  "data[2]": 3228944038,
+                  "data[3]": 3290949262
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "140230145516670430",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 0.6980392336845398,
+              "b": 0.9333333373069763,
+              "g": 0.8196078538894653,
+              "r": 0.4313725531101227
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 3688753879649144876
+            },
+            "m_Maskable": 0,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 0,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": 348517755811494362,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "IconFastGlow",
+                "pathId": "348517755811494362",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "6235604262834262060",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/FastIcon/GlowIcon",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -8185439206086750164
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -6501692680126083028
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6235604262834262060
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "GlowIcon",
+            "m_Tag": 0
+          },
+          "pathId": "3688753879649144876",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "IconFastGlow",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  6,
+                  0,
+                  5,
+                  0,
+                  1,
+                  0,
+                  4,
+                  0,
+                  1,
+                  0,
+                  5,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 15,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 7
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\x9a\\x99\\x99>\\xecQ\\xb8=\\x00\\x00\\x00\\x00\\xcd\\xccL>\\xaeGa\\xbe\\x00\\x00\\x00\\x00\\x9a\\x99\\x99>\\\\\\x8fB\\xbe\\x00\\x00\\x00\\x00)\\\\\\x0f>\\xaeGa>\\x00\\x00\\x00\\x00)\\\\\\x8f\\xbe\\xaeGa>\\x00\\x00\\x00\\x00R\\xb8\\x9e\\xbe\\xecQ8>\\x00\\x00\\x00\\x00R\\xb8\\x9e\\xbe\\xaeGa\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 7
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 43.946495056152344,
+                  "width": 60.897125244140625,
+                  "x": 1.0761204957962036,
+                  "y": 10.026750564575195
+                },
+                "textureRectOffset": {
+                  "x": 1.0761204957962036,
+                  "y": 10.026750564575195
+                },
+                "uvTransform": {
+                  "w": 32.0,
+                  "x": 100.0,
+                  "y": 32.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 64.0,
+                "width": 64.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 3202156678,
+                  "data[1]": 3058291446,
+                  "data[2]": 1680605365,
+                  "data[3]": 1930404092
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "348517755811494362",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 481218758901223468
+            },
+            "m_Maskable": 1,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 0,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": -2425423239617005923,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "BaseCommentArea",
+                "pathId": "-2425423239617005923",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "6466524162596917292",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkBackground",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -888571324106420180
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -7082170352742969300
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6466524162596917292
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 2506785887001563180
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "TalkBackground",
+            "m_Tag": 0
+          },
+          "pathId": "481218758901223468",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 230.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "BaseCommentArea",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 6,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 4
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\n\\xd7\\xa3\\xbc\\x9a\\x99\\xb9?\\x00\\x00\\x00\\x00\\n\\xd7\\xa3<\\x9a\\x99\\xb9?\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbc\\x9a\\x99\\xb9\\xbf\\x00\\x00\\x00\\x00\\n\\xd7\\xa3<\\x9a\\x99\\xb9\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 4
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 290.0,
+                  "width": 4.0,
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "textureRectOffset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "uvTransform": {
+                  "w": 145.0,
+                  "x": 100.0,
+                  "y": 2.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 290.0,
+                "width": 4.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 3211814584,
+                  "data[1]": 3863317898,
+                  "data[2]": 4070953859,
+                  "data[3]": 2856555217
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "-2425423239617005923",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "_angleDeg": 0.0,
+            "_blendMode": 0,
+            "_gradient": {
+              "atime0": 0,
+              "atime1": 32768,
+              "atime2": 65535,
+              "atime3": 0,
+              "atime4": 0,
+              "atime5": 0,
+              "atime6": 0,
+              "atime7": 0,
+              "ctime0": 0,
+              "ctime1": 65535,
+              "ctime2": 0,
+              "ctime3": 0,
+              "ctime4": 0,
+              "ctime5": 0,
+              "ctime6": 0,
+              "ctime7": 0,
+              "key0": {
+                "a": 0.6980392336845398,
+                "b": 1.0,
+                "g": 0.7098039388656616,
+                "r": 0.4470588266849518
+              },
+              "key1": {
+                "a": 0.4000000059604645,
+                "b": 0.9176470637321472,
+                "g": 1.0,
+                "r": 0.7764706015586853
+              },
+              "key2": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key3": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key4": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key5": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key6": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key7": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "m_ColorSpace": 0,
+              "m_Mode": 0,
+              "m_NumAlphaKeys": 3,
+              "m_NumColorKeys": 2
+            },
+            "_splitAtKeysWhenAxisAligned": 1,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 691225863689326636
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 3727083719064429057,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "UIGradientImage",
+                "pathId": "3727083719064429057",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            }
+          },
+          "pathId": "6690123113445314604",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/Speaker/Line",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6591631137092259884
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -788299808366407636
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 7356531313638559788
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6690123113445314604
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Line",
+            "m_Tag": 0
+          },
+          "pathId": "691225863689326636",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "UIGradientImage",
+        "independentGraphic": false,
+        "modifiedGraphicObjectIds": [
+          "7356531313638559788"
+        ]
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 0.6980392336845398,
+              "b": 0.9333333373069763,
+              "g": 0.8196078538894653,
+              "r": 0.4313725531101227
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 8526093948781842476
+            },
+            "m_Maskable": 0,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 1,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": 4712578644882360725,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "IconTapNextGlow",
+                "pathId": "4712578644882360725",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "6829407873555812396",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/TalkNextIndicator",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -5549525097123426260
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 9072862073186996268
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6829407873555812396
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -2686429406744883156
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "TalkNextIndicator",
+            "m_Tag": 0
+          },
+          "pathId": "8526093948781842476",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "IconTapNextGlow",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  6,
+                  0,
+                  5,
+                  0,
+                  3,
+                  0,
+                  4,
+                  0,
+                  3,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  4,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 15,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 7
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'R\\xb8\\x9e>\\n\\xd7\\xa3>\\x00\\x00\\x00\\x00\\n\\xd7\\xa3>\\xaeG\\xe1\\xbd\\x00\\x00\\x00\\x00\\n\\xd7\\xa3>\\xb8\\x1e\\x85>\\x00\\x00\\x00\\x00\\xb8\\x1e\\x05>\\n\\xd7\\xa3\\xbe\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbd\\n\\xd7\\xa3>\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbe)\\\\\\x8f=\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbe\\n\\xd7\\xa3\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 7
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 63.897125244140625,
+                  "width": 63.847755432128906,
+                  "x": 0.07612049579620361,
+                  "y": 0.02675098180770874
+                },
+                "textureRectOffset": {
+                  "x": 0.07612049579620361,
+                  "y": 0.02675098180770874
+                },
+                "uvTransform": {
+                  "w": 32.0,
+                  "x": 100.0,
+                  "y": 32.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 64.0,
+                "width": 64.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 282503659,
+                  "data[1]": 188890435,
+                  "data[2]": 495828355,
+                  "data[3]": 3026872679
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "4712578644882360725",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -8088544568208994260
+            },
+            "m_Maskable": 0,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 1,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": -6664359208846376620,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "IconTapNext",
+                "pathId": "-6664359208846376620",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "6834650249699119148",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/TalkNextIndicator/TalkNextIndicator",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -3442258154010783700
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -3406987446451777492
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6834650249699119148
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "TalkNextIndicator",
+            "m_Tag": 0
+          },
+          "pathId": "-8088544568208994260",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "IconTapNext",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  10,
+                  0,
+                  9,
+                  0,
+                  7,
+                  0,
+                  8,
+                  0,
+                  7,
+                  0,
+                  9,
+                  0,
+                  5,
+                  0,
+                  7,
+                  0,
+                  8,
+                  0,
+                  6,
+                  0,
+                  7,
+                  0,
+                  5,
+                  0,
+                  1,
+                  0,
+                  6,
+                  0,
+                  5,
+                  0,
+                  4,
+                  0,
+                  1,
+                  0,
+                  5,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 27,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 11
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\\\\\x8fB>\\xb8\\x1e\\x05>\\x00\\x00\\x00\\x00\\xecQ8>\\xcd\\xccL=\\x00\\x00\\x00\\x00\\\\\\x8fB>\\n\\xd7\\xa3=\\x00\\x00\\x00\\x00\\x9a\\x99\\x19>\\xecQ8>\\x00\\x00\\x00\\x00\\x8f\\xc2\\xf5=\\\\\\x8fB>\\x00\\x00\\x00\\x00\\x8f\\xc2u=\\\\\\x8fB>\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00)\\\\\\x0f\\xbe\\x00\\x00\\x00\\x00\\xcd\\xcc\\xcc\\xbd\\xcd\\xccL\\xbe\\x00\\x00\\x00\\x00\\xecQ8\\xbe\\xcd\\xccL\\xbd\\x00\\x00\\x00\\x00\\\\\\x8fB\\xbe\\x8f\\xc2\\xf5\\xbd\\x00\\x00\\x00\\x00\\\\\\x8fB\\xbe\\xcd\\xccL\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 11
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 38.897125244140625,
+                  "width": 37.946495056152344,
+                  "x": 13.026750564575195,
+                  "y": 12.076120376586914
+                },
+                "textureRectOffset": {
+                  "x": 13.026750564575195,
+                  "y": 12.076120376586914
+                },
+                "uvTransform": {
+                  "w": 32.0,
+                  "x": 100.0,
+                  "y": 32.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 64.0,
+                "width": 64.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 1673799998,
+                  "data[1]": 3158451156,
+                  "data[2]": 74641545,
+                  "data[3]": 3107374115
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "-6664359208846376620",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 691225863689326636
+            },
+            "m_Maskable": 1,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 1,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 1,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 2,
+              "m_PathID": 8876981396063715450,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "sp_adv_line",
+                "pathId": "8876981396063715450",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 1,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "7356531313638559788",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/Speaker/Line",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6591631137092259884
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -788299808366407636
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 7356531313638559788
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6690123113445314604
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Line",
+            "m_Tag": 0
+          },
+          "pathId": "691225863689326636",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 15.0,
+                "y": 0.0,
+                "z": 15.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "sp_adv_line",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [
+                [
+                  {
+                    "x": -0.12999999523162842,
+                    "y": 0.03500000014901161
+                  },
+                  {
+                    "x": -0.14999999105930328,
+                    "y": 0.014999999664723873
+                  },
+                  {
+                    "x": -0.14999999105930328,
+                    "y": -0.02499999850988388
+                  },
+                  {
+                    "x": -0.12999999523162842,
+                    "y": -0.044999998062849045
+                  },
+                  {
+                    "x": 0.10999999940395355,
+                    "y": -0.044999998062849045
+                  },
+                  {
+                    "x": 0.12999999523162842,
+                    "y": -0.02499999850988388
+                  },
+                  {
+                    "x": 0.12999999523162842,
+                    "y": 0.014999999664723873
+                  },
+                  {
+                    "x": 0.10999999940395355,
+                    "y": 0.03500000014901161
+                  }
+                ]
+              ],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 6,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 4
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\n\\xd7#\\xbe\\xb8\\x1e\\x85=\\x00\\x00\\x00\\x00\\n\\xd7#>\\xb8\\x1e\\x85=\\x00\\x00\\x00\\x00\\n\\xd7#\\xbe\\xb8\\x1e\\x85\\xbd\\x00\\x00\\x00\\x00\\n\\xd7#>\\xb8\\x1e\\x85\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 4
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 13.0,
+                  "width": 32.0,
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "textureRectOffset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "uvTransform": {
+                  "w": 6.5,
+                  "x": 100.0,
+                  "y": 16.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 13.0,
+                "width": 32.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 2396327074,
+                  "data[1]": 189417841,
+                  "data[2]": 1610427561,
+                  "data[3]": 2956470909
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "8876981396063715450",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "_angleDeg": 0.0,
+            "_blendMode": 0,
+            "_gradient": {
+              "atime0": 0,
+              "atime1": 45652,
+              "atime2": 65535,
+              "atime3": 0,
+              "atime4": 0,
+              "atime5": 0,
+              "atime6": 0,
+              "atime7": 0,
+              "ctime0": 0,
+              "ctime1": 65535,
+              "ctime2": 0,
+              "ctime3": 0,
+              "ctime4": 0,
+              "ctime5": 0,
+              "ctime6": 0,
+              "ctime7": 0,
+              "key0": {
+                "a": 0.4000000059604645,
+                "b": 1.0,
+                "g": 0.7098039388656616,
+                "r": 0.4470588266849518
+              },
+              "key1": {
+                "a": 0.27450981736183167,
+                "b": 0.9176470637321472,
+                "g": 1.0,
+                "r": 0.7764706015586853
+              },
+              "key2": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key3": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key4": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key5": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key6": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "key7": {
+                "a": 0.0,
+                "b": 0.0,
+                "g": 0.0,
+                "r": 0.0
+              },
+              "m_ColorSpace": 0,
+              "m_Mode": 0,
+              "m_NumAlphaKeys": 3,
+              "m_NumColorKeys": 2
+            },
+            "_splitAtKeysWhenAxisAligned": 1,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -6100093508434079700
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 3727083719064429057,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "UIGradientImage",
+                "pathId": "3727083719064429057",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            }
+          },
+          "pathId": "7446842154390507564",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UIDefaultTalkWindow/TalkArea/Content/Speaker/Back",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -6430441393134317524
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 437705682268573740
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -8565868810827673556
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 7446842154390507564
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 4879853342501687340
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 2607265491369578540
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 1611115917745115180
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Back",
+            "m_Tag": 0
+          },
+          "pathId": "-6100093508434079700",
+          "record": "object",
+          "serializedFile": "CAB-8b57beff085d9472c8b26d41689c7ae4",
+          "type": "GameObject"
+        },
+        "class": "UIGradientImage",
+        "independentGraphic": false,
+        "modifiedGraphicObjectIds": [
+          "-8565868810827673556"
+        ]
+      }
+    ]
+  },
+  "Center": {
+    "source": {
+      "sourceUiPath": "Assets/AddressableResources/UI/Prefab/Parts/Adv/Talk/UICenterTalkWindow.prefab",
+      "descriptorHash": "7024aa4c220e3c4db240ef644a7f1b61756245e03238f83fae277b1fd3fb0b14",
+      "sourceUiHash": "7a7fe7d3a9dbbed73a35f2d100383bc3c07aad5c26cd75f8d4b3b63d1e37ae02",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/7c5b2d1cc2625abe4b621468be87fb4afc24790e9987861ce3992d43f11f51e9.jsonl.gz",
+      "objectId": "5667057683337401556",
+      "script": "UIAdvTalkWindow",
+      "typingDelaySeconds": 0.05000000074505806
+    },
+    "archiveSHA256": "7a7fe7d3a9dbbed73a35f2d100383bc3c07aad5c26cd75f8d4b3b63d1e37ae02",
+    "controller": {
+      "data": {
+        "SpeakerText": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "TalkArea": {
+          "m_FileID": 0,
+          "m_PathID": 693821835119514836
+        },
+        "TalkText": {
+          "m_FileID": 0,
+          "m_PathID": 3442760723399726292
+        },
+        "_autoIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_backdropFilterColor": {
+          "a": 0.4000000059604645,
+          "b": 0.0,
+          "g": 0.0,
+          "r": 0.0
+        },
+        "_fastIcon": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_safeAreaTalkBackgroundExpansionFactor": 2.0,
+        "_speakerNameObjects": [],
+        "_talkBackground": {
+          "m_FileID": 0,
+          "m_PathID": 2024439054837568724
+        },
+        "_talkNextIndicator": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_talkTextColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "_talkTextOutlineColor": {
+          "a": 0.4000000059604645,
+          "b": 0.16078431904315948,
+          "g": 0.07058823853731155,
+          "r": 0.0941176488995552
+        },
+        "_typingDelay": 0.05000000074505806,
+        "_useBackdropFilter": 1,
+        "m_Enabled": 1,
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": -7339243966944095020
+        },
+        "m_Name": "",
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 7714528935413232923,
+          "reference": {
+            "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+            "name": "UIAdvTalkWindow",
+            "pathId": "7714528935413232923",
+            "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+            "status": "resolved",
+            "type": "MonoScript"
+          }
+        }
+      },
+      "pathId": "5667057683337401556",
+      "record": "object",
+      "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+      "type": "MonoBehaviour"
+    },
+    "controllerRefs": {
+      "_talkNextIndicator": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "object": null,
+        "hierarchyPath": null
+      },
+      "_autoIcon": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "object": null,
+        "hierarchyPath": null
+      },
+      "_fastIcon": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "object": null,
+        "hierarchyPath": null
+      },
+      "_talkBackground": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 2024439054837568724
+        },
+        "object": {
+          "data": {
+            "m_Alpha": 1.0,
+            "m_BlocksRaycasts": false,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -7414588988226054956
+            },
+            "m_IgnoreParentGroups": false,
+            "m_Interactable": false
+          },
+          "pathId": "2024439054837568724",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "CanvasGroup"
+        },
+        "hierarchyPath": "UICenterTalkWindow/TalkBackground"
+      },
+      "TalkArea": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 693821835119514836
+        },
+        "object": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -9052041371700341548
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "TalkArea",
+            "m_Tag": 0
+          },
+          "pathId": "693821835119514836",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "GameObject"
+        },
+        "hierarchyPath": "UICenterTalkWindow/TalkArea"
+      },
+      "TalkText": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 3442760723399726292
+        },
+        "object": {
+          "data": {
+            "_localizeText": {
+              "m_FileID": 0,
+              "m_PathID": 6426943035675727060
+            },
+            "_rubyMarginTop": -22.0,
+            "_targetText": {
+              "m_FileID": 0,
+              "m_PathID": 7936126029710251220
+            },
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -1841335273178049324
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": -6988697001438609265,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "UIRubyText",
+                "pathId": "-6988697001438609265",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            }
+          },
+          "pathId": "3442760723399726292",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UICenterTalkWindow/TalkArea/Content/TalkText"
+      },
+      "SpeakerText": {
+        "pointer": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "object": null,
+        "hierarchyPath": null
+      }
+    },
+    "graphics": [
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 7369564494621856980
+            },
+            "m_Maskable": 1,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 1,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 1,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 5,
+              "m_PathID": 3093149046066685177,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "sp_adv_next",
+                "pathId": "3093149046066685177",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "2011817023086744788",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UICenterTalkWindow/TalkArea/Indicator/TalkNextIndicator",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -8631990759499934508
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 2635891844102247636
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 2011817023086744788
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -3220417149880740652
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "TalkNextIndicator",
+            "m_Tag": 0
+          },
+          "pathId": "7369564494621856980",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "sp_adv_next",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [
+                [
+                  {
+                    "x": -0.14000000059604645,
+                    "y": 0.0949999988079071
+                  },
+                  {
+                    "x": -0.14000000059604645,
+                    "y": 0.044999998062849045
+                  },
+                  {
+                    "x": -0.029999999329447746,
+                    "y": -0.0949999988079071
+                  },
+                  {
+                    "x": 0.03999999910593033,
+                    "y": -0.0949999988079071
+                  },
+                  {
+                    "x": 0.14000000059604645,
+                    "y": 0.03500000014901161
+                  },
+                  {
+                    "x": 0.14000000059604645,
+                    "y": 0.0949999988079071
+                  }
+                ]
+              ],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 6,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 4
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b')\\\\\\x0f\\xbe\\\\\\x8f\\xc2=\\x00\\x00\\x00\\x00)\\\\\\x0f>\\\\\\x8f\\xc2=\\x00\\x00\\x00\\x00)\\\\\\x0f\\xbe\\\\\\x8f\\xc2\\xbd\\x00\\x00\\x00\\x00)\\\\\\x0f>\\\\\\x8f\\xc2\\xbd\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 4
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 19.0,
+                  "width": 28.0,
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "textureRectOffset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "uvTransform": {
+                  "w": 9.5,
+                  "x": 100.0,
+                  "y": 14.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 19.0,
+                "width": 28.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 2523987278,
+                  "data[1]": 3360310204,
+                  "data[2]": 2527661959,
+                  "data[3]": 194649937
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "3093149046066685177",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 0.4901960790157318,
+              "b": 0.0,
+              "g": 0.0,
+              "r": 0.0
+            },
+            "m_Enabled": 0,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -7414588988226054956
+            },
+            "m_Maskable": 1,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 0,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 5,
+              "m_PathID": 258144246005254427,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "WhiteRect",
+                "pathId": "258144246005254427",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "6455437685875758292",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UICenterTalkWindow/TalkBackground",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 7870764361754694868
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -2312829801087740716
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 6455437685875758292
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 2024439054837568724
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "TalkBackground",
+            "m_Tag": 0
+          },
+          "pathId": "-7414588988226054956",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 1.0,
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "WhiteRect",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 6,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 4
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b'\\n\\xd7\\xa3\\xbc\\n\\xd7\\xa3<\\x00\\x00\\x00\\x00\\n\\xd7\\xa3<\\n\\xd7\\xa3<\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbc\\n\\xd7\\xa3\\xbc\\x00\\x00\\x00\\x00\\n\\xd7\\xa3<\\n\\xd7\\xa3\\xbc\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 4
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 4.0,
+                  "width": 4.0,
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "textureRectOffset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "uvTransform": {
+                  "w": 2.0,
+                  "x": 100.0,
+                  "y": 2.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 4.0,
+                "width": 4.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 960854199,
+                  "data[1]": 3729605895,
+                  "data[2]": 124793742,
+                  "data[3]": 3225409714
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "258144246005254427",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      },
+      {
+        "object": {
+          "data": {
+            "m_Color": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 0.47843137383461,
+              "r": 0.3921568691730499
+            },
+            "m_Enabled": 1,
+            "m_FillAmount": 1.0,
+            "m_FillCenter": 1,
+            "m_FillClockwise": 1,
+            "m_FillMethod": 4,
+            "m_FillOrigin": 0,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 4946625893819700436
+            },
+            "m_Maskable": 1,
+            "m_Material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Name": "",
+            "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "m_PixelsPerUnitMultiplier": 1.0,
+            "m_PreserveAspect": 0,
+            "m_RaycastPadding": {
+              "w": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_RaycastTarget": 0,
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 350208831926335389,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "Image",
+                "pathId": "350208831926335389",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "m_Sprite": {
+              "m_FileID": 5,
+              "m_PathID": -8744569959910926840,
+              "reference": {
+                "externalPath": "archive:/CAB-b544f1ad112c62ed238fd605337161ec/CAB-b544f1ad112c62ed238fd605337161ec",
+                "name": "adv_auto_icon",
+                "pathId": "-8744569959910926840",
+                "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+                "status": "resolved",
+                "type": "Sprite"
+              }
+            },
+            "m_Type": 0,
+            "m_UseSpriteMesh": 0
+          },
+          "pathId": "7895504890138350804",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "MonoBehaviour"
+        },
+        "hierarchyPath": "UICenterTalkWindow/TalkArea/AutoIcon/Icon",
+        "gameObject": {
+          "data": {
+            "m_Component": [
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -7165969229663677228
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": -2150764876396604204
+                }
+              },
+              {
+                "component": {
+                  "m_FileID": 0,
+                  "m_PathID": 7895504890138350804
+                }
+              }
+            ],
+            "m_IsActive": true,
+            "m_Layer": 5,
+            "m_Name": "Icon",
+            "m_Tag": 0
+          },
+          "pathId": "4946625893819700436",
+          "record": "object",
+          "serializedFile": "CAB-8a45009dbd0a58d0e0701455d51da5c4",
+          "type": "GameObject"
+        },
+        "class": "Image",
+        "independentGraphic": true,
+        "sprite": {
+          "object": {
+            "data": {
+              "m_AtlasTags": [
+                "FixUiSpriteAtlas"
+              ],
+              "m_Bones": [],
+              "m_Border": {
+                "w": 0.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extrude": 1,
+              "m_IsPolygon": false,
+              "m_Name": "adv_auto_icon",
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_PhysicsShape": [
+                [
+                  {
+                    "x": -0.07999999821186066,
+                    "y": 0.12999999523162842
+                  },
+                  {
+                    "x": -0.09999999403953552,
+                    "y": 0.11999999731779099
+                  },
+                  {
+                    "x": -0.09999999403953552,
+                    "y": -0.14000000059604645
+                  },
+                  {
+                    "x": -0.03999999910593033,
+                    "y": -0.14000000059604645
+                  },
+                  {
+                    "x": 0.12999999523162842,
+                    "y": -0.04999999701976776
+                  },
+                  {
+                    "x": 0.12999999523162842,
+                    "y": 0.029999999329447746
+                  },
+                  {
+                    "x": -0.019999999552965164,
+                    "y": 0.12999999523162842
+                  }
+                ]
+              ],
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_PixelsToUnits": 100.0,
+              "m_RD": {
+                "alphaTexture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "atlasRectOffset": {
+                  "x": -1.0,
+                  "y": -1.0
+                },
+                "downscaleMultiplier": 1.0,
+                "m_Bindpose": [],
+                "m_IndexBuffer": [
+                  7,
+                  0,
+                  6,
+                  0,
+                  4,
+                  0,
+                  5,
+                  0,
+                  4,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  5,
+                  0,
+                  3,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "m_SubMeshes": [
+                  {
+                    "baseVertex": 0,
+                    "firstByte": 0,
+                    "firstVertex": 0,
+                    "indexCount": 18,
+                    "localAABB": {
+                      "m_Center": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "m_Extent": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      }
+                    },
+                    "topology": 0,
+                    "vertexCount": 8
+                  }
+                ],
+                "m_VertexData": {
+                  "m_Channels": [
+                    {
+                      "dimension": 3,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 2,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 1
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    },
+                    {
+                      "dimension": 0,
+                      "format": 0,
+                      "offset": 0,
+                      "stream": 0
+                    }
+                  ],
+                  "m_DataSize": "b')\\\\\\x8f=)\\\\\\x0f>\\x00\\x00\\x00\\x00)\\\\\\x0f>\\n\\xd7\\xa3\\xbd\\x00\\x00\\x00\\x00)\\\\\\x0f>\\x8f\\xc2\\xf5<\\x00\\x00\\x00\\x00\\n\\xd7#<)\\\\\\x0f\\xbe\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbd)\\\\\\x0f\\xbe\\x00\\x00\\x00\\x00\\xecQ\\xb8\\xbd)\\\\\\x0f>\\x00\\x00\\x00\\x00\\xcd\\xcc\\xcc\\xbd\\xb8\\x1e\\x05>\\x00\\x00\\x00\\x00\\xcd\\xcc\\xcc\\xbd\\xb8\\x1e\\x05\\xbe\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+                  "m_VertexCount": 8
+                },
+                "secondaryTextures": [],
+                "settingsRaw": 64,
+                "texture": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "textureRect": {
+                  "height": 27.86750602722168,
+                  "width": 23.84775733947754,
+                  "x": 22.076120376586914,
+                  "y": 18.056371688842773
+                },
+                "textureRectOffset": {
+                  "x": 22.076120376586914,
+                  "y": 18.056371688842773
+                },
+                "uvTransform": {
+                  "w": 32.0,
+                  "x": 100.0,
+                  "y": 32.0,
+                  "z": 100.0
+                }
+              },
+              "m_Rect": {
+                "height": 64.0,
+                "width": 64.0,
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_RenderDataKey": [
+                {
+                  "data[0]": 2785705281,
+                  "data[1]": 105019597,
+                  "data[2]": 338839741,
+                  "data[3]": 2471239898
+                },
+                21300000
+              ],
+              "m_ScriptableObjects": [],
+              "m_SpriteAtlas": {
+                "m_FileID": 0,
+                "m_PathID": -4704896195301037069
+              }
+            },
+            "pathId": "-8744569959910926840",
+            "record": "object",
+            "serializedFile": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "type": "Sprite"
+          },
+          "pixelsPerUnit": 100.0,
+          "archive": {
+            "source_path": "Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2",
+            "content_sha256": "b1b5a04d95f2ae02af983f4860c26f07f12b750a17d85124f38ce0ae713408e7",
+            "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Atlas/FixUiSpriteAtlas.spriteatlasv2.json",
+            "selected_bundle_sha256": "74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd",
+            "serialized_file": "CAB-b544f1ad112c62ed238fd605337161ec",
+            "archive_path": "objects/unity/74aac2d3f2d74b0e776461b5684c9fd2607675d1f09c70efa1629fe2171f22dd.jsonl.gz",
+            "archive_sha256": "861349f84167e051dee02c74a9541bdad156d8e35c07f6e532a6be5b723c17d6"
+          }
+        }
+      }
+    ]
+  },
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "metadata": {
+    "path": "/home/xuc/Documents/haneoka-research/audit-20260927/native-evidence/native-current/metadata.xor-only.partial.dat",
+    "sha256": "4430e84907bcdfb72f22b723ab6ee49e16929a954ba70d6bc14dbf5ac58d8e7a",
+    "imageIndexPath": "/home/xuc/Documents/haneoka-research/audit-20260927/native-evidence/native-current/candidate-metadata-images.json",
+    "imageIndexSHA256": "188dc1bffd6ead445377283e039479acc5a2682fe459b3a1824c324cbe88f551",
+    "typeDefinitionStride": 82,
+    "typeDefinitionsOffset": 25208208,
+    "byvalTypeIndexByteOffset": 8,
+    "parentTypeIndexByteOffset": 16,
+    "declaringTypeIndexByteOffset": 12,
+    "classAncestry": {
+      "UIGradientImage": [
+        {
+          "classRow": 15688,
+          "class": "UIGradientImage",
+          "namespace": "Fwk.UI",
+          "image": "Fwk.dll",
+          "byvalTypeIndex": "0x11b9c",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xb2fb",
+          "recordFileOffset": 26494624,
+          "header26Hex": "f83b34002c0c00009c1b0100fffffffffbb20000ffff01001000"
+        },
+        {
+          "classRow": 26041,
+          "class": "BaseMeshEffect",
+          "namespace": "UnityEngine.UI",
+          "image": "UnityEngine.UI.dll",
+          "byvalTypeIndex": "0xb2fb",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0x11701",
+          "recordFileOffset": 27343570,
+          "header26Hex": "83e24900029b4900fbb20000ffffffff01170100ffff81001000"
+        },
+        {
+          "classRow": 26115,
+          "class": "UIBehaviour",
+          "namespace": "UnityEngine.EventSystems",
+          "image": "UnityEngine.UI.dll",
+          "byvalTypeIndex": "0x11701",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xf0e8",
+          "recordFileOffset": 27349638,
+          "header26Hex": "8b084a0066ec490001170100ffffffffe8f00000ffff81001000"
+        },
+        {
+          "classRow": 18976,
+          "class": "MonoBehaviour",
+          "namespace": "UnityEngine",
+          "image": "UnityEngine.CoreModule.dll",
+          "byvalTypeIndex": "0xf0e8",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xb397",
+          "recordFileOffset": 26764240,
+          "header26Hex": "4e2e3c00453b3500e8f00000ffffffff97b30000ffff01001000"
+        },
+        {
+          "classRow": 18950,
+          "class": "Behaviour",
+          "namespace": "UnityEngine",
+          "image": "UnityEngine.CoreModule.dll",
+          "byvalTypeIndex": "0xb397",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xbbf1",
+          "recordFileOffset": 26762108,
+          "header26Hex": "87753800453b350097b30000fffffffff1bb0000ffff01001000"
+        },
+        {
+          "classRow": 18955,
+          "class": "Component",
+          "namespace": "UnityEngine",
+          "image": "UnityEngine.CoreModule.dll",
+          "byvalTypeIndex": "0xbbf1",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xf5fa",
+          "recordFileOffset": 26762518,
+          "header26Hex": "35fc3300453b3500f1bb0000fffffffffaf50000ffff01001000"
+        },
+        {
+          "classRow": 19003,
+          "class": "Object",
+          "namespace": "UnityEngine",
+          "image": "UnityEngine.CoreModule.dll",
+          "byvalTypeIndex": "0xf5fa",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xf5e8",
+          "recordFileOffset": 26766454,
+          "header26Hex": "47ed2700453b3500faf50000ffffffffe8f50000ffff09001000"
+        },
+        {
+          "classRow": 9678,
+          "class": "Object",
+          "namespace": "System",
+          "image": "mscorlib.dll",
+          "byvalTypeIndex": "0xf5e8",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "-0x1",
+          "recordFileOffset": 26001804,
+          "header26Hex": "47ed2700816d0900e8f50000ffffffffffffffffffff01201000"
+        }
+      ],
+      "Image": [
+        {
+          "classRow": 25955,
+          "class": "Image",
+          "namespace": "UnityEngine.UI",
+          "image": "UnityEngine.UI.dll",
+          "byvalTypeIndex": "0xdd33",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xe93c",
+          "recordFileOffset": 27336518,
+          "header26Hex": "547a0700029b490033dd0000ffffffff3ce90000ffff01001000"
+        },
+        {
+          "classRow": 25998,
+          "class": "MaskableGraphic",
+          "namespace": "UnityEngine.UI",
+          "image": "UnityEngine.UI.dll",
+          "byvalTypeIndex": "0xe93c",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xd11b",
+          "recordFileOffset": 27340044,
+          "header26Hex": "36c64900029b49003ce90000ffffffff1bd10000ffff81001000"
+        },
+        {
+          "classRow": 25940,
+          "class": "Graphic",
+          "namespace": "UnityEngine.UI",
+          "image": "UnityEngine.UI.dll",
+          "byvalTypeIndex": "0xd11b",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0x11701",
+          "recordFileOffset": 27335288,
+          "header26Hex": "3ea54900029b49001bd10000ffffffff01170100ffff81001000"
+        },
+        {
+          "classRow": 26115,
+          "class": "UIBehaviour",
+          "namespace": "UnityEngine.EventSystems",
+          "image": "UnityEngine.UI.dll",
+          "byvalTypeIndex": "0x11701",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xf0e8",
+          "recordFileOffset": 27349638,
+          "header26Hex": "8b084a0066ec490001170100ffffffffe8f00000ffff81001000"
+        },
+        {
+          "classRow": 18976,
+          "class": "MonoBehaviour",
+          "namespace": "UnityEngine",
+          "image": "UnityEngine.CoreModule.dll",
+          "byvalTypeIndex": "0xf0e8",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xb397",
+          "recordFileOffset": 26764240,
+          "header26Hex": "4e2e3c00453b3500e8f00000ffffffff97b30000ffff01001000"
+        },
+        {
+          "classRow": 18950,
+          "class": "Behaviour",
+          "namespace": "UnityEngine",
+          "image": "UnityEngine.CoreModule.dll",
+          "byvalTypeIndex": "0xb397",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xbbf1",
+          "recordFileOffset": 26762108,
+          "header26Hex": "87753800453b350097b30000fffffffff1bb0000ffff01001000"
+        },
+        {
+          "classRow": 18955,
+          "class": "Component",
+          "namespace": "UnityEngine",
+          "image": "UnityEngine.CoreModule.dll",
+          "byvalTypeIndex": "0xbbf1",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xf5fa",
+          "recordFileOffset": 26762518,
+          "header26Hex": "35fc3300453b3500f1bb0000fffffffffaf50000ffff01001000"
+        },
+        {
+          "classRow": 19003,
+          "class": "Object",
+          "namespace": "UnityEngine",
+          "image": "UnityEngine.CoreModule.dll",
+          "byvalTypeIndex": "0xf5fa",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "0xf5e8",
+          "recordFileOffset": 26766454,
+          "header26Hex": "47ed2700453b3500faf50000ffffffffe8f50000ffff09001000"
+        },
+        {
+          "classRow": 9678,
+          "class": "Object",
+          "namespace": "System",
+          "image": "mscorlib.dll",
+          "byvalTypeIndex": "0xf5e8",
+          "declaringTypeIndex": "-0x1",
+          "parentTypeIndex": "-0x1",
+          "recordFileOffset": 26001804,
+          "header26Hex": "47ed2700816d0900e8f50000ffffffffffffffffffff01201000"
+        }
+      ]
+    }
+  },
+  "canvasSource": {
+    "identity": {
+      "source_path": "Assets/AddressableResources/UI/Prefab/UIAdvWidget.prefab",
+      "content_sha256": "2485c38fc1b3c31337879c1086f5b6ff959d50e03025220e5f5e9728f923e51d",
+      "descriptor_path": "metadata/sources/Assets/AddressableResources/UI/Prefab/UIAdvWidget.prefab.json",
+      "selected_bundle_sha256": "731d662719c2e065913a748717465e555be27ece541acbdac7adaed9bb3fc77b",
+      "serialized_file": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+      "archive_path": "objects/unity/731d662719c2e065913a748717465e555be27ece541acbdac7adaed9bb3fc77b.jsonl.gz",
+      "archive_sha256": "4876cec383e7aab291fcb8a2ebf40a0b5a288a38ad8ee731f488db910fbf3acc"
+    },
+    "archiveSHA256": "4876cec383e7aab291fcb8a2ebf40a0b5a288a38ad8ee731f488db910fbf3acc",
+    "scalers": [
+      {
+        "data": {
+          "m_DefaultSpriteDPI": 96.0,
+          "m_DynamicPixelsPerUnit": 1.0,
+          "m_Enabled": 1,
+          "m_FallbackScreenDPI": 96.0,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -2042717925406322400
+          },
+          "m_MatchWidthOrHeight": 0.0,
+          "m_Name": "",
+          "m_PhysicalUnit": 3,
+          "m_PresetInfoIsWorld": 0,
+          "m_ReferencePixelsPerUnit": 100.0,
+          "m_ReferenceResolution": {
+            "x": 1920.0,
+            "y": 1080.0
+          },
+          "m_ScaleFactor": 1.0,
+          "m_ScreenMatchMode": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 5240002574328891800,
+            "reference": {
+              "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+              "name": "CanvasScaler",
+              "pathId": "5240002574328891800",
+              "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+              "status": "resolved",
+              "type": "MonoScript"
+            }
+          },
+          "m_UiScaleMode": 1
+        },
+        "pathId": "-2839154893858189024",
+        "record": "object",
+        "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+        "type": "MonoBehaviour"
+      },
+      {
+        "data": {
+          "m_DefaultSpriteDPI": 96.0,
+          "m_DynamicPixelsPerUnit": 1.0,
+          "m_Enabled": 1,
+          "m_FallbackScreenDPI": 96.0,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 3184027780584722720
+          },
+          "m_MatchWidthOrHeight": 0.0,
+          "m_Name": "",
+          "m_PhysicalUnit": 3,
+          "m_PresetInfoIsWorld": 0,
+          "m_ReferencePixelsPerUnit": 100.0,
+          "m_ReferenceResolution": {
+            "x": 1920.0,
+            "y": 1080.0
+          },
+          "m_ScaleFactor": 1.0,
+          "m_ScreenMatchMode": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 5240002574328891800,
+            "reference": {
+              "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+              "name": "CanvasScaler",
+              "pathId": "5240002574328891800",
+              "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+              "status": "resolved",
+              "type": "MonoScript"
+            }
+          },
+          "m_UiScaleMode": 1
+        },
+        "pathId": "3446165525627687200",
+        "record": "object",
+        "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+        "type": "MonoBehaviour"
+      },
+      {
+        "data": {
+          "m_DefaultSpriteDPI": 96.0,
+          "m_DynamicPixelsPerUnit": 1.0,
+          "m_Enabled": 1,
+          "m_FallbackScreenDPI": 96.0,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 3017209977231986976
+          },
+          "m_MatchWidthOrHeight": 1.0,
+          "m_Name": "",
+          "m_PhysicalUnit": 3,
+          "m_PresetInfoIsWorld": 0,
+          "m_ReferencePixelsPerUnit": 100.0,
+          "m_ReferenceResolution": {
+            "x": 1920.0,
+            "y": 1080.0
+          },
+          "m_ScaleFactor": 1.0,
+          "m_ScreenMatchMode": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 5240002574328891800,
+            "reference": {
+              "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+              "name": "CanvasScaler",
+              "pathId": "5240002574328891800",
+              "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+              "status": "resolved",
+              "type": "MonoScript"
+            }
+          },
+          "m_UiScaleMode": 1
+        },
+        "pathId": "5367658026663563552",
+        "record": "object",
+        "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+        "type": "MonoBehaviour"
+      }
+    ]
+  },
+  "scope": "Actual same-source Graphic enabled and BaseMeshEffect modifier distinction, controller references and original PPU data; no native GPU/style edits or runtime acceptance"
+}

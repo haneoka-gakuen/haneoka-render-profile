@@ -1,0 +1,251 @@
+{
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "indexPath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/metadata/source-index.json",
+  "indexSHA256": "aa00e8033970d3b3fb54c1493a3cad137b23e6c83234c0b5968474609b30087a",
+  "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/3469945d510ed492b247c93fd3c928e7a5a2aa1d68b67353473e13a178adc681.jsonl.gz",
+  "archiveSHA256": "4dfc3b0249dbea543683453709752fa44f4e960b292a29d64130454021b5f8b5",
+  "sourceIndexEntry": {
+    "archiveObjectCount": 3,
+    "bundleSha256": "3469945d510ed492b247c93fd3c928e7a5a2aa1d68b67353473e13a178adc681",
+    "objectArchive": "objects/unity/3469945d510ed492b247c93fd3c928e7a5a2aa1d68b67353473e13a178adc681.jsonl.gz",
+    "objectCount": 3
+  },
+  "sprite": {
+    "data": {
+      "m_AtlasTags": [],
+      "m_Bones": [],
+      "m_Border": {
+        "w": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_Extrude": 1,
+      "m_IsPolygon": false,
+      "m_Name": "adv_frame_videosite_frame_display_halftone",
+      "m_Offset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_PhysicsShape": [],
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_PixelsToUnits": 100.0,
+      "m_RD": {
+        "alphaTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "atlasRectOffset": {
+          "x": -1.0,
+          "y": -1.0
+        },
+        "downscaleMultiplier": 1.0,
+        "m_Bindpose": [],
+        "m_IndexBuffer": [
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "m_SubMeshes": [
+          {
+            "baseVertex": 0,
+            "firstByte": 0,
+            "firstVertex": 0,
+            "indexCount": 6,
+            "localAABB": {
+              "m_Center": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "m_Extent": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "topology": 0,
+            "vertexCount": 4
+          }
+        ],
+        "m_VertexData": {
+          "m_Channels": [
+            {
+              "dimension": 3,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 2,
+              "format": 0,
+              "offset": 0,
+              "stream": 1
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            },
+            {
+              "dimension": 0,
+              "format": 0,
+              "offset": 0,
+              "stream": 0
+            }
+          ],
+          "m_DataSize": "b'\\n\\xd7\\xa3\\xbf\\n\\xd7\\xa3?\\x00\\x00\\x00\\x00\\n\\xd7\\xa3?\\n\\xd7\\xa3\\xbf\\x00\\x00\\x00\\x00\\n\\xd7\\xa3?\\n\\xd7\\xa3?\\x00\\x00\\x00\\x00\\n\\xd7\\xa3\\xbf\\n\\xd7\\xa3\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+          "m_VertexCount": 4
+        },
+        "secondaryTextures": [],
+        "settingsRaw": 64,
+        "texture": {
+          "m_FileID": 0,
+          "m_PathID": -1186195995666611720
+        },
+        "textureRect": {
+          "height": 256.0,
+          "width": 256.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "textureRectOffset": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "uvTransform": {
+          "w": 128.0,
+          "x": 100.0,
+          "y": 128.0,
+          "z": 100.0
+        }
+      },
+      "m_Rect": {
+        "height": 256.0,
+        "width": 256.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_RenderDataKey": [
+        {
+          "data[0]": 540857916,
+          "data[1]": 4266426706,
+          "data[2]": 1219160971,
+          "data[3]": 2585159578
+        },
+        21300000
+      ],
+      "m_ScriptableObjects": [],
+      "m_SpriteAtlas": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "pathId": "3448705274425115128",
+    "record": "object",
+    "serializedFile": "CAB-ef900133be3b2cf982ba8b59e5f482db",
+    "type": "Sprite"
+  },
+  "texture": {
+    "serializedFile": "CAB-ef900133be3b2cf982ba8b59e5f482db",
+    "pathId": "-1186195995666611720",
+    "type": "Texture2D",
+    "data": {
+      "m_Name": "adv_frame_videosite_frame_display_halftone",
+      "m_Width": 256,
+      "m_Height": 256,
+      "m_TextureFormat": 4,
+      "m_MipCount": 1,
+      "m_TextureSettings": {
+        "m_Aniso": 1,
+        "m_FilterMode": 1,
+        "m_MipBias": 0.0,
+        "m_WrapU": 0,
+        "m_WrapV": 0,
+        "m_WrapW": 0
+      },
+      "m_StreamData": {
+        "offset": 0,
+        "path": "archive:/CAB-ef900133be3b2cf982ba8b59e5f482db/CAB-ef900133be3b2cf982ba8b59e5f482db.resS",
+        "size": 262144
+      },
+      "m_CompleteImageSize": 262144,
+      "m_IsReadable": false
+    }
+  },
+  "facts": "sprite.m_RD.texture exactsameCAB/id resolves Texture2D256x256 RGBA32/mip1/filter1/U0V0W0(Repeat); Sprite.settingsRaw64 and Atlasptr0 => original type2 noBorder unpacked Repeat path must preserve hardware repeat singlequad. Source sampler cannot be silentlyClamp.",
+  "actualRuntime": false
+}

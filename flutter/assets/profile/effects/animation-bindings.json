@@ -1,0 +1,2429 @@
+{
+  "schema": "haneoka-native-fx-animation-bindings-v1",
+  "server": "intl",
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "bindings": [
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001/note_flick.prefab",
+      "descriptorSha256": "83c091e0ae61d8abd2182e3d8cdaafa6752465af8dec6aaa726c14cc45e1fd51",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/105f8abb5c10790d92dc583a8f8cd90724d4bcdc4db29e3b9bff7909b0d0d4bc.jsonl.gz",
+      "archiveBytes": 44850,
+      "archiveSha256": "4fd6ed5039f523ddd23109aa71b6470c3ed497d77ae56e2d3402fa706f681daa",
+      "serializedFile": "CAB-f54437412b05d0f7388d7b8d7807393f",
+      "animationComponentId": "307840591369148689",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 10,
+            "m_PathID": "1059593082490242997",
+            "reference": {
+              "externalPath": "archive:/CAB-d8a9c46db48d88a4215f8397edbc81c5/CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "name": "tap_flick",
+              "pathId": "1059593082490242997",
+              "serializedFile": "CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "8478686937010608401"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "307840591369148689",
+        "record": "object",
+        "serializedFile": "CAB-f54437412b05d0f7388d7b8d7807393f",
+        "type": "Animator"
+      },
+      "gameObjectId": "8478686937010608401",
+      "animationTransformId": "683484216699132177",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-6245751680521397999"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-1276377223018833647"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-4450420203596211951"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "7364828945172535569"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "5320182402873235729"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "1142024913237121297"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-6914862898279540463"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "6652773065449412881"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "8478686937010608401"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "683484216699132177",
+        "record": "object",
+        "serializedFile": "CAB-f54437412b05d0f7388d7b8d7807393f",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001/note_flick_left.prefab",
+      "descriptorSha256": "854268f86449dc223d9e1f7369fdfa2007760e68281d8cc089ed976d6e3aeaa4",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/dd26075d8b5a7c9a65442edf35947ff9c0efcbbf75890caa58698c91beedf1ff.jsonl.gz",
+      "archiveBytes": 33006,
+      "archiveSha256": "1008e8ce9413715923bbc40b0a575b59fe3647642e15ea751bf7e163a28fe017",
+      "serializedFile": "CAB-110fb9ca2283381e748eaf7487fd9988",
+      "animationComponentId": "-493247543261717724",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 9,
+            "m_PathID": "1059593082490242997",
+            "reference": {
+              "externalPath": "archive:/CAB-d8a9c46db48d88a4215f8397edbc81c5/CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "name": "tap_flick",
+              "pathId": "1059593082490242997",
+              "serializedFile": "CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "3639393631056436004"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-493247543261717724",
+        "record": "object",
+        "serializedFile": "CAB-110fb9ca2283381e748eaf7487fd9988",
+        "type": "Animator"
+      },
+      "gameObjectId": "3639393631056436004",
+      "animationTransformId": "891519961066314532",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "4881771057406417700"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4498670992576092964"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "1524472818821569316"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-2809381988972750044"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "7346663091590667044"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-2014680602881877212"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "958098248632900388"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "1916558747974507300"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "3639393631056436004"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "891519961066314532",
+        "record": "object",
+        "serializedFile": "CAB-110fb9ca2283381e748eaf7487fd9988",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001/note_flick_right.prefab",
+      "descriptorSha256": "1832c72a644c6a4d82d1915ad12bbad34e2fe875adbf9987ecd51b5e1043aebe",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/7e0d0ac77ae97bb64a1eabc01e11cfd2b8c92d0167f0ee0195156da0fbb18238.jsonl.gz",
+      "archiveBytes": 31585,
+      "archiveSha256": "aa99f02f04074447f4259fe38f8430c3231c4841e7e3b1e9914728853f4f86e4",
+      "serializedFile": "CAB-93a11b2d4d98ebe48716e5acf062d09b",
+      "animationComponentId": "-1004786274297142898",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 5,
+            "m_PathID": "1059593082490242997",
+            "reference": {
+              "externalPath": "archive:/CAB-d8a9c46db48d88a4215f8397edbc81c5/CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "name": "tap_flick",
+              "pathId": "1059593082490242997",
+              "serializedFile": "CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "5142269099638301070"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-1004786274297142898",
+        "record": "object",
+        "serializedFile": "CAB-93a11b2d4d98ebe48716e5acf062d09b",
+        "type": "Animator"
+      },
+      "gameObjectId": "5142269099638301070",
+      "animationTransformId": "4874639740774097294",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "3187120638716256654"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-9070159160115158642"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-7601097869407379058"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-3590782466732613234"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-2202621767534468722"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4256516821672763790"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-352752505261350514"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-3818155509724896882"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "5142269099638301070"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": -1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "4874639740774097294",
+        "record": "object",
+        "serializedFile": "CAB-93a11b2d4d98ebe48716e5acf062d09b",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001/note_just.prefab",
+      "descriptorSha256": "47f84ee80a84a5fc68c650e9b38a9f02ba7a2a475db21b8820420de20b4e05e1",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/9c803a70d0399c10e2e4aca4c805efcf41f63ca9dbfeb80d97c2d9da5baf87dd.jsonl.gz",
+      "archiveBytes": 21322,
+      "archiveSha256": "be348f2a5662576b512a6f916051f5dda2284303c72c27b995aa1348e4c4ae76",
+      "serializedFile": "CAB-d619e21872ebb232c3dd33bb863df84f",
+      "animationComponentId": "-2096871008325980984",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 4,
+            "m_PathID": "484411436675624402",
+            "reference": {
+              "externalPath": "archive:/CAB-32dd665115f0da29ff2d07c1b780e07e/CAB-32dd665115f0da29ff2d07c1b780e07e",
+              "name": "tap_splash",
+              "pathId": "484411436675624402",
+              "serializedFile": "CAB-32dd665115f0da29ff2d07c1b780e07e",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-1652128224047059768"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-2096871008325980984",
+        "record": "object",
+        "serializedFile": "CAB-d619e21872ebb232c3dd33bb863df84f",
+        "type": "Animator"
+      },
+      "gameObjectId": "-1652128224047059768",
+      "animationTransformId": "3758201712150457544",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "8764322434143694024"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "9030187758139550920"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "1787772001545039048"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "5076522004505373896"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "5850638639167777992"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "7414490312484924616"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-5970255287627404088"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-1652128224047059768"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "3758201712150457544",
+        "record": "object",
+        "serializedFile": "CAB-d619e21872ebb232c3dd33bb863df84f",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001/note_normal.prefab",
+      "descriptorSha256": "f2268bf5f8e613927832d8e6afbfe402f386450658a381b15d17749d178c776d",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/581ca4d5e35c2bde6d12b5a76792eaeebfeec610a8b462074e1ec254a1580254.jsonl.gz",
+      "archiveBytes": 20175,
+      "archiveSha256": "5581e959a995a30cb4a97af91ed5193e3529e98d381bc40f0efe90e68a4773b9",
+      "serializedFile": "CAB-fdcbd06562e3d4f099e41337ff2993b4",
+      "animationComponentId": "9215833862789704191",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 6,
+            "m_PathID": "484411436675624402",
+            "reference": {
+              "externalPath": "archive:/CAB-32dd665115f0da29ff2d07c1b780e07e/CAB-32dd665115f0da29ff2d07c1b780e07e",
+              "name": "tap_splash",
+              "pathId": "484411436675624402",
+              "serializedFile": "CAB-32dd665115f0da29ff2d07c1b780e07e",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "3984599316238412287"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "9215833862789704191",
+        "record": "object",
+        "serializedFile": "CAB-fdcbd06562e3d4f099e41337ff2993b4",
+        "type": "Animator"
+      },
+      "gameObjectId": "3984599316238412287",
+      "animationTransformId": "1396256924436507135",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "3420332374228969983"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4585189126041086463"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "8994414348278147583"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4051269544733420031"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "1852017583713921535"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "8047422236696816127"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "9017794674228111871"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "3984599316238412287"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "1396256924436507135",
+        "record": "object",
+        "serializedFile": "CAB-fdcbd06562e3d4f099e41337ff2993b4",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001/note_slide.prefab",
+      "descriptorSha256": "5e36ed68cecacf52684ebb7ffc7fe62a42c0db44202ba17160706469edbe0efc",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/6702a272e76f233a3c0824d75d6772bdbea6447626e91ed9fb02d5c178421b5a.jsonl.gz",
+      "archiveBytes": 20089,
+      "archiveSha256": "767922a960e6d6dc4d830db25bb58eacb6b509a477d280cb0ee1e9c7de6090e8",
+      "serializedFile": "CAB-5da2d4c7774714febb3a4125c447c4d7",
+      "animationComponentId": "3689593146009498699",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 8,
+            "m_PathID": "8939332584368987042",
+            "reference": {
+              "externalPath": "archive:/CAB-6d7b3f77d700165c01cd332256616319/CAB-6d7b3f77d700165c01cd332256616319",
+              "name": "tap_slide",
+              "pathId": "8939332584368987042",
+              "serializedFile": "CAB-6d7b3f77d700165c01cd332256616319",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-7099355043319860149"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "3689593146009498699",
+        "record": "object",
+        "serializedFile": "CAB-5da2d4c7774714febb3a4125c447c4d7",
+        "type": "Animator"
+      },
+      "gameObjectId": "-7099355043319860149",
+      "animationTransformId": "-8555728055150398389",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-4385365262883310517"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "708581147693855819"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-2132911213008079797"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "7750673770380112971"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-6955726094096812981"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "5395010031135011915"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-7853358474504129461"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-7099355043319860149"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-8555728055150398389",
+        "record": "object",
+        "serializedFile": "CAB-5da2d4c7774714febb3a4125c447c4d7",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001/note_slide_connect.prefab",
+      "descriptorSha256": "fdd58fd213c78de3a62f47e6b3bd0ccb0b72eedf535e281c9515c9af9b77a1a1",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/f64b493f24300cfa6f26b454808f66f31e05024c7e1380124b58c0f82a35578e.jsonl.gz",
+      "archiveBytes": 19112,
+      "archiveSha256": "dcc024b32400e7f2754f0b9945885172cf3c413f24001aa43f8cd4a7e8fb357a",
+      "serializedFile": "CAB-ce5eb5b1204477006d63cce06fdfc3fb",
+      "animationComponentId": "-6286771526565770701",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 2,
+            "m_PathID": "8939332584368987042",
+            "reference": {
+              "externalPath": "archive:/CAB-6d7b3f77d700165c01cd332256616319/CAB-6d7b3f77d700165c01cd332256616319",
+              "name": "tap_slide",
+              "pathId": "8939332584368987042",
+              "serializedFile": "CAB-6d7b3f77d700165c01cd332256616319",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-1276844476767286733"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-6286771526565770701",
+        "record": "object",
+        "serializedFile": "CAB-ce5eb5b1204477006d63cce06fdfc3fb",
+        "type": "Animator"
+      },
+      "gameObjectId": "-1276844476767286733",
+      "animationTransformId": "8094879549511748147",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "8080215313907370547"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-8030243998651987405"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-5428071330691233229"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-1276844476767286733"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "8094879549511748147",
+        "record": "object",
+        "serializedFile": "CAB-ce5eb5b1204477006d63cce06fdfc3fb",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001/note_slide_loop.prefab",
+      "descriptorSha256": "3b4aea8760b2e84b2980907858a93ca087aa278cba4c85915be9413d22342e8f",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/9e9ee99004bf7fdb152cd714cc16ceb8593fb08ba00afa829f77df492841a77c.jsonl.gz",
+      "archiveBytes": 21870,
+      "archiveSha256": "b220f8cf23fd0ad2d386af9ed344b8b6f4b48684b8c63cd5bd68218bce413ff5",
+      "serializedFile": "CAB-e4f6a83ada134105803cb3d9daf3a9ec",
+      "animationComponentId": "-226120135903696267",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 8,
+            "m_PathID": "-7648431030473133844",
+            "reference": {
+              "externalPath": "archive:/CAB-2450cfaa67e2f0145e60b4d58b2c04f4/CAB-2450cfaa67e2f0145e60b4d58b2c04f4",
+              "name": "tap_slide_loop",
+              "pathId": "-7648431030473133844",
+              "serializedFile": "CAB-2450cfaa67e2f0145e60b4d58b2c04f4",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-3398012715704800651"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-226120135903696267",
+        "record": "object",
+        "serializedFile": "CAB-e4f6a83ada134105803cb3d9daf3a9ec",
+        "type": "Animator"
+      },
+      "gameObjectId": "-3398012715704800651",
+      "animationTransformId": "7017606554250160757",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-5737375965054850443"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-5391733404663698827"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "1195148826378152565"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "2814288449913530997"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "8308436704405138037"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "3820745073833454197"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "8716693840891914869"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-3398012715704800651"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "7017606554250160757",
+        "record": "object",
+        "serializedFile": "CAB-e4f6a83ada134105803cb3d9daf3a9ec",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Light/note_flick_left_light.prefab",
+      "descriptorSha256": "f508dd43b79bbc57274baccdd5836c98e00188beeee2b3435aba6c9ef6a9e9b6",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/cb3670057966a8def27e053554ddbe7185f84fb93067d25f9e6f312172b585ea.jsonl.gz",
+      "archiveBytes": 32299,
+      "archiveSha256": "9871fe16a45a01ea9391b5e6fe920406b07d1cabe485aa6730091310e94d35ca",
+      "serializedFile": "CAB-3b2aa68e825089c1643c5e00c6319629",
+      "animationComponentId": "2732898997558067614",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 8,
+            "m_PathID": "1059593082490242997",
+            "reference": {
+              "externalPath": "archive:/CAB-d8a9c46db48d88a4215f8397edbc81c5/CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "name": "tap_flick",
+              "pathId": "1059593082490242997",
+              "serializedFile": "CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "1207013878670639518"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "2732898997558067614",
+        "record": "object",
+        "serializedFile": "CAB-3b2aa68e825089c1643c5e00c6319629",
+        "type": "Animator"
+      },
+      "gameObjectId": "1207013878670639518",
+      "animationTransformId": "-6875106717322231394",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "966891506881610142"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-3752871541630680674"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-5692781412648205922"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "1722210825254355358"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "7090159151839920542"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4774517644637979038"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-4707085841827020386"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "4901764404038746526"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "1207013878670639518"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-6875106717322231394",
+        "record": "object",
+        "serializedFile": "CAB-3b2aa68e825089c1643c5e00c6319629",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Light/note_flick_light.prefab",
+      "descriptorSha256": "47f1b5bad54d3e240ce0235ad4690f90d0ea8c09abab5661b21e7f2fd4187aa2",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/f5e8e37900db2fd502c2aa287fe699a5a4bf805777f64502252d6592782ea8f1.jsonl.gz",
+      "archiveBytes": 46541,
+      "archiveSha256": "dfba5a33eccf3c3bac3e8c821c55302f6ed7684961ad09f23905258f14fcd1aa",
+      "serializedFile": "CAB-9626831f4c877a1b852784fdd3f99df4",
+      "animationComponentId": "8620324454011327769",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 8,
+            "m_PathID": "1059593082490242997",
+            "reference": {
+              "externalPath": "archive:/CAB-d8a9c46db48d88a4215f8397edbc81c5/CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "name": "tap_flick",
+              "pathId": "1059593082490242997",
+              "serializedFile": "CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "2175046079062365465"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "8620324454011327769",
+        "record": "object",
+        "serializedFile": "CAB-9626831f4c877a1b852784fdd3f99df4",
+        "type": "Animator"
+      },
+      "gameObjectId": "2175046079062365465",
+      "animationTransformId": "-6940142904463829735",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-818422192696437479"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-1804369679903402727"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "8964014927908066585"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-64373162681150183"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4539067160892888345"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "2585087300565030169"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-3366810430760987367"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-7173425946707667687"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "2175046079062365465"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-6940142904463829735",
+        "record": "object",
+        "serializedFile": "CAB-9626831f4c877a1b852784fdd3f99df4",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Light/note_flick_right_light.prefab",
+      "descriptorSha256": "ceac54638a791c3e9b1b250201ae8cb5f6303eb7ee5d219cf06f721e534d03db",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/090e990d3ab8b25a9b1d49d8d975c5c6c885b040c6e8cf3acb9a7c2aaac312b8.jsonl.gz",
+      "archiveBytes": 34130,
+      "archiveSha256": "79f72141cb852065739020a4139954b9485cc9c6ea209902bfb9121c3b3eaa5c",
+      "serializedFile": "CAB-6021d1fe9e4672734d53482602a55675",
+      "animationComponentId": "-6225886618336165854",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 4,
+            "m_PathID": "1059593082490242997",
+            "reference": {
+              "externalPath": "archive:/CAB-d8a9c46db48d88a4215f8397edbc81c5/CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "name": "tap_flick",
+              "pathId": "1059593082490242997",
+              "serializedFile": "CAB-d8a9c46db48d88a4215f8397edbc81c5",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-738901602309111774"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-6225886618336165854",
+        "record": "object",
+        "serializedFile": "CAB-6021d1fe9e4672734d53482602a55675",
+        "type": "Animator"
+      },
+      "gameObjectId": "-738901602309111774",
+      "animationTransformId": "-5995271657944907742",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "4030127349770092578"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "8081219212806848546"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "1749672181886746658"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-2959183123250085854"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "6046021721131974690"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "3374787692597805090"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-8382791428460249054"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-6212783649079951326"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-738901602309111774"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": -1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-5995271657944907742",
+        "record": "object",
+        "serializedFile": "CAB-6021d1fe9e4672734d53482602a55675",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Light/note_just_light.prefab",
+      "descriptorSha256": "5b80d6348ff6276626f12a17aaab97d73d2976a4320f8e6dd55db9a17e2d8ec2",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/d1df7902e8a200ba7d5024255deabe54863901aed1cca2e790e88385a70d8a85.jsonl.gz",
+      "archiveBytes": 20536,
+      "archiveSha256": "72493a3406aa47e32e92cb6411f4a64b53f1817f37a168d10a33115e311a0241",
+      "serializedFile": "CAB-063d2e3c0ac7e092eef4048376511e17",
+      "animationComponentId": "-5259563934558031847",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 4,
+            "m_PathID": "484411436675624402",
+            "reference": {
+              "externalPath": "archive:/CAB-32dd665115f0da29ff2d07c1b780e07e/CAB-32dd665115f0da29ff2d07c1b780e07e",
+              "name": "tap_splash",
+              "pathId": "484411436675624402",
+              "serializedFile": "CAB-32dd665115f0da29ff2d07c1b780e07e",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-6506338404487172071"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-5259563934558031847",
+        "record": "object",
+        "serializedFile": "CAB-063d2e3c0ac7e092eef4048376511e17",
+        "type": "Animator"
+      },
+      "gameObjectId": "-6506338404487172071",
+      "animationTransformId": "1762332451665113113",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "3048952737189359641"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4229306927684481049"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "3864049005361328153"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-1189247547647823847"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-8269248236940070887"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-3409249788046315495"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "6778780817789579289"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-6506338404487172071"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "1762332451665113113",
+        "record": "object",
+        "serializedFile": "CAB-063d2e3c0ac7e092eef4048376511e17",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Light/note_normal_light.prefab",
+      "descriptorSha256": "a9fe436b22030fc3e42da554838e135494ecc79bcc5cfb7b5173ac5123c2789a",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/c8d545faa247f10b816efb0b367bf8592a9789f63b857d5663abbf3e39762035.jsonl.gz",
+      "archiveBytes": 19860,
+      "archiveSha256": "2e363320a51b42c813cebf6e7c198a4d8e64c235bd64778df8716847e81e8970",
+      "serializedFile": "CAB-6fbfd137340b1f1d03b7667c7a431820",
+      "animationComponentId": "-1525246364160151893",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 5,
+            "m_PathID": "484411436675624402",
+            "reference": {
+              "externalPath": "archive:/CAB-32dd665115f0da29ff2d07c1b780e07e/CAB-32dd665115f0da29ff2d07c1b780e07e",
+              "name": "tap_splash",
+              "pathId": "484411436675624402",
+              "serializedFile": "CAB-32dd665115f0da29ff2d07c1b780e07e",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-875102932447056213"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-1525246364160151893",
+        "record": "object",
+        "serializedFile": "CAB-6fbfd137340b1f1d03b7667c7a431820",
+        "type": "Animator"
+      },
+      "gameObjectId": "-875102932447056213",
+      "animationTransformId": "2544265480838786731",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-4381097076328354133"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "8970392363540819627"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-6084608152896000341"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "294918041481522859"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-276002834846765397"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-3204081989883842901"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "1108927373883813547"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-875102932447056213"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "2544265480838786731",
+        "record": "object",
+        "serializedFile": "CAB-6fbfd137340b1f1d03b7667c7a431820",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Light/note_slide_connect_light.prefab",
+      "descriptorSha256": "d049285b378138ae52be20e52b13e5b56fa109ec883472a8a78911b593976233",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/b8d54a7bac7e6bbd03c2955f0d9213ff07688a011e0dfc89a844dc9723a8bcd6.jsonl.gz",
+      "archiveBytes": 19383,
+      "archiveSha256": "0183a8602fd945830f664c4f3e6c349985e735fe486224eac40cf80f8f35b69a",
+      "serializedFile": "CAB-47959c5bc8641a52bae09d4f870e6c4b",
+      "animationComponentId": "-8733001817389748433",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 2,
+            "m_PathID": "8939332584368987042",
+            "reference": {
+              "externalPath": "archive:/CAB-6d7b3f77d700165c01cd332256616319/CAB-6d7b3f77d700165c01cd332256616319",
+              "name": "tap_slide",
+              "pathId": "8939332584368987042",
+              "serializedFile": "CAB-6d7b3f77d700165c01cd332256616319",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-895619765089030353"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-8733001817389748433",
+        "record": "object",
+        "serializedFile": "CAB-47959c5bc8641a52bae09d4f870e6c4b",
+        "type": "Animator"
+      },
+      "gameObjectId": "-895619765089030353",
+      "animationTransformId": "-7708121754500223185",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "6353619136165883695"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "77137144184090415"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "2183856695996297007"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-895619765089030353"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-7708121754500223185",
+        "record": "object",
+        "serializedFile": "CAB-47959c5bc8641a52bae09d4f870e6c4b",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Light/note_slide_light.prefab",
+      "descriptorSha256": "04363d63c331a64001ec53f0deef455d9f1b2faf364032ffa4227410c9f0d7e1",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/7a2d58f6ff28c3ee42a387f5e8445d5733e2752f0b726beacc0d89eeb53d0272.jsonl.gz",
+      "archiveBytes": 20173,
+      "archiveSha256": "e058f7d0afd40c78769046815f442e2a55a1f44d3c894efbaad0666d7c8dcedb",
+      "serializedFile": "CAB-8577c6d6d2e8fd59f4263582665a1886",
+      "animationComponentId": "-3212759103102536095",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 6,
+            "m_PathID": "8939332584368987042",
+            "reference": {
+              "externalPath": "archive:/CAB-6d7b3f77d700165c01cd332256616319/CAB-6d7b3f77d700165c01cd332256616319",
+              "name": "tap_slide",
+              "pathId": "8939332584368987042",
+              "serializedFile": "CAB-6d7b3f77d700165c01cd332256616319",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-1792693875127765407"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-3212759103102536095",
+        "record": "object",
+        "serializedFile": "CAB-8577c6d6d2e8fd59f4263582665a1886",
+        "type": "Animator"
+      },
+      "gameObjectId": "-1792693875127765407",
+      "animationTransformId": "-2424516155242989983",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "4299539423399753313"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-946130720685967775"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "6440538117084395105"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4804332570258552417"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "126984278009755233"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-2107134052750936479"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "9186515409941214817"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-1792693875127765407"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-2424516155242989983",
+        "record": "object",
+        "serializedFile": "CAB-8577c6d6d2e8fd59f4263582665a1886",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Light/note_slide_loop_light.prefab",
+      "descriptorSha256": "e032993e086d589dd2322fe31748dcb7973220ad6e231e3127ec668766352436",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/b08481e78d86b6d519c72031917b27f72e0e192cc4dc14ae63a38ac554e484de.jsonl.gz",
+      "archiveBytes": 21646,
+      "archiveSha256": "390e47d0aa8c705e85a81f636db39da1cb51d0d47f8bcc07c42402f891919bd8",
+      "serializedFile": "CAB-ffc9a8d98d42a397cfd2d49e7663d73d",
+      "animationComponentId": "-5908134683878777604",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 2,
+            "m_PathID": "-7648431030473133844",
+            "reference": {
+              "externalPath": "archive:/CAB-2450cfaa67e2f0145e60b4d58b2c04f4/CAB-2450cfaa67e2f0145e60b4d58b2c04f4",
+              "name": "tap_slide_loop",
+              "pathId": "-7648431030473133844",
+              "serializedFile": "CAB-2450cfaa67e2f0145e60b4d58b2c04f4",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-3428420889845654276"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-5908134683878777604",
+        "record": "object",
+        "serializedFile": "CAB-ffc9a8d98d42a397cfd2d49e7663d73d",
+        "type": "Animator"
+      },
+      "gameObjectId": "-3428420889845654276",
+      "animationTransformId": "-4158927465464554244",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "3047692632321727740"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-7896219377519715076"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "2614260017956560124"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "3073527489722752252"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "6372271222177897724"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-4545602969796305668"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "5313276831722020092"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-3428420889845654276"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-4158927465464554244",
+        "record": "object",
+        "serializedFile": "CAB-ffc9a8d98d42a397cfd2d49e7663d73d",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Simple/note_flick_left_simple.prefab",
+      "descriptorSha256": "bb1d63117216efc9511750e02ebcba9e17dce5cdf6fb559913b4d4f338c2966d",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/105708a01416ba38563e393a8bcbbc158331d545f66e5c80a33a2f7431946c71.jsonl.gz",
+      "archiveBytes": 21154,
+      "archiveSha256": "668e1214f2631a3502cca288a7941a3147e8fa6476d47b8d6364d551f7930c44",
+      "serializedFile": "CAB-443830631e7fd13df380f4f54061fb3a",
+      "animationComponentId": "-8540487638952277270",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 2,
+            "m_PathID": "-5238525314908054553",
+            "reference": {
+              "externalPath": "archive:/CAB-e38f73fc6c96b00c93137a2e1611fb87/CAB-e38f73fc6c96b00c93137a2e1611fb87",
+              "name": "tap_flick_simple",
+              "pathId": "-5238525314908054553",
+              "serializedFile": "CAB-e38f73fc6c96b00c93137a2e1611fb87",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "8767214991945075434"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-8540487638952277270",
+        "record": "object",
+        "serializedFile": "CAB-443830631e7fd13df380f4f54061fb3a",
+        "type": "Animator"
+      },
+      "gameObjectId": "8767214991945075434",
+      "animationTransformId": "-8787626032229807382",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-5853542437042287894"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "4362711204174007018"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "3694083778579499754"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "5147856629928200938"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "8767214991945075434"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-8787626032229807382",
+        "record": "object",
+        "serializedFile": "CAB-443830631e7fd13df380f4f54061fb3a",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Simple/note_flick_right_simple.prefab",
+      "descriptorSha256": "a428fdbc2aa449590212705bd3ef1c221d26e13423d73b8fec3bbd3fabddef40",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/fed88f71059969d245df40a55602cd6447801867bac0aa94ba2f3eeca946e534.jsonl.gz",
+      "archiveBytes": 21756,
+      "archiveSha256": "f96a3ddc65df264b66d464ffbc04cdc96899f72843a596be0bbe5ad84c2768a1",
+      "serializedFile": "CAB-7369c23b782820c0cf2521e0fb8fe944",
+      "animationComponentId": "3605219746082115948",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 8,
+            "m_PathID": "-5238525314908054553",
+            "reference": {
+              "externalPath": "archive:/CAB-e38f73fc6c96b00c93137a2e1611fb87/CAB-e38f73fc6c96b00c93137a2e1611fb87",
+              "name": "tap_flick_simple",
+              "pathId": "-5238525314908054553",
+              "serializedFile": "CAB-e38f73fc6c96b00c93137a2e1611fb87",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "6448048548083323244"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "3605219746082115948",
+        "record": "object",
+        "serializedFile": "CAB-7369c23b782820c0cf2521e0fb8fe944",
+        "type": "Animator"
+      },
+      "gameObjectId": "6448048548083323244",
+      "animationTransformId": "6354722507360489836",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-4723697594080767636"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "3469763129004577132"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "5029880163655471468"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-283516212460334740"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "6448048548083323244"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": -1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "6354722507360489836",
+        "record": "object",
+        "serializedFile": "CAB-7369c23b782820c0cf2521e0fb8fe944",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Simple/note_flick_simple.prefab",
+      "descriptorSha256": "fe30dbfe81a970253dbdf7faba5873ccfb7a6b09f0f720ae4866b6ed4fbf1093",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/867c4dfa324874e818232ddcfed99a2c14d6b2bb22ff657635d373a831fc0c42.jsonl.gz",
+      "archiveBytes": 22948,
+      "archiveSha256": "0c853b2bc566dfef777a92e02936e49602b3e3d9d42ad86aeaefa5c81d6332c7",
+      "serializedFile": "CAB-cc2acb1623c450fd833519d05ee41087",
+      "animationComponentId": "-6417070053506051931",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 3,
+            "m_PathID": "-5238525314908054553",
+            "reference": {
+              "externalPath": "archive:/CAB-e38f73fc6c96b00c93137a2e1611fb87/CAB-e38f73fc6c96b00c93137a2e1611fb87",
+              "name": "tap_flick_simple",
+              "pathId": "-5238525314908054553",
+              "serializedFile": "CAB-e38f73fc6c96b00c93137a2e1611fb87",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-9079538449271123803"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-6417070053506051931",
+        "record": "object",
+        "serializedFile": "CAB-cc2acb1623c450fd833519d05ee41087",
+        "type": "Animator"
+      },
+      "gameObjectId": "-9079538449271123803",
+      "animationTransformId": "-4765843344559599451",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-2594074364878614363"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "2006269460233031845"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "7726926972906279077"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-8968568137450024795"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-9079538449271123803"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-4765843344559599451",
+        "record": "object",
+        "serializedFile": "CAB-cc2acb1623c450fd833519d05ee41087",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Simple/note_groove_simple.prefab",
+      "descriptorSha256": "b02d56f4246f835f13b2c73097a7c32392b523ef6e8df1ac025c98d68131ad96",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/fff23c980744777c7f27aac57e10f86192905472878d3f7d141ecb38a4db917a.jsonl.gz",
+      "archiveBytes": 19580,
+      "archiveSha256": "309906b193dd9fe8ea9c6e32d87b113be533f661e6a4b3715a127227482ea2e8",
+      "serializedFile": "CAB-624441186a770e3e79dab52c0e3d546e",
+      "animationComponentId": "-1083412576338180097",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 7,
+            "m_PathID": "7446028667656062931",
+            "reference": {
+              "externalPath": "archive:/CAB-1de5cb4fe07afbf37d6d820dd3bd059e/CAB-1de5cb4fe07afbf37d6d820dd3bd059e",
+              "name": "note_simple",
+              "pathId": "7446028667656062931",
+              "serializedFile": "CAB-1de5cb4fe07afbf37d6d820dd3bd059e",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-4968973611325257729"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-1083412576338180097",
+        "record": "object",
+        "serializedFile": "CAB-624441186a770e3e79dab52c0e3d546e",
+        "type": "Animator"
+      },
+      "gameObjectId": "-4968973611325257729",
+      "animationTransformId": "4652942459525793791",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "3704829829857675263"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-7417813569014396929"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-1638350198944692225"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-4968973611325257729"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "4652942459525793791",
+        "record": "object",
+        "serializedFile": "CAB-624441186a770e3e79dab52c0e3d546e",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Simple/note_normal_simple.prefab",
+      "descriptorSha256": "120893e6b2cfbe5112d2a4083b18c815e11a7e4b785e779e7d83dc60a0e6fb53",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/b11dd2ba6cfae0313c6c0f930a459b65f6d4844162a05c71474129fd3254238e.jsonl.gz",
+      "archiveBytes": 19685,
+      "archiveSha256": "b48d51e13e2bd606941b86e27fc17ceb06d7b5a395562120d842fdddc794e165",
+      "serializedFile": "CAB-0f18d35412a1ae3b3b0ffd03ca141c9d",
+      "animationComponentId": "-8200720082573122266",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 3,
+            "m_PathID": "7446028667656062931",
+            "reference": {
+              "externalPath": "archive:/CAB-1de5cb4fe07afbf37d6d820dd3bd059e/CAB-1de5cb4fe07afbf37d6d820dd3bd059e",
+              "name": "note_simple",
+              "pathId": "7446028667656062931",
+              "serializedFile": "CAB-1de5cb4fe07afbf37d6d820dd3bd059e",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-3405016003835976410"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-8200720082573122266",
+        "record": "object",
+        "serializedFile": "CAB-0f18d35412a1ae3b3b0ffd03ca141c9d",
+        "type": "Animator"
+      },
+      "gameObjectId": "-3405016003835976410",
+      "animationTransformId": "3541755207820584230",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "3379316990032225574"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-673604111950011098"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-4838634360073804506"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-3405016003835976410"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "3541755207820584230",
+        "record": "object",
+        "serializedFile": "CAB-0f18d35412a1ae3b3b0ffd03ca141c9d",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Simple/note_slide_simple.prefab",
+      "descriptorSha256": "3f817ef08d9f14f7d557a275bf62a947f2c9ce25eb65fe13cc7c9660f5f60aef",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/cb6bdaac140995473b647be139b0f71cb71b94331913b318aa36975276b896cf.jsonl.gz",
+      "archiveBytes": 19615,
+      "archiveSha256": "2d0d262bd553dee2c80d93b804e64c9c5151aaabf85f7d557ce9a8e409f91c06",
+      "serializedFile": "CAB-4772c090a1eb6addb06df85d610e706e",
+      "animationComponentId": "4550461295680766564",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 3,
+            "m_PathID": "-5407008680944330168",
+            "reference": {
+              "externalPath": "archive:/CAB-551ff5aed0c8a373517262ad8f97b9a0/CAB-551ff5aed0c8a373517262ad8f97b9a0",
+              "name": "note_slide_simple",
+              "pathId": "-5407008680944330168",
+              "serializedFile": "CAB-551ff5aed0c8a373517262ad8f97b9a0",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-6733379190063807900"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "4550461295680766564",
+        "record": "object",
+        "serializedFile": "CAB-4772c090a1eb6addb06df85d610e706e",
+        "type": "Animator"
+      },
+      "gameObjectId": "-6733379190063807900",
+      "animationTransformId": "-2227725083801402780",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "1075711315248431716"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "2246065853156573796"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "74003101974348388"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-6733379190063807900"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-2227725083801402780",
+        "record": "object",
+        "serializedFile": "CAB-4772c090a1eb6addb06df85d610e706e",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    },
+    {
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/effect001Simple/note_slide_simple_loop.prefab",
+      "descriptorSha256": "bbb312e8a8f947af709ec57bd5f4ab508d90e092457d470070e5c4c25764d19e",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/9c024b0f7e5f8e5388d6ca42f0b499b42cc52767a49888ea6fd6b94355863e86.jsonl.gz",
+      "archiveBytes": 21812,
+      "archiveSha256": "2ee1abdad6b9cb0dfcd0430bbf4783d106832139c252261d8b29bee1b51db51e",
+      "serializedFile": "CAB-b955f47d8d200fa0f95b8cb064155cb0",
+      "animationComponentId": "-4324970157516263394",
+      "animationComponentType": "Animator",
+      "animationComponent": {
+        "data": {
+          "m_AllowConstantClipSamplingOptimization": true,
+          "m_AnimatePhysics": false,
+          "m_ApplyRootMotion": false,
+          "m_Avatar": {
+            "m_FileID": 0,
+            "m_PathID": "0"
+          },
+          "m_Controller": {
+            "m_FileID": 7,
+            "m_PathID": "3079437388189154604",
+            "reference": {
+              "externalPath": "archive:/CAB-a66557e18473df4b622a057c02d3b083/CAB-a66557e18473df4b622a057c02d3b083",
+              "name": "note_slide_simple_loop",
+              "pathId": "3079437388189154604",
+              "serializedFile": "CAB-a66557e18473df4b622a057c02d3b083",
+              "status": "resolved",
+              "type": "AnimatorController"
+            }
+          },
+          "m_CullingMode": 0,
+          "m_Enabled": 1,
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-4593210547529453538"
+          },
+          "m_HasTransformHierarchy": true,
+          "m_KeepAnimatorStateOnDisable": false,
+          "m_LinearVelocityBlending": false,
+          "m_StabilizeFeet": false,
+          "m_UpdateMode": 0,
+          "m_WriteDefaultValuesOnDisable": false
+        },
+        "pathId": "-4324970157516263394",
+        "record": "object",
+        "serializedFile": "CAB-b955f47d8d200fa0f95b8cb064155cb0",
+        "type": "Animator"
+      },
+      "gameObjectId": "-4593210547529453538",
+      "animationTransformId": "-6730428841072594914",
+      "animationTransform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": "-6739202361735778274"
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": "-8234096854299643874"
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": "-4589916588751851490"
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": "-4593210547529453538"
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "-6730428841072594914",
+        "record": "object",
+        "serializedFile": "CAB-b955f47d8d200fa0f95b8cb064155cb0",
+        "type": "Transform"
+      },
+      "normalization": "pptr-decimal64-v1"
+    }
+  ]
+}

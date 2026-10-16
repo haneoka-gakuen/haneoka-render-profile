@@ -1,0 +1,53 @@
+{
+  "schema": "haneoka-story-linebreaking-source-v1",
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "apkSHA256": "c0b6a1541e4562533aaeb2c65062cb6202913b2aec5aae80d371c4fc04409fa9",
+  "archiveSHA256": "2b79846def4664617600419e5304e70c936fba85647817f6e4b3cee63d60b98b",
+  "settings": {
+    "serializedFile": "resources.assets",
+    "pathID": "1467",
+    "type": "MonoBehaviour",
+    "m_Name": "TMP Settings",
+    "script": {
+      "serializedFile": "globalgamemanagers.assets",
+      "pathID": "1651",
+      "class": "TMP_Settings"
+    },
+    "rawSHA256": "0b75ce224d78ac511cad559ba6506a321cbf44391d4a51b322e17f66e58eeca6",
+    "rawPath": "/home/xuc/Documents/haneoka-research/coordination-20261012/render-alignment/story/NATIVE-GLYPH/actual-source-v25-TMP-Settings.bin",
+    "bytes": 316
+  },
+  "parsedReceiptPath": "/home/xuc/Documents/haneoka-research/coordination-20261012/render-alignment/story/NATIVE-GLYPH/ACTUAL-SOURCE-V25-TMP-SETTINGS-PARSED.json",
+  "parsedReceiptSHA256": "c8ebb4afa0078f22deddabe7a942854fdc062c47038bc76ecd8614fa3c6722c8",
+  "lineBreaking": {
+    "leading": "﻿([｛〔〈《「『【〘〖〝‘“｟«$—…‥〳〴〵\\［（{£¥\"々〇＄￥￦ #",
+    "following": "﻿)]｝〕〉》」』】〙〗〟’”｠»ヽヾーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎゕゖㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ々〻‐゠–〜?!‼⁇⁈⁉・、%,.:;。！？］）：；＝}¢°\"†‡℃〆％，．",
+    "useModernHangulLineBreakingRules": false
+  },
+  "originalLineBreakingAssets": [
+    {
+      "serializedFile": "resources.assets",
+      "pathID": "28",
+      "type": "TextAsset",
+      "data": {
+        "m_Name": "LineBreaking Leading Characters",
+        "m_Script": "﻿([｛〔〈《「『【〘〖〝‘“｟«$—…‥〳〴〵\\［（{£¥\"々〇＄￥￦ #"
+      }
+    },
+    {
+      "serializedFile": "resources.assets",
+      "pathID": "29",
+      "type": "TextAsset",
+      "data": {
+        "m_Name": "LineBreaking Following Characters",
+        "m_Script": "﻿)]｝〕〉》」』】〙〗〟’”｠»ヽヾーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎゕゖㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ々〻‐゠–〜?!‼⁇⁈⁉・、%,.:;。！？］）：；＝}¢°\"†‡℃〆％，．"
+      }
+    }
+  ],
+  "actualDefaultSpriteAsset": {
+    "m_FileID": 0,
+    "m_PathID": "0"
+  },
+  "actualEmojiFallbackTextAssets": [],
+  "scope": "same-source original v25 actual Settings value; source data only, native screen acceptance pending"
+}

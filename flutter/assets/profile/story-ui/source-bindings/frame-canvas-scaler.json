@@ -1,0 +1,315 @@
+{
+  "schema": "haneoka-original-frame-canvas-scaler-v1",
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "sourceUiPath": "Assets/AddressableResources/UI/Prefab/UIAdvWidget.prefab",
+  "sourceUiHash": "2485c38fc1b3c31337879c1086f5b6ff959d50e03025220e5f5e9728f923e51d",
+  "originalCanvasReceipt": "/home/xuc/Documents/haneoka-research/coordination-20261012/render-alignment/story/NATIVE-GLYPH/ACTUAL-SOURCE-V25-STORY-CANVAS-ORDER.json",
+  "originalCanvasReceiptSHA256": "c0e60312a869392eb269defe39d4075eba23a525e02f9cd2c2117878c8600b0f",
+  "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/731d662719c2e065913a748717465e555be27ece541acbdac7adaed9bb3fc77b.jsonl.gz",
+  "archiveSHA256": "4876cec383e7aab291fcb8a2ebf40a0b5a288a38ad8ee731f488db910fbf3acc",
+  "canvas": {
+    "data": {
+      "m_AdditionalShaderChannelsFlag": 25,
+      "m_Camera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Enabled": 1,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -4220906247800008416
+      },
+      "m_OverridePixelPerfect": false,
+      "m_OverrideSorting": false,
+      "m_PixelPerfect": false,
+      "m_PlaneDistance": 100.0,
+      "m_ReceivesEvents": true,
+      "m_RenderMode": 1,
+      "m_SortingBucketNormalizedSize": 0.0,
+      "m_SortingLayerID": 0,
+      "m_SortingOrder": 303,
+      "m_TargetDisplay": 0,
+      "m_UpdateRectTransformForStandalone": 0,
+      "m_VertexColorAlwaysGammaSpace": true
+    },
+    "pathId": "7328882602251342112",
+    "record": "object",
+    "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+    "type": "Canvas"
+  },
+  "canvasHierarchy": [
+    {
+      "gameObject": {
+        "data": {
+          "m_Component": [
+            {
+              "component": {
+                "m_FileID": 0,
+                "m_PathID": 1284156736661836064
+              }
+            },
+            {
+              "component": {
+                "m_FileID": 0,
+                "m_PathID": 1285675393170297120
+              }
+            }
+          ],
+          "m_IsActive": true,
+          "m_Layer": 5,
+          "m_Name": "UIAdvWidget",
+          "m_Tag": 0
+        },
+        "pathId": "5115445969225404704",
+        "record": "object",
+        "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+        "type": "GameObject"
+      },
+      "transform": {
+        "data": {
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 215248936410239264
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": -5503390050407001824
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 2589829440607375648
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": -5326111749304790752
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": -4049511113449189088
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 7455397695334994208
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 3188734785984876832
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 3500462670047498528
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 5115445969225404704
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "pathId": "1284156736661836064",
+        "record": "object",
+        "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+        "type": "Transform"
+      }
+    },
+    {
+      "gameObject": {
+        "data": {
+          "m_Component": [
+            {
+              "component": {
+                "m_FileID": 0,
+                "m_PathID": 7455397695334994208
+              }
+            },
+            {
+              "component": {
+                "m_FileID": 0,
+                "m_PathID": 7328882602251342112
+              }
+            },
+            {
+              "component": {
+                "m_FileID": 0,
+                "m_PathID": -6820389995662585568
+              }
+            },
+            {
+              "component": {
+                "m_FileID": 0,
+                "m_PathID": 8594169346606125344
+              }
+            }
+          ],
+          "m_IsActive": true,
+          "m_Layer": 5,
+          "m_Name": "FrameCanvas",
+          "m_Tag": 0
+        },
+        "pathId": "-4220906247800008416",
+        "record": "object",
+        "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+        "type": "GameObject"
+      },
+      "transform": {
+        "data": {
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": -8325675029146218208
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 1284156736661836064
+          },
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -4220906247800008416
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        "pathId": "7455397695334994208",
+        "record": "object",
+        "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+        "type": "RectTransform"
+      }
+    }
+  ],
+  "clampedCanvasScaler": {
+    "data": {
+      "_maxAspectThreshold": 2.1666667461395264,
+      "m_DefaultSpriteDPI": 96.0,
+      "m_DynamicPixelsPerUnit": 1.0,
+      "m_Enabled": 1,
+      "m_FallbackScreenDPI": 96.0,
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -4220906247800008416
+      },
+      "m_MatchWidthOrHeight": 0.0,
+      "m_Name": "",
+      "m_PhysicalUnit": 3,
+      "m_PresetInfoIsWorld": 0,
+      "m_ReferencePixelsPerUnit": 100.0,
+      "m_ReferenceResolution": {
+        "x": 1920.0,
+        "y": 1080.0
+      },
+      "m_ScaleFactor": 1.0,
+      "m_ScreenMatchMode": 0,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -8568584349124095861,
+        "reference": {
+          "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "name": "ClampedCanvasScaler",
+          "pathId": "-8568584349124095861",
+          "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+          "status": "resolved",
+          "type": "MonoScript"
+        }
+      },
+      "m_UiScaleMode": 1
+    },
+    "pathId": "8594169346606125344",
+    "record": "object",
+    "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+    "type": "MonoBehaviour"
+  },
+  "script": {
+    "data": {
+      "m_AssemblyName": "Fwk",
+      "m_ClassName": "ClampedCanvasScaler",
+      "m_ExecutionOrder": 0,
+      "m_Name": "ClampedCanvasScaler",
+      "m_Namespace": "Fwk.UI",
+      "m_PropertiesHash": {
+        "bytes[0]": 84,
+        "bytes[10]": 176,
+        "bytes[11]": 234,
+        "bytes[12]": 37,
+        "bytes[13]": 39,
+        "bytes[14]": 77,
+        "bytes[15]": 210,
+        "bytes[1]": 103,
+        "bytes[2]": 29,
+        "bytes[3]": 56,
+        "bytes[4]": 114,
+        "bytes[5]": 192,
+        "bytes[6]": 179,
+        "bytes[7]": 10,
+        "bytes[8]": 204,
+        "bytes[9]": 150
+      }
+    },
+    "pathId": "-8568584349124095861",
+    "record": "object",
+    "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+    "type": "MonoScript"
+  },
+  "scriptArchive": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/46d94c8801590264c5870fa07b17a16fc2f4de88ac4e73c023a908d4f32dc69c.jsonl.gz",
+  "scriptArchiveSHA256": "7a75d364a6a4a1496c6b88afded9fe45242fd1997c43a67edf35e5177b853924",
+  "correction": "Prior canvasScalers collector selected only CanvasScaler class and omitted ClampedCanvasScaler. This distinct record preserves the actual same-GameObject component.",
+  "behaviorContract": {
+    "referenceReadOnly": "ournotes-player src/story/features/canvas.js clampedCanvasSize",
+    "scale": "screenMatchMode0: 2^lerp(log2(pixelWidth/referenceX),log2(pixelHeight/referenceY),matchWidthOrHeight); if pixelAspect>actualMaxAspectThreshold replace scale with threshold/aspect; canvasWidth=pixelWidth/scale;canvasHeight=pixelHeight/scale",
+    "referencePixelsPerUnit": 100,
+    "cameraBinding": "Original Canvas m_Camera is null; dynamic runtime camera assignment remains separate evidence."
+  }
+}

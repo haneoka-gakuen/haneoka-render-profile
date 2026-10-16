@@ -1,0 +1,24 @@
+name: haneoka_render_profile_flutter
+description: Flutter asset bundle for the Haneoka render profile.
+version: 0.1.0
+publish_to: none
+repository: https://github.com/haneoka-gakuen/haneoka-render-profile/tree/main/flutter
+environment:
+  sdk: ^3.13.5
+dependencies:
+  flutter:
+    sdk: flutter
+flutter:
+  assets:
+    - shaders/haneoka.shaderbundle
+    - assets/profile/
+    - assets/profile/effects/
+    - assets/profile/effects/textures/
+    - assets/profile/story-ui/
+    - assets/profile/story-ui/ui/
+    - assets/profile/story-ui/fonts/
+    - assets/profile/story-ui/source-bindings/
+    - assets/profile/story-controls/
+    - assets/profile/story-ui/source-bindings/chat/
+    - assets/profile/story-ui/source-bindings/chat/windows/
+    - assets/profile/story-ui/source-bindings/chat/assets/

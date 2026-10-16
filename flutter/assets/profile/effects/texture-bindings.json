@@ -1,0 +1,304 @@
+{
+  "schema": "haneoka-native-fx-texture-bindings-v1",
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "sourceBuild": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3",
+  "sourceIndexSHA256": "aa00e8033970d3b3fb54c1493a3cad137b23e6c83234c0b5968474609b30087a",
+  "textures": [
+    {
+      "key": "star",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_tap_particle_star.png",
+      "serializedFile": "CAB-4442dc0cf540d28e40a3dffc4f65e501",
+      "pathId": "5880912282431275993",
+      "assetPath": "effects/textures/star.png",
+      "bytes": 2925,
+      "sha256": "8f6f5a058d8f0bec44c19936aa6bd0018c37be32af2ab4e9d40c6fb25800a58a",
+      "descriptorSHA256": "6d0675b98658421b92e094f9c96ef5f7a511b079f9a2cd3028c3cbcb341fea57",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "longStar",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_tap_particle_star_long.png",
+      "serializedFile": "CAB-20bfed53a4bd1b9ed2966689ee030cdb",
+      "pathId": "-6593733604240257820",
+      "assetPath": "effects/textures/longStar.png",
+      "bytes": 7073,
+      "sha256": "3bb92409139d36acceacb6f4ce8b4eb7fd02288b4e06081519ec86b01ff077ae",
+      "descriptorSHA256": "11ead544edaade9a6baef508af086f7c2dd9a103d2193705febe24f7ae1a0c49",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "line",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_tap_line.png",
+      "serializedFile": "CAB-d73da365d3f9aebffcd1d17d03e40019",
+      "pathId": "-3688009789497668223",
+      "assetPath": "effects/textures/line.png",
+      "bytes": 655,
+      "sha256": "2fe2bdc83ace7168f050ef75e4ba50d175b1f6d762f8f8df8549cc0796dac994",
+      "descriptorSHA256": "ba1e17ccc69358cd7dde8b2af62036bc477974a1ae9c1a574c791b11db7e345a",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "pillar",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_tap_pillar.png",
+      "serializedFile": "CAB-1eec388408735c12bfd8781862262a28",
+      "pathId": "2046969055816751950",
+      "assetPath": "effects/textures/pillar.png",
+      "bytes": 1537,
+      "sha256": "6d0a4c4ffdf2721345439b0c4ccb2b2ad0dee4af143500d92c43b970e9d8e52b",
+      "descriptorSHA256": "f9183a37048ddfcb68038cb41cad2acbb09007541ebdff2b66b1cf7bbe45d1cd",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "wall",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_wall.png",
+      "serializedFile": "CAB-a3a1176c42c92785723b6440c3fe41c8",
+      "pathId": "-8563301279841663446",
+      "assetPath": "effects/textures/wall.png",
+      "bytes": 15623,
+      "sha256": "59b9bf1850047b5e09279d0922554d11c22d01db7952c94248eb427fbb3f1380",
+      "descriptorSHA256": "2c8c4442920068fd6575a9d9c882f183962ae1e0158a9ab077dfad0d09e13c18",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "wallSide",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_wall_side.png",
+      "serializedFile": "CAB-33f5724ae888d1f06c58a379f666b0a3",
+      "pathId": "-8156951031278088003",
+      "assetPath": "effects/textures/wallSide.png",
+      "bytes": 9039,
+      "sha256": "31bfe8fb8fbac87dfa30cd95653e87b0782aefa746bd13ae7b1e9d50ff32ebcb",
+      "descriptorSHA256": "2546f9bbba752fd8555197f69c147368bde1d4a1e9959a630dedabe0631a8304",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "centerPillar",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_pillar_center.png",
+      "serializedFile": "CAB-f4ae07fd717bf5bfb786a98f974c1594",
+      "pathId": "-7460713160371070131",
+      "assetPath": "effects/textures/centerPillar.png",
+      "bytes": 13869,
+      "sha256": "fe9a55644a2d400a8492eff85a9a96630b9e6205b4aa3f904c5032a15b497a55",
+      "descriptorSHA256": "6546038ac08bebb064c465e3c511c61ce90e8caed40dd64401031f61ffb33457",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "centerPillar02",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_pillar_center02.png",
+      "serializedFile": "CAB-cb830b6ee6a4a403cb3399a4bf3d6309",
+      "pathId": "-3326664786404354448",
+      "assetPath": "effects/textures/centerPillar02.png",
+      "bytes": 44271,
+      "sha256": "c156d608cdece8d5ab5daf2d7cf7812f601d244b3f67b140ed0a6441747cf9d2",
+      "descriptorSHA256": "da553a8725d69c1a9e0e77b3479d873f6c1f18066ac1449dac23688358bc823e",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "circleIcon",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Texture/ef_circle_icon.png",
+      "serializedFile": "CAB-acf37ddf2a8b2cf2f8f4dff5144c67d1",
+      "pathId": "-5673420996584996281",
+      "assetPath": "effects/textures/circleIcon.png",
+      "bytes": 970,
+      "sha256": "5e27a36de4d894d882e1cae73d0ee36e9407217fd0eeb7b3f89a05de6cf6f63c",
+      "descriptorSHA256": "7c10719afeacc431825b784b12a0cd9472fef0ed23b55bd3e869eebb9662e64d",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "lightLine",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/TextureLight/ef_tap_line_light.png",
+      "serializedFile": "CAB-5f147f84e8aca7c024b2ec5f18d379fc",
+      "pathId": "-8959643932828699937",
+      "assetPath": "effects/textures/lightLine.png",
+      "bytes": 1951,
+      "sha256": "5adc093cdfd7dbd20c19f378282e735d0357bc8443a53a36c430ac64a9d1f15c",
+      "descriptorSHA256": "25c2bcd0b80cbd0ca386761b44337e0c5ac74db3cabb04fcf8550762ccc7e4e6",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here"
+    },
+    {
+      "key": "circleIcon",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/MaterialSimple/ef_circle_icon.png",
+      "serializedFile": "CAB-eab6a4bd8902b6de9fe51f75e59838f4",
+      "pathId": "-144618437693547970",
+      "assetPath": "effects/textures/circleIcon.png",
+      "bytes": 970,
+      "sha256": "5e27a36de4d894d882e1cae73d0ee36e9407217fd0eeb7b3f89a05de6cf6f63c",
+      "descriptorSHA256": "d7b7c2105832f6e52a2fe929b2ef3c149d83e5265b85b04464af1c7eb1e46d5b",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here",
+      "aliasOfIdentity": "CAB-acf37ddf2a8b2cf2f8f4dff5144c67d1:-5673420996584996281",
+      "aliasRule": "exact original Texture2D output identity and byte-SHA equality, not material-name inference"
+    }
+  ],
+  "materials": [
+    {
+      "materialKey": "CAB-4880f5aed222225fb210bd330c2ac58a:-4311989444629681410",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Material/ef_tap_normal_glow.mat",
+      "descriptorSHA256": "a7186c1c9bd6ceae67d632191a7e3eafa3d7b38238f93e15096f6be5288793e3",
+      "objectArchiveSHA256": "4933f4d2c33c8de89b2708772be69d637fcbd4c73e9dae2acbc88848094f6d3c",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "5880912282431275993"
+      },
+      "resolvedTextureIdentity": "CAB-4442dc0cf540d28e40a3dffc4f65e501:5880912282431275993",
+      "textureKey": "star",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-990782654ad7b4d37f96eabf2413d989:-5159910937460172497",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Material/ef_tap_normal_long_glow.mat",
+      "descriptorSHA256": "7a501d7093cad777661e724c2cca3453f15a4fede06347342388f3ad547a707c",
+      "objectArchiveSHA256": "b96622b4739b654416062e2cbea900d08e31044a7753da5aa4ada6434f3887b9",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "-6593733604240257820"
+      },
+      "resolvedTextureIdentity": "CAB-20bfed53a4bd1b9ed2966689ee030cdb:-6593733604240257820",
+      "textureKey": "longStar",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-2007452670f774e1005889aa654ba40a:663563878701159491",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Material/ef_tap_pillar_glow.mat",
+      "descriptorSHA256": "46b95bdc8b9206e9209ff618ef6c05fa28048340d09a15b0787a6e4cfa8bb407",
+      "objectArchiveSHA256": "1de7ad8e14997a8767b10da56a9cf32ae3ed10d0742ee7ff988c2901f084f4a6",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "-7460713160371070131"
+      },
+      "resolvedTextureIdentity": "CAB-f4ae07fd717bf5bfb786a98f974c1594:-7460713160371070131",
+      "textureKey": "centerPillar",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-dc75abb9d1764df9a656b49811166b07:-5988288536432599841",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Material/ef_tap_pillar_glow02.mat",
+      "descriptorSHA256": "c30e60b2575d8bb770e254c551e70d8774de89358cd360055a6316d42ce1bad1",
+      "objectArchiveSHA256": "35c720f136ad401618141412de4ca27044d43c6a8ae5944bde80b65602827954",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "-3326664786404354448"
+      },
+      "resolvedTextureIdentity": "CAB-cb830b6ee6a4a403cb3399a4bf3d6309:-3326664786404354448",
+      "textureKey": "centerPillar02",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-e84117eacb5b8c34c535d4b263eb0682:252634905377859041",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Material/ef_tap_strong_glow.mat",
+      "descriptorSHA256": "7581ead912dd055eb5cdf30d8b74e246cac037e27f684d4a917f747a69c79c49",
+      "objectArchiveSHA256": "3737f6f672be7044f770511bd9df080663d423497d537227c58691372c7355fc",
+      "originalTexturePointer": {
+        "m_FileID": 1,
+        "m_PathID": "-8959643932828699937"
+      },
+      "resolvedTextureIdentity": "CAB-5f147f84e8aca7c024b2ec5f18d379fc:-8959643932828699937",
+      "textureKey": "lightLine",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-90119de8e3efe6e80337c7f6e781385c:-5185635172796245871",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/Material/ef_tap_wall.mat",
+      "descriptorSHA256": "31ac0a494e8d96463e6abdb42c367a3d6613126c72a188a1c5b20d07a65b7681",
+      "objectArchiveSHA256": "b21e68d9098537c6ec53d2f0743d763b27f4cb3226117edd8719ea4a1e3ad067",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "-8563301279841663446"
+      },
+      "resolvedTextureIdentity": "CAB-a3a1176c42c92785723b6440c3fe41c8:-8563301279841663446",
+      "textureKey": "wall",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-f1e203cbe201990cd65c8070561ddb63:-1346694987777622736",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/MaterialLight/tap_flame_light.mat",
+      "descriptorSHA256": "5b50e1dc53f0843f1c9448df5d07c0c68c18805aa9a8381018a373a6625ab50c",
+      "objectArchiveSHA256": "9fe818fe4f10e6516a8565d37c413279a2ecc6f364d6652cd30ac9de70494c6f",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "-8959643932828699937"
+      },
+      "resolvedTextureIdentity": "CAB-5f147f84e8aca7c024b2ec5f18d379fc:-8959643932828699937",
+      "textureKey": "lightLine",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-f3da8da262b20651146720be372f8b49:1036500548831482873",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/MaterialLight/tap_normal_glow_light.mat",
+      "descriptorSHA256": "d9289adf1bd5267a15770a02a36f2c9d9781a3d198aef83fccab6303285df80a",
+      "objectArchiveSHA256": "db2b2ee0595a548c26348dd6dba2ade6d8c2008276a0307b507ba338d0c79893",
+      "originalTexturePointer": {
+        "m_FileID": 1,
+        "m_PathID": "5880912282431275993"
+      },
+      "resolvedTextureIdentity": "CAB-4442dc0cf540d28e40a3dffc4f65e501:5880912282431275993",
+      "textureKey": "star",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-0a0b55b85a2545b747f7a7320c2e1c8b:-694105853399044266",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/MaterialLight/tap_pillar_light.mat",
+      "descriptorSHA256": "1a140ee02aabf183c11978256bc58bd6f63b7f253f225649fc59e0b2358c8377",
+      "objectArchiveSHA256": "0684cf31cc91c6dbfa20527a9b520855a4f3f59fa6d165ed93153941d77fcbfb",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "-7460713160371070131"
+      },
+      "resolvedTextureIdentity": "CAB-f4ae07fd717bf5bfb786a98f974c1594:-7460713160371070131",
+      "textureKey": "centerPillar",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-fa70391ff0e779d127ebbe22769e8745:-8140879830088688585",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/MaterialLight/tap_wall_light.mat",
+      "descriptorSHA256": "f0a77afe866a358a6c389babc82d880d75d3269af4b4e5d54707c95e9665d44b",
+      "objectArchiveSHA256": "b5fcf4ba8b1cef1b35e7c15de5e04e062e57e821b1c1e201d51da44bea609a1a",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "-8563301279841663446"
+      },
+      "resolvedTextureIdentity": "CAB-a3a1176c42c92785723b6440c3fe41c8:-8563301279841663446",
+      "textureKey": "wall",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    },
+    {
+      "materialKey": "CAB-039e01cd40fa851d8c1d1ba108815e2f:2682346770897616179",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/MaterialSimple/note_point_simple.mat",
+      "descriptorSHA256": "4a5c7f149d40d85a1cd5968ac27f27d896f8f4e27427da8a4362f0de35bc6932",
+      "objectArchiveSHA256": "91eef9f784c3f3bfd3ccf658a245d823e2105a20366eabc805014d5ab12fc798",
+      "originalTexturePointer": {
+        "m_FileID": 2,
+        "m_PathID": "-144618437693547970"
+      },
+      "resolvedTextureIdentity": "CAB-eab6a4bd8902b6de9fe51f75e59838f4:-144618437693547970",
+      "textureKey": "circleIcon",
+      "resolution": "unique external preload identity; exact Texture2D source output identity; archive original RGBA/UV property checked"
+    }
+  ],
+  "aliases": [
+    {
+      "key": "circleIcon",
+      "sourcePath": "Assets/AddressableResources/Effect/Live/NoteEffect/common/MaterialSimple/ef_circle_icon.png",
+      "serializedFile": "CAB-eab6a4bd8902b6de9fe51f75e59838f4",
+      "pathId": "-144618437693547970",
+      "assetPath": "effects/textures/circleIcon.png",
+      "bytes": 970,
+      "sha256": "5e27a36de4d894d882e1cae73d0ee36e9407217fd0eeb7b3f89a05de6cf6f63c",
+      "descriptorSHA256": "d7b7c2105832f6e52a2fe929b2ef3c149d83e5265b85b04464af1c7eb1e46d5b",
+      "beforeSHA256": null,
+      "writePhase": "created locally in first strict binding pass; byte verified here",
+      "aliasOfIdentity": "CAB-acf37ddf2a8b2cf2f8f4dff5144c67d1:-5673420996584996281",
+      "aliasRule": "exact original Texture2D output identity and byte-SHA equality, not material-name inference"
+    }
+  ],
+  "writes": "10 local actual PNG files and pure identity data; no shader program or remote writes"
+}

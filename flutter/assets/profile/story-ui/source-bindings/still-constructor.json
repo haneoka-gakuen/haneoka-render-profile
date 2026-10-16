@@ -1,0 +1,35 @@
+{
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "actualFadeEase": 6,
+  "actualInitialOverlayAlpha": 0.0,
+  "serializedBackgroundAlpha": 1.0,
+  "backgroundAwakeAlpha": 0,
+  "defaultUpdateType": 0,
+  "timeScale": 1.0,
+  "defaultTimeScaleIndependent": false,
+  "sources": {
+    "dotween": {
+      "receiptSHA256": "e32eca4ff3509685f1257bb753353f56bb85e589cc85a942a73656c634111fac",
+      "apkSHA256": "c0b6a1541e4562533aaeb2c65062cb6202913b2aec5aae80d371c4fc04409fa9",
+      "rawObjectSHA256": "680f11d638e2e6d66ffb8e2a8b3159369258c307008c3ba842600661ede69f71",
+      "serializedFile": "resources.assets",
+      "pathID": "1466"
+    },
+    "stillView": {
+      "receiptSHA256": "5f30b030b316980da0b8f9a7a14e33731ba6b8bf5acdbc7e6a6a71b84dd71662",
+      "archiveSHA256": "4876cec383e7aab291fcb8a2ebf40a0b5a288a38ad8ee731f488db910fbf3acc",
+      "sourceUiPath": "Assets/AddressableResources/UI/Prefab/UIAdvWidget.prefab",
+      "owner": {
+        "pathId": "4945975519301357856",
+        "serializedFile": "CAB-12be6bfd20325c7cd5f9b4a0383f09b5",
+        "type": "MonoBehaviour"
+      },
+      "overlay": {
+        "a": 0.0,
+        "b": 0.0,
+        "g": 0.0,
+        "r": 0.0
+      }
+    }
+  }
+}

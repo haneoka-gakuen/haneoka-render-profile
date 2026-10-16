@@ -1,0 +1,13 @@
+name: haneoka_render_profile
+version: 0.1.0
+publish_to: none
+repository: https://github.com/haneoka-gakuen/haneoka-render-profile
+environment:
+  sdk: ^3.13.5
+dependencies:
+  render_contracts:
+    git:
+      url: https://github.com/haneoka-gakuen/render-kernel-flutter.git
+      ref: d810428b8719d083ab97dda77dc3ce7de0ace444
+      path: packages/render_contracts
+  vector_math: ^2.2.0

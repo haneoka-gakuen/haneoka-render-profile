@@ -1,0 +1,481 @@
+{
+  "schema": "haneoka-frame-shader-metadata-bindings-v1",
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "originalYumePacketSHA256": "1ee7221cf0467e68081a725206f6c6026eb3548eaeb855c6d0934a05051760d3",
+  "admittedOriginalShaderPacketSHA256": "dff903db6360a09247f68204551d1f0af5af77fa2c7f26851d978169df22edda",
+  "materialShaderReferences": {
+    "CAB-ee80218f0b8059344fc942ec626102bc:3045718334174560103": {
+      "m_FileID": 1,
+      "m_PathID": 2855819893914472268,
+      "reference": {
+        "externalPath": "archive:/CAB-2c5356e79f69045d7bac8b91666d9255/CAB-2c5356e79f69045d7bac8b91666d9255",
+        "name": "Mobile/Particles/Additive",
+        "pathId": "2855819893914472268",
+        "serializedFile": "CAB-2c5356e79f69045d7bac8b91666d9255",
+        "status": "resolved",
+        "type": "Shader"
+      }
+    }
+  },
+  "materialShaderMetadata": {
+    "CAB-ee80218f0b8059344fc942ec626102bc:3045718334174560103": {
+      "serializedFile": "CAB-2c5356e79f69045d7bac8b91666d9255",
+      "pathId": "2855819893914472268",
+      "type": "Shader",
+      "name": "Mobile/Particles/Additive",
+      "properties": {
+        "m_Props": [
+          {
+            "m_Attributes": [],
+            "m_DefTexture": {
+              "m_DefaultName": "white",
+              "m_TexDim": 2
+            },
+            "m_DefValue[0]": 0.0,
+            "m_DefValue[1]": 0.0,
+            "m_DefValue[2]": 0.0,
+            "m_DefValue[3]": 0.0,
+            "m_Description": "Particle Texture",
+            "m_Flags": 0,
+            "m_Name": "_MainTex",
+            "m_Type": 4
+          }
+        ]
+      },
+      "subShaders": [
+        {
+          "m_LOD": 0,
+          "m_Tags": {
+            "tags": [
+              [
+                "IGNOREPROJECTOR",
+                "true"
+              ],
+              [
+                "PreviewType",
+                "Plane"
+              ],
+              [
+                "QUEUE",
+                "Transparent"
+              ],
+              [
+                "RenderType",
+                "Transparent"
+              ]
+            ]
+          },
+          "m_Passes": [
+            {
+              "m_Name": "",
+              "m_State": {
+                "alphaToMask": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "conservative": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "culling": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "fogColor": {
+                  "name": "<noninit>",
+                  "w": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "x": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "y": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "z": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  }
+                },
+                "fogDensity": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "fogEnd": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "fogMode": 0,
+                "fogStart": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "gpuProgramID": 10119,
+                "lighting": false,
+                "m_LOD": 0,
+                "m_Name": "",
+                "m_Tags": {
+                  "tags": [
+                    [
+                      "IGNOREPROJECTOR",
+                      "true"
+                    ],
+                    [
+                      "PreviewType",
+                      "Plane"
+                    ],
+                    [
+                      "QUEUE",
+                      "Transparent"
+                    ],
+                    [
+                      "RenderType",
+                      "Transparent"
+                    ]
+                  ]
+                },
+                "offsetFactor": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "offsetUnits": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "rtBlend0": {
+                  "blendOp": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "blendOpAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "colMask": {
+                    "name": "<noninit>",
+                    "val": 15.0
+                  },
+                  "destBlend": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "destBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "srcBlend": {
+                    "name": "<noninit>",
+                    "val": 5.0
+                  },
+                  "srcBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 5.0
+                  }
+                },
+                "rtBlend1": {
+                  "blendOp": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "blendOpAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "colMask": {
+                    "name": "<noninit>",
+                    "val": 15.0
+                  },
+                  "destBlend": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "destBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "srcBlend": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "srcBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  }
+                },
+                "rtBlend2": {
+                  "blendOp": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "blendOpAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "colMask": {
+                    "name": "<noninit>",
+                    "val": 15.0
+                  },
+                  "destBlend": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "destBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "srcBlend": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "srcBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  }
+                },
+                "rtBlend3": {
+                  "blendOp": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "blendOpAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "colMask": {
+                    "name": "<noninit>",
+                    "val": 15.0
+                  },
+                  "destBlend": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "destBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "srcBlend": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "srcBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  }
+                },
+                "rtBlend4": {
+                  "blendOp": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "blendOpAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "colMask": {
+                    "name": "<noninit>",
+                    "val": 15.0
+                  },
+                  "destBlend": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "destBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "srcBlend": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "srcBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  }
+                },
+                "rtBlend5": {
+                  "blendOp": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "blendOpAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "colMask": {
+                    "name": "<noninit>",
+                    "val": 15.0
+                  },
+                  "destBlend": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "destBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "srcBlend": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "srcBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  }
+                },
+                "rtBlend6": {
+                  "blendOp": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "blendOpAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "colMask": {
+                    "name": "<noninit>",
+                    "val": 15.0
+                  },
+                  "destBlend": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "destBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "srcBlend": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "srcBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  }
+                },
+                "rtBlend7": {
+                  "blendOp": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "blendOpAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "colMask": {
+                    "name": "<noninit>",
+                    "val": 15.0
+                  },
+                  "destBlend": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "destBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "srcBlend": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  },
+                  "srcBlendAlpha": {
+                    "name": "<noninit>",
+                    "val": 1.0
+                  }
+                },
+                "rtSeparateBlend": false,
+                "stencilOp": {
+                  "comp": {
+                    "name": "<noninit>",
+                    "val": 8.0
+                  },
+                  "fail": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "pass": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "zFail": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  }
+                },
+                "stencilOpBack": {
+                  "comp": {
+                    "name": "<noninit>",
+                    "val": 8.0
+                  },
+                  "fail": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "pass": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "zFail": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  }
+                },
+                "stencilOpFront": {
+                  "comp": {
+                    "name": "<noninit>",
+                    "val": 8.0
+                  },
+                  "fail": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "pass": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  },
+                  "zFail": {
+                    "name": "<noninit>",
+                    "val": 0.0
+                  }
+                },
+                "stencilReadMask": {
+                  "name": "<noninit>",
+                  "val": 255.0
+                },
+                "stencilRef": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                },
+                "stencilWriteMask": {
+                  "name": "<noninit>",
+                  "val": 255.0
+                },
+                "zClip": {
+                  "name": "<noninit>",
+                  "val": 1.0
+                },
+                "zTest": {
+                  "name": "<noninit>",
+                  "val": 4.0
+                },
+                "zWrite": {
+                  "name": "<noninit>",
+                  "val": 0.0
+                }
+              },
+              "m_Tags": {
+                "tags": []
+              },
+              "m_TextureName": "",
+              "m_Type": 0,
+              "m_UseName": ""
+            }
+          ]
+        }
+      ],
+      "fallback": ""
+    }
+  }
+}

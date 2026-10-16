@@ -1,0 +1,33 @@
+{
+  "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
+  "rows": [
+    {
+      "sourceUiPath": "Assets/AddressableResources/UI/Prefab/Parts/Adv/Talk/UIDefaultTalkWindow.prefab",
+      "descriptorHash": "069e4242ad4895d2e6d150b516409e396e8c0ce1bc8e8c8dbb22970035303244",
+      "sourceUiHash": "8be31c635ad14a3f0b996ca179c82840a7bd1e12fafd289ef90bef3775f34e53",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/5c89ffc2aca2e958309b9aabf6420bd4e0cd9d7bdddd2cc03033f6d8611b9403.jsonl.gz",
+      "objectId": "7652627220368314412",
+      "script": "UIAdvTalkWindow",
+      "typingDelaySeconds": 0.05000000074505806
+    },
+    {
+      "sourceUiPath": "Assets/AddressableResources/UI/Prefab/Parts/Adv/Talk/UICenterTalkWindow.prefab",
+      "descriptorHash": "7024aa4c220e3c4db240ef644a7f1b61756245e03238f83fae277b1fd3fb0b14",
+      "sourceUiHash": "7a7fe7d3a9dbbed73a35f2d100383bc3c07aad5c26cd75f8d4b3b63d1e37ae02",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/7c5b2d1cc2625abe4b621468be87fb4afc24790e9987861ce3992d43f11f51e9.jsonl.gz",
+      "objectId": "5667057683337401556",
+      "script": "UIAdvTalkWindow",
+      "typingDelaySeconds": 0.05000000074505806
+    },
+    {
+      "sourceUiPath": "Assets/AddressableResources/UI/Prefab/UIAdvChatWidget.prefab",
+      "sourceUiHash": "e145b8a4c584e59649e9dcbb3a34dc7a6504889862b05bbab00bcd6a5fc7154d",
+      "descriptorHash": "f49c6b049b729cd8fc4637c41dadc50bc0f5b4859adb4739fb95102ec7caa875",
+      "archivePath": "/home/xuc/Documents/our-notes/data/servers/intl/builds/b-v25-c0b6a1541e45-3a5d2eec9935-n653c6392-e6f0a76c38f9d2d3/objects/unity/89e0de1b0c37d6ba5cca0958705cafcaf2a012bf8f1777b5fefff1967a523a55.jsonl.gz",
+      "objectId": "3490222957952212198",
+      "script": "AdvChatView",
+      "typingDelaySeconds": 0.029999999329447746
+    }
+  ],
+  "scope": "Actual immutable original prefab fields, no default guessing or runtime UI acceptance"
+}

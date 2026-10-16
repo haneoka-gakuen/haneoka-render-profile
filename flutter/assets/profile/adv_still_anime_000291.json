@@ -1,0 +1,2038 @@
+{
+  "schema": "haneoka-still-presentation-v1",
+  "sourcePath": "Assets/AddressableResources/Adv/Still/anime/adv_still_anime_000291/adv_still_anime_000291.prefab",
+  "sourceHash": "8de26cc40b4043dd2019ff7241c2222ca6d62d7422b12e4372d541451d4d26ff",
+  "layout": {
+    "referenceWidth": 1920.0,
+    "camera": {
+      "fieldOfView": 60.0,
+      "nearClip": 0.30000001192092896,
+      "farClip": 1000.0,
+      "planeDistance": 100.0,
+      "hdr": true,
+      "referenceResolution": [
+        1920.0,
+        1080.0
+      ],
+      "screenMatchMode": 0,
+      "matchWidthOrHeight": 0.0
+    },
+    "nodes": [
+      {
+        "id": "6568212284639794730",
+        "siblingIndex": 0,
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-2736131685905869270",
+        "siblingIndex": 0,
+        "parent": "6568212284639794730",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "8696434738903176746",
+        "siblingIndex": 0,
+        "parent": "-2736131685905869270",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1920.0,
+          1920.0
+        ],
+        "scale": [
+          2.0,
+          2.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true,
+        "image": {
+          "enabled": true,
+          "color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "blend": "normal",
+          "preserveAspect": false
+        }
+      },
+      {
+        "id": "-8841395600564365782",
+        "siblingIndex": 1,
+        "parent": "-2736131685905869270",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          1920.0,
+          1080.0
+        ],
+        "scale": [
+          1.2200000286102295,
+          1.2200000286102295
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.2200000286102295,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true,
+        "image": {
+          "enabled": true,
+          "texture": "/runtime/intl/unity/Assets/AddressableResources/Adv/Still/anime/adv_still_anime_000291/data/adv_still_anime_000291.png/adv_still_anime_000291--Sprite-2414874609657483714.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "blend": "normal",
+          "preserveAspect": false
+        }
+      },
+      {
+        "id": "-2841170052220070358",
+        "siblingIndex": 2,
+        "parent": "-2736131685905869270",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          -120.0
+        ],
+        "size": [
+          1920.0,
+          1080.0
+        ],
+        "scale": [
+          1.2200000286102295,
+          1.2200000286102295
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.2200000286102295,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true,
+        "image": {
+          "enabled": true,
+          "texture": "/runtime/intl/unity/Assets/AddressableResources/Adv/Still/anime/adv_still_anime_000291/data/adv_still_anime_000291.png/adv_still_anime_000291--Sprite-2414874609657483714.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "blend": "normal",
+          "preserveAspect": false
+        }
+      },
+      {
+        "id": "3433468654192678442",
+        "siblingIndex": 1,
+        "parent": "6568212284639794730",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-1015225552257952214",
+        "siblingIndex": 0,
+        "parent": "3433468654192678442",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          -1920.0,
+          0.0
+        ],
+        "size": [
+          960.0,
+          1920.0
+        ],
+        "scale": [
+          2.0,
+          2.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true,
+        "image": {
+          "enabled": true,
+          "color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "blend": "normal",
+          "preserveAspect": false
+        }
+      },
+      {
+        "id": "2885026690427115050",
+        "siblingIndex": 1,
+        "parent": "3433468654192678442",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          1920.0,
+          0.0
+        ],
+        "size": [
+          960.0,
+          1920.0
+        ],
+        "scale": [
+          2.0,
+          2.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true,
+        "image": {
+          "enabled": true,
+          "color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "blend": "normal",
+          "preserveAspect": false
+        }
+      },
+      {
+        "id": "-4369294332483086806",
+        "siblingIndex": 2,
+        "parent": "6568212284639794730",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.3869999647140503
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-251175794935540182",
+        "siblingIndex": 0,
+        "parent": "-4369294332483086806",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "8324958612109645354",
+        "siblingIndex": 1,
+        "parent": "-4369294332483086806",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "4978582104236676650",
+        "siblingIndex": 2,
+        "parent": "-4369294332483086806",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-9098429934202137046",
+        "siblingIndex": 3,
+        "parent": "-4369294332483086806",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-5132294977064544726",
+        "siblingIndex": 0,
+        "parent": "-9098429934202137046",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "4722683990852621866",
+        "siblingIndex": 1,
+        "parent": "-9098429934202137046",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-1589444516116769238",
+        "siblingIndex": 2,
+        "parent": "-9098429934202137046",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-4666016299176765910",
+        "siblingIndex": 3,
+        "parent": "-9098429934202137046",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "2624516179783046698",
+        "siblingIndex": 4,
+        "parent": "-9098429934202137046",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "4181600072735315498",
+        "siblingIndex": 5,
+        "parent": "-9098429934202137046",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-1574559528742300118",
+        "siblingIndex": 6,
+        "parent": "-9098429934202137046",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      },
+      {
+        "id": "-7399645405042715094",
+        "siblingIndex": 7,
+        "parent": "-9098429934202137046",
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotation": 0.0,
+        "positionZ": 0.0,
+        "scaleZ": 1.0,
+        "rotationQuaternion": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "opacity": 1.0,
+        "active": true
+      }
+    ]
+  },
+  "sequences": [
+    {
+      "id": "0",
+      "duration": 0.0,
+      "loop": false,
+      "nativeTweens": [],
+      "nativeActions": []
+    },
+    {
+      "id": "1",
+      "duration": 0.0,
+      "loop": false,
+      "nativeTweens": [
+        {
+          "node": "-1015225552257952214",
+          "at": 0.0,
+          "duration": 0.0,
+          "ease": 1,
+          "animationType": 6,
+          "targetKind": "image",
+          "raw": {
+            "animationType": 6,
+            "autoGenerate": 1,
+            "autoKill": 1,
+            "autoPlay": 0,
+            "delay": 0.0,
+            "duration": 0.0,
+            "easeCurve": {
+              "m_Curve": [
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 0.0,
+                  "value": 0.0,
+                  "weightedMode": 0
+                },
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 1.0,
+                  "value": 1.0,
+                  "weightedMode": 0
+                }
+              ],
+              "m_PostInfinity": 2,
+              "m_PreInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "easeType": 1,
+            "endValueColor": {
+              "a": 0.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "endValueFloat": 0.0,
+            "endValueRect": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueString": "",
+            "endValueTransform": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "endValueV2": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueV3": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "forcedTargetType": 0,
+            "hasOnComplete": 0,
+            "hasOnPlay": 0,
+            "hasOnRewind": 0,
+            "hasOnStart": 0,
+            "hasOnStepComplete": 0,
+            "hasOnTweenCreated": 0,
+            "hasOnUpdate": 0,
+            "id": "",
+            "isActive": 1,
+            "isFrom": 0,
+            "isIndependentUpdate": 0,
+            "isRelative": 0,
+            "isSpeedBased": 0,
+            "isValid": 1,
+            "loopType": 0,
+            "loops": 1,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -2960093350235810262
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 4376899397915900315,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "DOTweenAnimation",
+                "pathId": "4376899397915900315",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "onComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": [
+                  {
+                    "m_Arguments": {
+                      "m_BoolArgument": 0,
+                      "m_FloatArgument": 0.0,
+                      "m_IntArgument": 0,
+                      "m_ObjectArgument": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                      "m_StringArgument": ""
+                    },
+                    "m_CallState": 2,
+                    "m_MethodName": "DOPlay",
+                    "m_Mode": 1,
+                    "m_Target": {
+                      "m_FileID": 0,
+                      "m_PathID": -5410932063897725398
+                    },
+                    "m_TargetAssemblyTypeName": "DG.Tweening.DOTweenAnimation, DOTweenPro.Scripts"
+                  }
+                ]
+              }
+            },
+            "onPlay": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onRewind": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStart": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStepComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onTweenCreated": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onUpdate": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "optionalBool0": 0,
+            "optionalBool1": 0,
+            "optionalFloat0": 0.0,
+            "optionalInt0": 0,
+            "optionalRotationMode": 0,
+            "optionalScrambleMode": 0,
+            "optionalShakeRandomnessMode": 0,
+            "optionalString": "",
+            "target": {
+              "m_FileID": 0,
+              "m_PathID": 7865171096751756842
+            },
+            "targetGO": {
+              "m_FileID": 0,
+              "m_PathID": -92890540256930262
+            },
+            "targetIsSelf": 0,
+            "targetType": 3,
+            "tweenTargetIsTargetGO": 1,
+            "updateType": 0,
+            "useTargetAsV3": 0
+          }
+        },
+        {
+          "node": "2885026690427115050",
+          "at": 0.0,
+          "duration": 0.0,
+          "ease": 1,
+          "animationType": 6,
+          "targetKind": "image",
+          "raw": {
+            "animationType": 6,
+            "autoGenerate": 1,
+            "autoKill": 1,
+            "autoPlay": 0,
+            "delay": 0.0,
+            "duration": 0.0,
+            "easeCurve": {
+              "m_Curve": [
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 0.0,
+                  "value": 0.0,
+                  "weightedMode": 0
+                },
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 1.0,
+                  "value": 1.0,
+                  "weightedMode": 0
+                }
+              ],
+              "m_PostInfinity": 2,
+              "m_PreInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "easeType": 1,
+            "endValueColor": {
+              "a": 0.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "endValueFloat": 0.0,
+            "endValueRect": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueString": "",
+            "endValueTransform": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "endValueV2": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueV3": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "forcedTargetType": 0,
+            "hasOnComplete": 0,
+            "hasOnPlay": 0,
+            "hasOnRewind": 0,
+            "hasOnStart": 0,
+            "hasOnStepComplete": 0,
+            "hasOnTweenCreated": 0,
+            "hasOnUpdate": 0,
+            "id": "",
+            "isActive": 1,
+            "isFrom": 0,
+            "isIndependentUpdate": 0,
+            "isRelative": 0,
+            "isSpeedBased": 0,
+            "isValid": 1,
+            "loopType": 0,
+            "loops": 1,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -8805050065785530838
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 4376899397915900315,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "DOTweenAnimation",
+                "pathId": "4376899397915900315",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "onComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": [
+                  {
+                    "m_Arguments": {
+                      "m_BoolArgument": 0,
+                      "m_FloatArgument": 0.0,
+                      "m_IntArgument": 0,
+                      "m_ObjectArgument": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                      "m_StringArgument": ""
+                    },
+                    "m_CallState": 2,
+                    "m_MethodName": "DOPlay",
+                    "m_Mode": 1,
+                    "m_Target": {
+                      "m_FileID": 0,
+                      "m_PathID": -5410932063897725398
+                    },
+                    "m_TargetAssemblyTypeName": "DG.Tweening.DOTweenAnimation, DOTweenPro.Scripts"
+                  }
+                ]
+              }
+            },
+            "onPlay": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onRewind": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStart": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStepComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onTweenCreated": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onUpdate": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "optionalBool0": 0,
+            "optionalBool1": 0,
+            "optionalFloat0": 0.0,
+            "optionalInt0": 0,
+            "optionalRotationMode": 0,
+            "optionalScrambleMode": 0,
+            "optionalShakeRandomnessMode": 0,
+            "optionalString": "",
+            "target": {
+              "m_FileID": 0,
+              "m_PathID": -2272972241453525462
+            },
+            "targetGO": {
+              "m_FileID": 0,
+              "m_PathID": 3603653962196178474
+            },
+            "targetIsSelf": 0,
+            "targetType": 3,
+            "tweenTargetIsTargetGO": 1,
+            "updateType": 0,
+            "useTargetAsV3": 0
+          }
+        },
+        {
+          "node": "-2736131685905869270",
+          "at": 0.0,
+          "duration": 0.0,
+          "ease": 3,
+          "animationType": 5,
+          "targetKind": "transform",
+          "raw": {
+            "animationType": 5,
+            "autoGenerate": 1,
+            "autoKill": 1,
+            "autoPlay": 0,
+            "delay": 0.0,
+            "duration": 0.0,
+            "easeCurve": {
+              "m_Curve": [
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 0.0,
+                  "value": 0.0,
+                  "weightedMode": 0
+                },
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 1.0,
+                  "value": 1.0,
+                  "weightedMode": 0
+                }
+              ],
+              "m_PostInfinity": 2,
+              "m_PreInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "easeType": 3,
+            "endValueColor": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "endValueFloat": 0.699999988079071,
+            "endValueRect": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueString": "",
+            "endValueTransform": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "endValueV2": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueV3": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "forcedTargetType": 0,
+            "hasOnComplete": 1,
+            "hasOnPlay": 0,
+            "hasOnRewind": 0,
+            "hasOnStart": 0,
+            "hasOnStepComplete": 0,
+            "hasOnTweenCreated": 0,
+            "hasOnUpdate": 0,
+            "id": "",
+            "isActive": 1,
+            "isFrom": 0,
+            "isIndependentUpdate": 0,
+            "isRelative": 0,
+            "isSpeedBased": 0,
+            "isValid": 1,
+            "loopType": 0,
+            "loops": 1,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1506645297121580586
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 4376899397915900315,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "DOTweenAnimation",
+                "pathId": "4376899397915900315",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "onComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": [
+                  {
+                    "m_Arguments": {
+                      "m_BoolArgument": 0,
+                      "m_FloatArgument": 0.0,
+                      "m_IntArgument": 0,
+                      "m_ObjectArgument": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                      "m_StringArgument": ""
+                    },
+                    "m_CallState": 2,
+                    "m_MethodName": "DOPlay",
+                    "m_Mode": 1,
+                    "m_Target": {
+                      "m_FileID": 0,
+                      "m_PathID": 4717464671841605162
+                    },
+                    "m_TargetAssemblyTypeName": "DG.Tweening.DOTweenAnimation, DOTweenPro.Scripts"
+                  }
+                ]
+              }
+            },
+            "onPlay": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onRewind": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStart": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStepComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onTweenCreated": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onUpdate": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "optionalBool0": 1,
+            "optionalBool1": 0,
+            "optionalFloat0": 0.0,
+            "optionalInt0": 0,
+            "optionalRotationMode": 0,
+            "optionalScrambleMode": 0,
+            "optionalShakeRandomnessMode": 0,
+            "optionalString": "",
+            "target": {
+              "m_FileID": 0,
+              "m_PathID": -2736131685905869270
+            },
+            "targetGO": {
+              "m_FileID": 0,
+              "m_PathID": -924109570901682646
+            },
+            "targetIsSelf": 0,
+            "targetType": 11,
+            "tweenTargetIsTargetGO": 1,
+            "updateType": 0,
+            "useTargetAsV3": 0
+          }
+        },
+        {
+          "node": "-2736131685905869270",
+          "at": 0.0,
+          "duration": 0.0,
+          "ease": 1,
+          "animationType": 3,
+          "targetKind": "transform",
+          "raw": {
+            "animationType": 3,
+            "autoGenerate": 1,
+            "autoKill": 1,
+            "autoPlay": 0,
+            "delay": 0.0,
+            "duration": 0.0,
+            "easeCurve": {
+              "m_Curve": [
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 0.0,
+                  "value": 0.0,
+                  "weightedMode": 0
+                },
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 1.0,
+                  "value": 1.0,
+                  "weightedMode": 0
+                }
+              ],
+              "m_PostInfinity": 2,
+              "m_PreInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "easeType": 1,
+            "endValueColor": {
+              "a": 1.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "endValueFloat": 0.0,
+            "endValueRect": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueString": "",
+            "endValueTransform": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "endValueV2": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueV3": {
+              "x": 5.0,
+              "y": 8.0,
+              "z": 3.0
+            },
+            "forcedTargetType": 0,
+            "hasOnComplete": 1,
+            "hasOnPlay": 0,
+            "hasOnRewind": 0,
+            "hasOnStart": 0,
+            "hasOnStepComplete": 0,
+            "hasOnTweenCreated": 0,
+            "hasOnUpdate": 0,
+            "id": "",
+            "isActive": 1,
+            "isFrom": 0,
+            "isIndependentUpdate": 0,
+            "isRelative": 0,
+            "isSpeedBased": 0,
+            "isValid": 1,
+            "loopType": 0,
+            "loops": 1,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -975182379599931862
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 4376899397915900315,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "DOTweenAnimation",
+                "pathId": "4376899397915900315",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "onComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": [
+                  {
+                    "m_Arguments": {
+                      "m_BoolArgument": 0,
+                      "m_FloatArgument": 0.0,
+                      "m_IntArgument": 0,
+                      "m_ObjectArgument": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                      "m_StringArgument": ""
+                    },
+                    "m_CallState": 2,
+                    "m_MethodName": "DOPlay",
+                    "m_Mode": 1,
+                    "m_Target": {
+                      "m_FileID": 0,
+                      "m_PathID": -5410932063897725398
+                    },
+                    "m_TargetAssemblyTypeName": "DG.Tweening.DOTweenAnimation, DOTweenPro.Scripts"
+                  }
+                ]
+              }
+            },
+            "onPlay": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onRewind": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStart": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStepComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onTweenCreated": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onUpdate": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "optionalBool0": 0,
+            "optionalBool1": 0,
+            "optionalFloat0": 0.0,
+            "optionalInt0": 0,
+            "optionalRotationMode": 0,
+            "optionalScrambleMode": 0,
+            "optionalShakeRandomnessMode": 0,
+            "optionalString": "",
+            "target": {
+              "m_FileID": 0,
+              "m_PathID": -2736131685905869270
+            },
+            "targetGO": {
+              "m_FileID": 0,
+              "m_PathID": -2470162279364700630
+            },
+            "targetIsSelf": 0,
+            "targetType": 11,
+            "tweenTargetIsTargetGO": 1,
+            "updateType": 0,
+            "useTargetAsV3": 0
+          }
+        }
+      ],
+      "nativeActions": []
+    },
+    {
+      "id": "2",
+      "duration": 0.0,
+      "loop": false,
+      "nativeTweens": [
+        {
+          "node": "-2841170052220070358",
+          "at": 0.0,
+          "duration": 0.0,
+          "ease": 1,
+          "animationType": 6,
+          "targetKind": "image",
+          "raw": {
+            "animationType": 6,
+            "autoGenerate": 1,
+            "autoKill": 1,
+            "autoPlay": 0,
+            "delay": 0.0,
+            "duration": 0.0,
+            "easeCurve": {
+              "m_Curve": [
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 0.0,
+                  "value": 0.0,
+                  "weightedMode": 0
+                },
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 1.0,
+                  "value": 1.0,
+                  "weightedMode": 0
+                }
+              ],
+              "m_PostInfinity": 2,
+              "m_PreInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "easeType": 1,
+            "endValueColor": {
+              "a": 1.0,
+              "b": 0.48627451062202454,
+              "g": 0.658823549747467,
+              "r": 0.9098039269447327
+            },
+            "endValueFloat": 0.0,
+            "endValueRect": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueString": "",
+            "endValueTransform": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "endValueV2": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueV3": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "forcedTargetType": 0,
+            "hasOnComplete": 0,
+            "hasOnPlay": 0,
+            "hasOnRewind": 0,
+            "hasOnStart": 0,
+            "hasOnStepComplete": 0,
+            "hasOnTweenCreated": 0,
+            "hasOnUpdate": 0,
+            "id": "",
+            "isActive": 1,
+            "isFrom": 0,
+            "isIndependentUpdate": 0,
+            "isRelative": 0,
+            "isSpeedBased": 0,
+            "isValid": 1,
+            "loopType": 0,
+            "loops": 1,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -8632806072105511382
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 4376899397915900315,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "DOTweenAnimation",
+                "pathId": "4376899397915900315",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "onComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": [
+                  {
+                    "m_Arguments": {
+                      "m_BoolArgument": 0,
+                      "m_FloatArgument": 0.0,
+                      "m_IntArgument": 0,
+                      "m_ObjectArgument": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                      "m_StringArgument": ""
+                    },
+                    "m_CallState": 2,
+                    "m_MethodName": "DOPlay",
+                    "m_Mode": 1,
+                    "m_Target": {
+                      "m_FileID": 0,
+                      "m_PathID": -5410932063897725398
+                    },
+                    "m_TargetAssemblyTypeName": "DG.Tweening.DOTweenAnimation, DOTweenPro.Scripts"
+                  }
+                ]
+              }
+            },
+            "onPlay": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onRewind": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStart": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStepComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onTweenCreated": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onUpdate": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "optionalBool0": 0,
+            "optionalBool1": 0,
+            "optionalFloat0": 0.0,
+            "optionalInt0": 0,
+            "optionalRotationMode": 0,
+            "optionalScrambleMode": 0,
+            "optionalShakeRandomnessMode": 0,
+            "optionalString": "",
+            "target": {
+              "m_FileID": 0,
+              "m_PathID": -5932597381882063318
+            },
+            "targetGO": {
+              "m_FileID": 0,
+              "m_PathID": 6818853964178642474
+            },
+            "targetIsSelf": 0,
+            "targetType": 3,
+            "tweenTargetIsTargetGO": 1,
+            "updateType": 0,
+            "useTargetAsV3": 0
+          }
+        },
+        {
+          "node": "-8841395600564365782",
+          "at": 0.0,
+          "duration": 0.0,
+          "ease": 1,
+          "animationType": 6,
+          "targetKind": "image",
+          "raw": {
+            "animationType": 6,
+            "autoGenerate": 1,
+            "autoKill": 1,
+            "autoPlay": 0,
+            "delay": 0.0,
+            "duration": 0.0,
+            "easeCurve": {
+              "m_Curve": [
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 0.0,
+                  "value": 0.0,
+                  "weightedMode": 0
+                },
+                {
+                  "inSlope": 0.0,
+                  "inWeight": 0.0,
+                  "outSlope": 0.0,
+                  "outWeight": 0.0,
+                  "time": 1.0,
+                  "value": 1.0,
+                  "weightedMode": 0
+                }
+              ],
+              "m_PostInfinity": 2,
+              "m_PreInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "easeType": 1,
+            "endValueColor": {
+              "a": 0.0,
+              "b": 1.0,
+              "g": 1.0,
+              "r": 1.0
+            },
+            "endValueFloat": 0.0,
+            "endValueRect": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueString": "",
+            "endValueTransform": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "endValueV2": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "endValueV3": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "forcedTargetType": 0,
+            "hasOnComplete": 0,
+            "hasOnPlay": 0,
+            "hasOnRewind": 0,
+            "hasOnStart": 0,
+            "hasOnStepComplete": 0,
+            "hasOnTweenCreated": 0,
+            "hasOnUpdate": 0,
+            "id": "",
+            "isActive": 1,
+            "isFrom": 0,
+            "isIndependentUpdate": 0,
+            "isRelative": 0,
+            "isSpeedBased": 0,
+            "isValid": 1,
+            "loopType": 0,
+            "loops": 1,
+            "m_Enabled": 1,
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 6815303756616947242
+            },
+            "m_Name": "",
+            "m_Script": {
+              "m_FileID": 1,
+              "m_PathID": 4376899397915900315,
+              "reference": {
+                "externalPath": "archive:/CAB-26bec939c462ea1051f1dd59d8bb943a/CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "name": "DOTweenAnimation",
+                "pathId": "4376899397915900315",
+                "serializedFile": "CAB-26bec939c462ea1051f1dd59d8bb943a",
+                "status": "resolved",
+                "type": "MonoScript"
+              }
+            },
+            "onComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": [
+                  {
+                    "m_Arguments": {
+                      "m_BoolArgument": 0,
+                      "m_FloatArgument": 0.0,
+                      "m_IntArgument": 0,
+                      "m_ObjectArgument": {
+                        "m_FileID": 0,
+                        "m_PathID": 0
+                      },
+                      "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                      "m_StringArgument": ""
+                    },
+                    "m_CallState": 2,
+                    "m_MethodName": "DOPlay",
+                    "m_Mode": 1,
+                    "m_Target": {
+                      "m_FileID": 0,
+                      "m_PathID": -5410932063897725398
+                    },
+                    "m_TargetAssemblyTypeName": "DG.Tweening.DOTweenAnimation, DOTweenPro.Scripts"
+                  }
+                ]
+              }
+            },
+            "onPlay": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onRewind": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStart": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onStepComplete": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onTweenCreated": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "onUpdate": {
+              "m_PersistentCalls": {
+                "m_Calls": []
+              }
+            },
+            "optionalBool0": 0,
+            "optionalBool1": 0,
+            "optionalFloat0": 0.0,
+            "optionalInt0": 0,
+            "optionalRotationMode": 0,
+            "optionalScrambleMode": 0,
+            "optionalShakeRandomnessMode": 0,
+            "optionalString": "",
+            "target": {
+              "m_FileID": 0,
+              "m_PathID": -6964978082923293142
+            },
+            "targetGO": {
+              "m_FileID": 0,
+              "m_PathID": -2470162279364700630
+            },
+            "targetIsSelf": 0,
+            "targetType": 3,
+            "tweenTargetIsTargetGO": 1,
+            "updateType": 0,
+            "useTargetAsV3": 0
+          }
+        }
+      ],
+      "nativeActions": []
+    }
+  ],
+  "nativeActions": [],
+  "unsupportedFeatures": []
+}

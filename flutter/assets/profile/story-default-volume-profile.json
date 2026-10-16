@@ -1,0 +1,1083 @@
+{
+  "name": "DefaultVolumeProfile",
+  "componentOrder": [
+    "Bloom",
+    "MotionBlur",
+    "FilmGrain",
+    "LiftGammaGain",
+    "ColorAdjustments",
+    "ColorCurves",
+    "Tonemapping",
+    "ScreenSpaceLensFlare",
+    "DepthOfField",
+    "ShadowsMidtonesHighlights",
+    "ChromaticAberration",
+    "SplitToning",
+    "PaniniProjection",
+    "WhiteBalance",
+    "ChannelMixer",
+    "Vignette",
+    "LensDistortion",
+    "ColorLookup",
+    "ProbeVolumesOptions",
+    "ChromaticAberrationVolume",
+    "DualKawaseBlurVolume",
+    "ParaffinVolume",
+    "RadialBlurVolume",
+    "AdvCurvedLens"
+  ],
+  "components": {
+    "Bloom": {
+      "name": "Bloom",
+      "active": true,
+      "fields": {
+        "skipIterations": {
+          "override": true,
+          "value": 1
+        },
+        "threshold": {
+          "override": true,
+          "value": 0.8999999761581421
+        },
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "scatter": {
+          "override": true,
+          "value": 0.699999988079071
+        },
+        "clamp": {
+          "override": true,
+          "value": 65472.0
+        },
+        "tint": {
+          "override": true,
+          "value": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          }
+        },
+        "highQualityFiltering": {
+          "override": true,
+          "value": false
+        },
+        "filter": {
+          "override": true,
+          "value": 0
+        },
+        "downscale": {
+          "override": true,
+          "value": 0
+        },
+        "maxIterations": {
+          "override": true,
+          "value": 6
+        },
+        "dirtTexture": {
+          "override": true,
+          "value": null,
+          "textureDimension": 1
+        },
+        "dirtIntensity": {
+          "override": true,
+          "value": 0.0
+        }
+      }
+    },
+    "MotionBlur": {
+      "name": "MotionBlur",
+      "active": true,
+      "fields": {
+        "mode": {
+          "override": true,
+          "value": 0
+        },
+        "quality": {
+          "override": true,
+          "value": 0
+        },
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "clamp": {
+          "override": true,
+          "value": 0.05000000074505806
+        }
+      }
+    },
+    "FilmGrain": {
+      "name": "FilmGrain",
+      "active": true,
+      "fields": {
+        "type": {
+          "override": true,
+          "value": 0
+        },
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "response": {
+          "override": true,
+          "value": 0.800000011920929
+        },
+        "texture": {
+          "override": true,
+          "value": null
+        }
+      }
+    },
+    "LiftGammaGain": {
+      "name": "LiftGammaGain",
+      "active": true,
+      "fields": {
+        "lift": {
+          "override": true,
+          "value": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 0.0
+          }
+        },
+        "gamma": {
+          "override": true,
+          "value": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 0.0
+          }
+        },
+        "gain": {
+          "override": true,
+          "value": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    "ColorAdjustments": {
+      "name": "ColorAdjustments",
+      "active": true,
+      "fields": {
+        "postExposure": {
+          "override": true,
+          "value": 0.0
+        },
+        "contrast": {
+          "override": true,
+          "value": 0.0
+        },
+        "colorFilter": {
+          "override": true,
+          "value": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          }
+        },
+        "hueShift": {
+          "override": true,
+          "value": 0.0
+        },
+        "saturation": {
+          "override": true,
+          "value": 0.0
+        }
+      }
+    },
+    "ColorCurves": {
+      "name": "ColorCurves",
+      "active": true,
+      "fields": {
+        "master": {
+          "override": true,
+          "value": {
+            "<length>k__BackingField": 2,
+            "m_Loop": false,
+            "m_ZeroValue": 0.0,
+            "m_Range": 1.0,
+            "m_Curve": {
+              "m_Curve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 1.0,
+                  "outSlope": 1.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 1.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        "red": {
+          "override": true,
+          "value": {
+            "<length>k__BackingField": 2,
+            "m_Loop": false,
+            "m_ZeroValue": 0.0,
+            "m_Range": 1.0,
+            "m_Curve": {
+              "m_Curve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 1.0,
+                  "outSlope": 1.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 1.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        "green": {
+          "override": true,
+          "value": {
+            "<length>k__BackingField": 2,
+            "m_Loop": false,
+            "m_ZeroValue": 0.0,
+            "m_Range": 1.0,
+            "m_Curve": {
+              "m_Curve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 1.0,
+                  "outSlope": 1.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 1.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        "blue": {
+          "override": true,
+          "value": {
+            "<length>k__BackingField": 2,
+            "m_Loop": false,
+            "m_ZeroValue": 0.0,
+            "m_Range": 1.0,
+            "m_Curve": {
+              "m_Curve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 1.0,
+                  "outSlope": 1.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 1.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        "hueVsHue": {
+          "override": true,
+          "value": {
+            "<length>k__BackingField": 0,
+            "m_Loop": true,
+            "m_ZeroValue": 0.5,
+            "m_Range": 1.0,
+            "m_Curve": {
+              "m_Curve": [],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        "hueVsSat": {
+          "override": true,
+          "value": {
+            "<length>k__BackingField": 0,
+            "m_Loop": true,
+            "m_ZeroValue": 0.5,
+            "m_Range": 1.0,
+            "m_Curve": {
+              "m_Curve": [],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        "satVsSat": {
+          "override": true,
+          "value": {
+            "<length>k__BackingField": 0,
+            "m_Loop": false,
+            "m_ZeroValue": 0.5,
+            "m_Range": 1.0,
+            "m_Curve": {
+              "m_Curve": [],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        },
+        "lumVsSat": {
+          "override": true,
+          "value": {
+            "<length>k__BackingField": 0,
+            "m_Loop": false,
+            "m_ZeroValue": 0.5,
+            "m_Range": 1.0,
+            "m_Curve": {
+              "m_Curve": [],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            }
+          }
+        }
+      }
+    },
+    "Tonemapping": {
+      "name": "Tonemapping",
+      "active": true,
+      "fields": {
+        "mode": {
+          "override": true,
+          "value": 0
+        },
+        "neutralHDRRangeReductionMode": {
+          "override": true,
+          "value": 2
+        },
+        "acesPreset": {
+          "override": true,
+          "value": 3
+        },
+        "hueShiftAmount": {
+          "override": true,
+          "value": 0.0
+        },
+        "detectPaperWhite": {
+          "override": true,
+          "value": false
+        },
+        "paperWhite": {
+          "override": true,
+          "value": 300.0
+        },
+        "detectBrightnessLimits": {
+          "override": true,
+          "value": true
+        },
+        "minNits": {
+          "override": true,
+          "value": 0.004999999888241291
+        },
+        "maxNits": {
+          "override": true,
+          "value": 1000.0
+        }
+      }
+    },
+    "ScreenSpaceLensFlare": {
+      "name": "ScreenSpaceLensFlare",
+      "active": true,
+      "fields": {
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "tintColor": {
+          "override": true,
+          "value": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          }
+        },
+        "bloomMip": {
+          "override": true,
+          "value": 1
+        },
+        "firstFlareIntensity": {
+          "override": true,
+          "value": 1.0
+        },
+        "secondaryFlareIntensity": {
+          "override": true,
+          "value": 1.0
+        },
+        "warpedFlareIntensity": {
+          "override": true,
+          "value": 1.0
+        },
+        "warpedFlareScale": {
+          "override": true,
+          "value": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        "samples": {
+          "override": true,
+          "value": 1
+        },
+        "sampleDimmer": {
+          "override": true,
+          "value": 0.5
+        },
+        "vignetteEffect": {
+          "override": true,
+          "value": 1.0
+        },
+        "startingPosition": {
+          "override": true,
+          "value": 1.25
+        },
+        "scale": {
+          "override": true,
+          "value": 1.5
+        },
+        "streaksIntensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "streaksLength": {
+          "override": true,
+          "value": 0.5
+        },
+        "streaksOrientation": {
+          "override": true,
+          "value": 0.0
+        },
+        "streaksThreshold": {
+          "override": true,
+          "value": 0.25
+        },
+        "resolution": {
+          "override": true,
+          "value": 4
+        },
+        "chromaticAbberationIntensity": {
+          "override": true,
+          "value": 0.5
+        }
+      }
+    },
+    "DepthOfField": {
+      "name": "DepthOfField",
+      "active": true,
+      "fields": {
+        "mode": {
+          "override": true,
+          "value": 0
+        },
+        "gaussianStart": {
+          "override": true,
+          "value": 10.0
+        },
+        "gaussianEnd": {
+          "override": true,
+          "value": 30.0
+        },
+        "gaussianMaxRadius": {
+          "override": true,
+          "value": 1.0
+        },
+        "highQualitySampling": {
+          "override": true,
+          "value": false
+        },
+        "focusDistance": {
+          "override": true,
+          "value": 10.0
+        },
+        "aperture": {
+          "override": true,
+          "value": 5.599999904632568
+        },
+        "focalLength": {
+          "override": true,
+          "value": 50.0
+        },
+        "bladeCount": {
+          "override": true,
+          "value": 5
+        },
+        "bladeCurvature": {
+          "override": true,
+          "value": 1.0
+        },
+        "bladeRotation": {
+          "override": true,
+          "value": 0.0
+        }
+      }
+    },
+    "ShadowsMidtonesHighlights": {
+      "name": "ShadowsMidtonesHighlights",
+      "active": true,
+      "fields": {
+        "shadows": {
+          "override": true,
+          "value": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 0.0
+          }
+        },
+        "midtones": {
+          "override": true,
+          "value": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 0.0
+          }
+        },
+        "highlights": {
+          "override": true,
+          "value": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 0.0
+          }
+        },
+        "shadowsStart": {
+          "override": true,
+          "value": 0.0
+        },
+        "shadowsEnd": {
+          "override": true,
+          "value": 0.30000001192092896
+        },
+        "highlightsStart": {
+          "override": true,
+          "value": 0.550000011920929
+        },
+        "highlightsEnd": {
+          "override": true,
+          "value": 1.0
+        }
+      }
+    },
+    "ChromaticAberration": {
+      "name": "ChromaticAberration",
+      "active": true,
+      "fields": {
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        }
+      }
+    },
+    "SplitToning": {
+      "name": "SplitToning",
+      "active": true,
+      "fields": {
+        "shadows": {
+          "override": true,
+          "value": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 1.0
+          }
+        },
+        "highlights": {
+          "override": true,
+          "value": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 1.0
+          }
+        },
+        "balance": {
+          "override": true,
+          "value": 0.0
+        }
+      }
+    },
+    "PaniniProjection": {
+      "name": "PaniniProjection",
+      "active": true,
+      "fields": {
+        "distance": {
+          "override": true,
+          "value": 0.0
+        },
+        "cropToFit": {
+          "override": true,
+          "value": 1.0
+        }
+      }
+    },
+    "WhiteBalance": {
+      "name": "WhiteBalance",
+      "active": true,
+      "fields": {
+        "temperature": {
+          "override": true,
+          "value": 0.0
+        },
+        "tint": {
+          "override": true,
+          "value": 0.0
+        }
+      }
+    },
+    "ChannelMixer": {
+      "name": "ChannelMixer",
+      "active": true,
+      "fields": {
+        "redOutRedIn": {
+          "override": true,
+          "value": 100.0
+        },
+        "redOutGreenIn": {
+          "override": true,
+          "value": 0.0
+        },
+        "redOutBlueIn": {
+          "override": true,
+          "value": 0.0
+        },
+        "greenOutRedIn": {
+          "override": true,
+          "value": 0.0
+        },
+        "greenOutGreenIn": {
+          "override": true,
+          "value": 100.0
+        },
+        "greenOutBlueIn": {
+          "override": true,
+          "value": 0.0
+        },
+        "blueOutRedIn": {
+          "override": true,
+          "value": 0.0
+        },
+        "blueOutGreenIn": {
+          "override": true,
+          "value": 0.0
+        },
+        "blueOutBlueIn": {
+          "override": true,
+          "value": 100.0
+        }
+      }
+    },
+    "Vignette": {
+      "name": "Vignette",
+      "active": true,
+      "fields": {
+        "color": {
+          "override": true,
+          "value": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          }
+        },
+        "center": {
+          "override": true,
+          "value": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "smoothness": {
+          "override": true,
+          "value": 0.20000000298023224
+        },
+        "rounded": {
+          "override": true,
+          "value": false
+        }
+      }
+    },
+    "LensDistortion": {
+      "name": "LensDistortion",
+      "active": true,
+      "fields": {
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "xMultiplier": {
+          "override": true,
+          "value": 1.0
+        },
+        "yMultiplier": {
+          "override": true,
+          "value": 1.0
+        },
+        "center": {
+          "override": true,
+          "value": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "scale": {
+          "override": true,
+          "value": 1.0
+        }
+      }
+    },
+    "ColorLookup": {
+      "name": "ColorLookup",
+      "active": true,
+      "fields": {
+        "texture": {
+          "override": true,
+          "value": null,
+          "textureDimension": 1
+        },
+        "contribution": {
+          "override": true,
+          "value": 0.0
+        }
+      }
+    },
+    "ProbeVolumesOptions": {
+      "name": "ProbeVolumesOptions",
+      "active": true,
+      "fields": {
+        "normalBias": {
+          "override": true,
+          "value": 0.05000000074505806
+        },
+        "viewBias": {
+          "override": true,
+          "value": 0.10000000149011612
+        },
+        "scaleBiasWithMinProbeDistance": {
+          "override": true,
+          "value": false
+        },
+        "samplingNoise": {
+          "override": true,
+          "value": 0.10000000149011612
+        },
+        "animateSamplingNoise": {
+          "override": true,
+          "value": true
+        },
+        "leakReductionMode": {
+          "override": true,
+          "value": 2
+        },
+        "minValidDotProductValue": {
+          "override": true,
+          "value": 0.10000000149011612
+        },
+        "occlusionOnlyReflectionNormalization": {
+          "override": true,
+          "value": true
+        },
+        "intensityMultiplier": {
+          "override": true,
+          "value": 1.0
+        },
+        "skyOcclusionIntensityMultiplier": {
+          "override": true,
+          "value": 1.0
+        },
+        "worldOffset": {
+          "override": true,
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    "ChromaticAberrationVolume": {
+      "name": "ChromaticAberrationVolume",
+      "active": true,
+      "fields": {
+        "enabled": {
+          "override": true,
+          "value": false
+        },
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "center": {
+          "override": true,
+          "value": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "DualKawaseBlurVolume": {
+      "name": "DualKawaseBlurVolume",
+      "active": true,
+      "fields": {
+        "enabled": {
+          "override": true,
+          "value": false
+        },
+        "blurBlendRate": {
+          "override": true,
+          "value": 1.0
+        },
+        "iterations": {
+          "override": true,
+          "value": 4
+        },
+        "offset": {
+          "override": true,
+          "value": 1.5
+        },
+        "downsample": {
+          "override": true,
+          "value": 1
+        },
+        "injectionPoint": {
+          "override": true,
+          "value": 600
+        }
+      }
+    },
+    "ParaffinVolume": {
+      "name": "ParaffinVolume",
+      "active": true,
+      "fields": {
+        "enabled": {
+          "override": true,
+          "value": false
+        },
+        "gradientType": {
+          "override": true,
+          "value": 0
+        },
+        "center": {
+          "override": true,
+          "value": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "angle": {
+          "override": true,
+          "value": 90.0
+        },
+        "radius": {
+          "override": true,
+          "value": 0.4000000059604645
+        },
+        "softness": {
+          "override": true,
+          "value": 0.5
+        },
+        "invert": {
+          "override": true,
+          "value": false
+        },
+        "brightColor": {
+          "override": true,
+          "value": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          }
+        },
+        "brightBlend": {
+          "override": true,
+          "value": 2
+        },
+        "brightIntensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "darkColor": {
+          "override": true,
+          "value": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          }
+        },
+        "darkBlend": {
+          "override": true,
+          "value": 1
+        },
+        "darkIntensity": {
+          "override": true,
+          "value": 0.0
+        }
+      }
+    },
+    "RadialBlurVolume": {
+      "name": "RadialBlurVolume",
+      "active": true,
+      "fields": {
+        "enabled": {
+          "override": true,
+          "value": false
+        },
+        "center": {
+          "override": true,
+          "value": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "strength": {
+          "override": true,
+          "value": 0.10000000149011612
+        },
+        "direction": {
+          "override": true,
+          "value": 1.0
+        },
+        "blurBlendRate": {
+          "override": true,
+          "value": 1.0
+        },
+        "samples": {
+          "override": true,
+          "value": 16
+        }
+      }
+    },
+    "AdvCurvedLens": {
+      "name": "AdvCurvedLens",
+      "active": true,
+      "fields": {
+        "center": {
+          "override": true,
+          "value": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "intensity": {
+          "override": true,
+          "value": 0.0
+        },
+        "size": {
+          "override": true,
+          "value": 0.3499999940395355
+        },
+        "softness": {
+          "override": true,
+          "value": 0.20000000298023224
+        },
+        "horizontalRate": {
+          "override": true,
+          "value": 1.0
+        },
+        "verticalRate": {
+          "override": true,
+          "value": 0.15000000596046448
+        },
+        "scale": {
+          "override": true,
+          "value": 1.0
+        },
+        "attenuateByCameraDistance": {
+          "override": true,
+          "value": true
+        },
+        "reverse": {
+          "override": true,
+          "value": true
+        }
+      }
+    }
+  },
+  "curvedLens": {
+    "active": true,
+    "center": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "intensity": 0.0,
+    "size": 0.3499999940395355,
+    "softness": 0.20000000298023224,
+    "horizontalRate": 1.0,
+    "verticalRate": 0.15000000596046448,
+    "scale": 1.0,
+    "attenuateByCameraDistance": true,
+    "reverse": true
+  }
+}

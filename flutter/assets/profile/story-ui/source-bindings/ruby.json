@@ -1,0 +1,38 @@
+[
+  {
+    "id": "-8373647341561982932",
+    "script": "RubyTextMeshProUGUI",
+    "fields": {
+      "_rubyLineHeight": "",
+      "_rubyMargin": 10.0,
+      "_rubyScale": 0.5,
+      "_rubyShowType": 0,
+      "_rubyVerticalOffset": "1em"
+    }
+  },
+  {
+    "id": "-2027504578395189204",
+    "script": "UIRubyText",
+    "fields": {
+      "_rubyMarginTop": -22.0
+    }
+  },
+  {
+    "id": "-100325698232528852",
+    "script": "UIRubyText",
+    "fields": {
+      "_rubyMarginTop": -24.0
+    }
+  },
+  {
+    "id": "3605347048448118828",
+    "script": "RubyEmojiTextMeshProUGUI",
+    "fields": {
+      "_rubyLineHeight": "",
+      "_rubyMargin": 10.0,
+      "_rubyScale": 0.5,
+      "_rubyShowType": 0,
+      "_rubyVerticalOffset": "1em"
+    }
+  }
+]
