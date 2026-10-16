@@ -30,6 +30,10 @@ dart analyze lib
 
 公共绘制合同固定到 `render-kernel-flutter` 的 Git 版本；本地联调可使用各包自己的 `pubspec_overrides.yaml`。根目录的 `assets`、`shaders` 是通向 `flutter/` 的兼容链接，现有资源生产器继续写入同一份文件。
 
+主题通过 `flutter/assets/profile/manifest.json` 声明能力、逐文件 SHA-256 和字节长度。更新资源后运行 `node tool/build-manifest.mjs`，发布前用 `node tool/build-manifest.mjs --check` 核对清单。Flutter 加载器在实际读取时验证文件，大型文本沿用 Flutter 的后台解码方式。
+
+章节保留提供方、版本和媒体身份，视觉主题另有身份和资源清单。历史测量包的 `sourceId` 记录测量来源；新字体、图像和布局校准分别保留其实际来源。
+
 正式故事字体与精灵使用已校验的 descriptor、对象档案和输出文件更新：
 
 ```sh
