@@ -6,6 +6,7 @@ repository: https://github.com/haneoka-gakuen/haneoka-render-profile/tree/main/f
 environment:
   sdk: ^3.13.5
 dependencies:
+  crypto: ^3.0.7
   flutter:
     sdk: flutter
 flutter:
