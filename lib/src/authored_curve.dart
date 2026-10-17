@@ -112,8 +112,10 @@ final class NativeAuthoredMinMaxCurve {
     : minimum = NativeAuthoredCurve(record['minCurve'] as Map),
       maximum = NativeAuthoredCurve(record['maxCurve'] as Map),
       _mode = record['minMaxState'],
-      _scalarValue = (record['scalar'] as num).toDouble(),
-      _minimumScalar = (record['minScalar'] as num).toDouble();
+      _scalarValue = _constructionF32((record['scalar'] as num).toDouble()),
+      _minimumScalar = _constructionF32(
+        (record['minScalar'] as num).toDouble(),
+      );
   final Map record;
   final NativeAuthoredCurve minimum, maximum;
   final Object? _mode;
@@ -130,24 +132,26 @@ final class NativeAuthoredMinMaxCurve {
     double? scalarOverride,
   }) {
     final random = actualRandom.clamp(0.0, 1.0);
-    final scalar = _f(scalarOverride ?? _scalarValue);
-    final minScalar = _f(_minimumScalar);
+    final scalar = scalarOverride == null ? _scalarValue : _f(scalarOverride);
+    final minScalar = _minimumScalar;
+    if (_mode == 2) {
+      final low = _f(minimum.sample(normalizedTime));
+      final high = _f(maximum.sample(normalizedTime));
+      return _f(scalar * _f(low + (high - low) * random));
+    }
     return switch (_mode) {
       0 => scalar,
       1 => _f(scalar * _f(maximum.sample(normalizedTime))),
-      2 => _f(
-        scalar *
-            _f(
-              _f(minimum.sample(normalizedTime)) +
-                  (_f(maximum.sample(normalizedTime)) -
-                          _f(minimum.sample(normalizedTime))) *
-                      random,
-            ),
-      ),
       3 => _f(minScalar + (scalar - minScalar) * random),
       _ => throw UnsupportedError('native_minmax_curve_mode:$_mode'),
     };
   }
+}
+
+final _constructionScalar = Float32List(1);
+double _constructionF32(double value) {
+  _constructionScalar[0] = value;
+  return _constructionScalar[0];
 }
 
 final _curves = Expando<NativeAuthoredCurve>('native-authored-curve');

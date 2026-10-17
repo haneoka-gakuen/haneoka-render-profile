@@ -28,12 +28,32 @@ final class NativeAuthoredEmission {
       ((system['EmissionModule'] as Map)['m_Bursts'] as List).length,
       0,
     );
+    _length = (system['lengthInSec'] as num).toDouble();
+    _looping = system['looping'] == true;
+    final module = system['EmissionModule'] as Map;
+    _enabled = module['enabled'] == true;
+    _bursts = _enabled
+        ? [
+            for (final raw in module['m_Bursts'] as List)
+              _EmissionBurst(raw as Map),
+          ]
+        : const [];
+    _rateOverTime = _enabled
+        ? NativeAuthoredMinMaxCurve(module['rateOverTime'] as Map)
+        : null;
+    _rateOverDistance = _enabled
+        ? NativeAuthoredMinMaxCurve(module['rateOverDistance'] as Map)
+        : null;
   }
   final Map system;
   final double Function() randomValue;
   late final double delay;
   late double _delayRemaining;
   late final List<int> _burstsDone;
+  late final double _length;
+  late final bool _looping, _enabled;
+  late final List<_EmissionBurst> _bursts;
+  late final NativeAuthoredMinMaxCurve? _rateOverTime, _rateOverDistance;
   double simulationSeconds = 0, _time = 0;
   double _timeRemainder = 0, _distanceRemainder = 0;
   int _nextIndex = 0, loopCount = 0;
@@ -44,8 +64,7 @@ final class NativeAuthoredEmission {
   }
 
   double get systemTime => _time;
-  bool get durationEnded =>
-      system['looping'] != true && _time >= (system['lengthInSec'] as num);
+  bool get durationEnded => !_looping && _time >= _length;
 
   List<NativeParticleEmission> advance(
     double simulationDelta, {
@@ -61,8 +80,7 @@ final class NativeAuthoredEmission {
       throw ArgumentError('native_particle_emission_interval');
     }
     if (!(simulationDelta > 0)) return const [];
-    final module = system['EmissionModule'] as Map;
-    final length = (system['lengthInSec'] as num).toDouble();
+    final length = _length;
     if (!(length > 0)) {
       throw const FormatException('native_particle_emission_duration');
     }
@@ -96,49 +114,40 @@ final class NativeAuthoredEmission {
 
     var time = _time, used = 0.0;
     final startTime = time;
-    final looping = system['looping'] == true;
+    final looping = _looping;
     var guard = 0;
     while (budget - used > 1e-9 && guard++ < 10000) {
       if (!looping && time >= length) break;
       final interval = math.min(budget - used, length - time);
       final end = time + interval;
       final offset = delayed + used;
-      if (module['enabled'] == true) {
+      if (_enabled) {
         // Bursts run before rate over time; each birth consumes its own stream
         // values before the next event or curve samples that stream.
-        for (final (index, raw) in (module['m_Bursts'] as List).indexed) {
-          final burst = raw as Map;
-          final repeats = burst['cycleCount'] as int;
-          final spacing = (burst['repeatInterval'] as num).toDouble();
-          final limit = repeats > 0
-              ? repeats
-              : spacing > 0
-              ? null
-              : 1;
+        for (final (index, burst) in _bursts.indexed) {
+          final spacing = burst.spacing;
+          final limit = burst.limit;
           var burstGuard = 0;
           while (burstGuard++ < 100000 &&
               (limit == null || _burstsDone[index] < limit)) {
-            final at = _f(
-              (burst['time'] as num).toDouble() + _burstsDone[index] * spacing,
-            );
+            final at = _f(burst.time + _burstsDone[index] * spacing);
             if (at >= end) break;
             _burstsDone[index]++;
             if (at < time) continue;
-            final probability = (burst['probability'] as num).toDouble();
+            final probability = burst.probability;
             if (probability < 1 && !(randomValue() < probability)) continue;
-            final count = NativeAuthoredMinMaxCurve(burst['countCurve'] as Map)
+            final count = burst.count
                 .sample(at / length, randomValue())
                 .round();
             emit(math.max(0, count), offset + (at - time));
           }
         }
         // A rate sample occurs even when its curve is constant or evaluates 0.
-        final sampledRate =
-            NativeAuthoredMinMaxCurve(module['rateOverTime'] as Map).sample(
-              (time + end) * .5 / length,
-              randomValue(),
-              scalarOverride: rateOverTimeOverride,
-            );
+        final sampledRate = _rateOverTime!.sample(
+          (time + end) * .5 / length,
+          randomValue(),
+          scalarOverride: rateOverTimeOverride,
+        );
         final rate = sampledRate;
         if (rate > 0 && interval > 0) {
           final previous = _timeRemainder, total = previous + rate * interval;
@@ -164,13 +173,12 @@ final class NativeAuthoredEmission {
       }
     }
     _time = _f(time);
-    if (module['enabled'] == true && emitterDistance > 0) {
-      final sampledRate =
-          NativeAuthoredMinMaxCurve(module['rateOverDistance'] as Map).sample(
-            startTime / length,
-            randomValue(),
-            scalarOverride: rateOverDistanceOverride,
-          );
+    if (_enabled && emitterDistance > 0) {
+      final sampledRate = _rateOverDistance!.sample(
+        startTime / length,
+        randomValue(),
+        scalarOverride: rateOverDistanceOverride,
+      );
       final rate = sampledRate;
       if (rate > 0) {
         final previous = _distanceRemainder,
@@ -192,4 +200,22 @@ final class NativeAuthoredEmission {
     }
     return output;
   }
+}
+
+final class _EmissionBurst {
+  _EmissionBurst(Map source)
+    : time = (source['time'] as num).toDouble(),
+      spacing = (source['repeatInterval'] as num).toDouble(),
+      probability = (source['probability'] as num).toDouble(),
+      count = NativeAuthoredMinMaxCurve(source['countCurve'] as Map) {
+    final repeats = source['cycleCount'] as int;
+    limit = repeats > 0
+        ? repeats
+        : spacing > 0
+        ? null
+        : 1;
+  }
+  final double time, spacing, probability;
+  final NativeAuthoredMinMaxCurve count;
+  late final int? limit;
 }

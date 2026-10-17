@@ -62,7 +62,17 @@ Map<String, NativeCanvasPlacement> layoutNativeCanvas({
     canvasPivot: canvasPivot,
     canvasWorld: canvasWorld,
   );
-  var placed = placements();
+  final placed = placements();
+  var driven = false;
+  double dimension(String id, int axis) {
+    final node = current[id]!, parent = node.parent;
+    final inherited = parent == null
+        ? (axis == 0 ? canvasWidth : canvasHeight)
+        : dimension(parent, axis);
+    return inherited * (node.anchorMax[axis] - node.anchorMin[axis]) +
+        node.size[axis];
+  }
+
   final totals = <String, List<({double min, double pref, double flex})>>{};
   List<String> activeChildren(String id) => [
     for (final child in children[id] ?? const <String>[])
@@ -139,6 +149,7 @@ Map<String, NativeCanvasPlacement> layoutNativeCanvas({
         ? position + dimensions[axis] * node.pivot[axis] * effectiveScale
         : -position -
               dimensions[axis] * (1 - node.pivot[axis]) * effectiveScale;
+    driven = true;
     current[id] = NativeCanvasNode(
       id: id,
       parent: node.parent,
@@ -162,7 +173,7 @@ Map<String, NativeCanvasPlacement> layoutNativeCanvas({
       final main = (axis == 0) == group.horizontal,
           padStart = group.padding[axis == 0 ? 0 : 2],
           padEnd = group.padding[axis == 0 ? 1 : 3],
-          extent = axis == 0 ? placed[id]!.width : placed[id]!.height;
+          extent = dimension(id, axis);
       final inner = extent - padStart - padEnd,
           align = axis == 0
               ? (group.alignment % 3) / 2
@@ -206,7 +217,6 @@ Map<String, NativeCanvasPlacement> layoutNativeCanvas({
         drive(child, axis, position, group.control[axis] ? drawn : null);
         if (main) cursor += allocated * scale + group.spacing;
       }
-      placed = placements();
     }
     for (final child in activeChildren(id)) control(child, axis);
   }
@@ -215,5 +225,5 @@ Map<String, NativeCanvasPlacement> layoutNativeCanvas({
     measure(root);
     for (var axis = 0; axis < 2; axis++) control(root, axis);
   }
-  return placed;
+  return driven ? placements() : placed;
 }

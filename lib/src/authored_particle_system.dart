@@ -190,11 +190,12 @@ final class AuthoredParticleSystem {
                     policy[axis * 4 + 2] * policy[axis * 4 + 2],
               ),
     ]);
+    final storageWorld = object.data['moveWithTransform'] == 1;
     final numericFrame = NativeParticleFrame.fromAffine(
       matrix: policy,
       quaternion: source.graph.worldRotation(transform),
       scale: scale,
-      worldSpace: object.data['moveWithTransform'] == 1,
+      worldSpace: storageWorld,
     );
     Float64List localToWorldVector(Float64List value) => numericFrame.rotate(
       Float64List.fromList([for (var i = 0; i < 3; i++) value[i] * scale[i]]),
@@ -239,7 +240,6 @@ final class AuthoredParticleSystem {
     final stepDelta = delta / substeps;
     _lastSubsteps = substeps;
     Float64List fromModule(Float64List vector, bool world) {
-      final storageWorld = object.data['moveWithTransform'] == 1;
       if (storageWorld == world) return Float64List.fromList(vector);
       return storageWorld
           ? localToWorldVector(vector)
@@ -247,7 +247,6 @@ final class AuthoredParticleSystem {
     }
 
     Float64List toModule(Float64List vector, bool world) {
-      final storageWorld = object.data['moveWithTransform'] == 1;
       if (storageWorld == world) return Float64List.fromList(vector);
       return storageWorld
           ? worldToLocalVector(vector)
@@ -255,7 +254,7 @@ final class AuthoredParticleSystem {
     }
 
     final simulationGravity =
-        object.data['moveWithTransform'] == 1 ||
+        storageWorld ||
             identical(gravity, _zeroGravity) ||
             gravity.every((value) => value == 0)
         ? gravity
@@ -473,11 +472,12 @@ final class AuthoredParticleSystem {
                     policy[axis * 4 + 2] * policy[axis * 4 + 2],
               ),
     ]);
+    final storageWorld = object.data['moveWithTransform'] == 1;
     final particleFrame = NativeParticleFrame.fromAffine(
       matrix: policy,
       quaternion: source.graph.worldRotation(transform),
       scale: scaling,
-      worldSpace: object.data['moveWithTransform'] == 1,
+      worldSpace: storageWorld,
     );
     final cameraForward = Float64List.fromList([
       0,
@@ -485,8 +485,7 @@ final class AuthoredParticleSystem {
       math.cos(angle),
     ]);
     for (final particle in particles) {
-      final world = object.data['moveWithTransform'] == 1;
-      final center = world
+      final center = storageWorld
           ? particle.position
           : point(policy, particle.position);
       final size = particle.size(object.data, configuration: _particleConfig);
@@ -577,7 +576,7 @@ final class AuthoredParticleSystem {
           if (_particleConfig.velocity != null || noise != null) {
             throw UnsupportedError('particle_stretch_animated_velocity');
           }
-          worldVelocity = world
+          worldVelocity = storageWorld
               ? particle.velocity
               : particleFrame.rotate(
                   Float64List.fromList([

@@ -38,11 +38,11 @@ final class NativeAuthoredParticle {
     List<double>? textureSheetRandom,
   }) : position = Float64List.fromList(position),
        velocity = Float64List.fromList(velocity),
-       randomValues = List.unmodifiable(randomValues),
+       randomValues = Float64List.fromList(randomValues).asUnmodifiableView(),
        birthMatrix = Float32List.fromList(birthMatrix),
        textureSheetRandom = textureSheetRandom == null
            ? null
-           : List.unmodifiable(textureSheetRandom) {
+           : Float64List.fromList(textureSheetRandom).asUnmodifiableView() {
     if (position.length != 3 ||
         velocity.length != 3 ||
         birthMatrix.length != 16 ||
