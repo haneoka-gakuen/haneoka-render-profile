@@ -165,7 +165,23 @@ final class HaneokaProfileAssets {
 
   Future<String> loadString(String assetKey) async =>
       (await _read(assetKey, decode: true)).text!;
+
+  /// Returns a fresh packet after the shared asset integrity check. Large JSON
+  /// packets are decoded off the UI isolate, with the verified source hash.
+  Future<({Map<String, Object?> data, String sha256})> loadJson(
+    String assetKey,
+  ) async {
+    final text = await loadString(assetKey);
+    final expected = (_document['files'] as Map)[assetKey] as Map;
+    final data = (expected['bytes'] as int) >= 50 * 1024 && !kIsWeb
+        ? await compute(_decodeProfileJson, text, debugLabel: 'JSON $assetKey')
+        : _decodeProfileJson(text);
+    return (data: data, sha256: expected['sha256'] as String);
+  }
 }
+
+Map<String, Object?> _decodeProfileJson(String text) =>
+    Map<String, Object?>.from(jsonDecode(text) as Map);
 
 Future<ByteData> loadHaneokaProfileAsset(String assetKey) async =>
     (await HaneokaProfileAssets.open()).load(assetKey);
