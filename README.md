@@ -41,3 +41,13 @@ node tool/export-story-assets.mjs --inputs tool/story-assets-v56.json --profile 
 ```
 
 工具沿用正式字体 compact 格式，核验输入 SHA256，记录每份资产的服务器、资源版本和原始输出；布局和动画保持原有来源。生产工具使用 Node.js 24+。
+
+字体覆盖数据在构建时从原 PNG 的 alpha 通道逐像素导出为 gzip 压缩的 R8。坐标、SDF 边距、字距和采样分辨率保持原值；`font-coverage.json` 记录尺寸、源图像散列与解压后的散列。运行时由 profile 在后台解压并交给通用纹理加载器，SDF 材质明确选择红色覆盖通道。原 alpha 材质继续可用。
+
+```sh
+python3 tool/export-font-coverage.py --profile flutter/assets/profile
+node tool/build-shaders.mjs --compiler /path/to/flutter/bin/cache/artifacts/engine/linux-x64/impellerc
+node tool/build-manifest.mjs
+```
+
+离线覆盖数据导出使用 Pillow；运行时解压和校验使用纯 Dart，两个 Flutter renderer 共用同一纹理接口。

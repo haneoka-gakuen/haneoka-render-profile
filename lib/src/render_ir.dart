@@ -70,6 +70,7 @@ final class NativeMaterial {
     this.minFilter = SamplerFilter.linear,
     this.magFilter = SamplerFilter.linear,
     this.coverageMask,
+    this.coverageChannel = TextureChannel.alpha,
   });
   final String texture;
   final NativeMaterialRecipe recipe;
@@ -82,6 +83,7 @@ final class NativeMaterial {
   final NativeSamplerAddress widthAddressMode, heightAddressMode;
   final SamplerFilter minFilter, magFilter;
   final CoverageMask? coverageMask;
+  final TextureChannel coverageChannel;
 }
 
 final class NativeSceneResources {

@@ -103,6 +103,12 @@ final haneokaShaderPrograms = <String, ShaderProgramSpec>{
     uniformFloatCounts: {'SdfSettings': 24},
     textureSlots: {'image'},
   ),
+  'sdf-r8': ShaderProgramSpec(
+    vertexEntry: 'HaneokaTexturedVertex',
+    fragmentEntry: 'HaneokaSdfRedFragment',
+    uniformFloatCounts: {'SdfSettings': 24},
+    textureSlots: {'image'},
+  ),
   'opaque-transfer': ShaderProgramSpec(
     vertexEntry: 'HaneokaTexturedVertex',
     fragmentEntry: 'HaneokaOpaqueColorTransferFragment',
@@ -154,6 +160,12 @@ final haneokaShaderPrograms = <String, ShaderProgramSpec>{
     uniformFloatCounts: {'SdfSettings': 24, 'MaskSettings': 20},
     textureSlots: {'image', 'coverageImage'},
   ),
+  'ui-masked-sdf-r8': ShaderProgramSpec(
+    vertexEntry: 'HaneokaUiMaskedVertex',
+    fragmentEntry: 'HaneokaUiMaskedSdfRedFragment',
+    uniformFloatCounts: {'SdfSettings': 24, 'MaskSettings': 20},
+    textureSlots: {'image', 'coverageImage'},
+  ),
   'ui-masked-coverage-mask': ShaderProgramSpec(
     vertexEntry: 'HaneokaUiMaskedVertex',
     fragmentEntry: 'HaneokaUiMaskedCoverageMaskFragment',
@@ -178,7 +190,8 @@ DrawMaterial toDrawMaterial(NativeMaterial value) {
     NativeMaterialRecipe.cubismMask => 'cubism-mask',
     NativeMaterialRecipe.postProcess => 'post',
     NativeMaterialRecipe.mobileHdr => 'mobile-hdr',
-    NativeMaterialRecipe.sdfText => 'sdf',
+    NativeMaterialRecipe.sdfText =>
+      value.coverageChannel == TextureChannel.red ? 'sdf-r8' : 'sdf',
     NativeMaterialRecipe.ruleTransition => 'rule-transition',
     NativeMaterialRecipe.uiSourceAlphaAdditive =>
       value.textureAlpha == TextureAlpha.straight

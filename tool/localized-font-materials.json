@@ -1,0 +1,27 @@
+{
+  "nativeSource": {
+    "apkSHA256": "c0b6a1541e4562533aaeb2c65062cb6202913b2aec5aae80d371c4fc04409fa9",
+    "libSHA256": "b7f8752e45d5ad94fb447add9e038509b944bdf81d349108a5385d2abc815473",
+    "getMaterialType": "0x6b32094",
+    "getFontMaterial": "0x6b31f6c",
+    "literalDelimiter": " - ",
+    "literalCloneSuffix": " (Instance)",
+    "defaultType": "Default"
+  },
+  "fonts": [
+    {
+      "id": "chinese",
+      "archive": ".source-cache/chinese.objects.jsonl.gz",
+      "archiveSHA256": "ff5fb7c28a6437cebb65eec72e3d00ffc8558d389fbb023fd6fb66cf9479a540",
+      "bundleSHA256": "661708831817197afb87741c1d30d72a87640d467cb2ceb2bc8ba038f65db89d",
+      "sourceId": "v56-e9f2ad502d77-ef8931bb88af-m3492f0664680-nc194e0c2"
+    },
+    {
+      "id": "korean",
+      "archive": ".source-cache/korean.objects.jsonl.gz",
+      "archiveSHA256": "9f0fedcdca429109aecea25cc5f5bc6cad26d4029ce40ef4345073526b7148dc",
+      "bundleSHA256": "c2e9c1cfa775eb2f517752772eece22cdb1e1604a2df67d17aabae739a916465",
+      "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392"
+    }
+  ]
+}

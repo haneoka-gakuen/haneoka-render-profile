@@ -6,6 +6,12 @@ repository: https://github.com/haneoka-gakuen/haneoka-render-profile/tree/main/f
 environment:
   sdk: ^3.13.5
 dependencies:
+  archive: ^4.5.0
+  render_contracts:
+    git:
+      url: https://github.com/haneoka-gakuen/render-kernel-flutter.git
+      ref: 235abdfab633a49acd7e78d81710bb7de9195d04
+      path: packages/render_contracts
   crypto: ^3.0.7
   flutter:
     sdk: flutter

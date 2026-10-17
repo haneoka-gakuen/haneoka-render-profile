@@ -1,8 +1,10 @@
 import 'dart:convert';
 
+import 'package:archive/archive.dart';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart' show compute, kIsWeb;
 import 'package:flutter/services.dart';
+import 'package:render_contracts/render_contracts.dart';
 
 import 'asset_paths.dart';
 
@@ -17,6 +19,32 @@ final class HaneokaProfileAssets {
   final _checking = <String, Future<String?>>{};
   String get id => _document['id'] as String;
   String get version => _document['version'] as String;
+  Map get _numericTextures => _document['numericTextures'] as Map;
+
+  TextureChannel fontCoverageChannel(Iterable<String> atlases) =>
+      atlases.every(_numericTextures.containsKey)
+      ? TextureChannel.red
+      : TextureChannel.alpha;
+
+  Future<TextureData?> loadTexture(Uri uri) async {
+    if (uri.scheme != 'haneoka-asset') return null;
+    final descriptor = _numericTextures[uri.path];
+    if (descriptor is! Map) return null;
+    final bytes = await load(descriptor['asset'] as String);
+    final decoded = await compute(_decodeCoverage, (
+      bytes: bytes,
+      expectedBytes: descriptor['decodedBytes'] as int,
+      hash: descriptor['decodedSHA256'] as String,
+    ), debugLabel: 'SDF coverage ${uri.path}');
+    return TextureData(
+      width: descriptor['width'] as int,
+      height: descriptor['height'] as int,
+      rgba: decoded,
+      format: TexelFormat.r8,
+      alpha: TextureAlpha.independent,
+    );
+  }
+
   Map get packetSource => Map.unmodifiable(_document['packetSource'] as Map);
   static Future<HaneokaProfileAssets>? _opening;
   static final _sha256 = RegExp(r'^[0-9a-f]{64}$');
@@ -141,6 +169,24 @@ final class HaneokaProfileAssets {
 
 Future<ByteData> loadHaneokaProfileAsset(String assetKey) async =>
     (await HaneokaProfileAssets.open()).load(assetKey);
+
+Future<TextureData?> loadHaneokaProfileTexture(Uri uri) async =>
+    (await HaneokaProfileAssets.open()).loadTexture(uri);
+
+Uint8List _decodeCoverage(
+  ({ByteData bytes, int expectedBytes, String hash}) input,
+) {
+  final bytes = input.bytes.buffer.asUint8List(
+    input.bytes.offsetInBytes,
+    input.bytes.lengthInBytes,
+  );
+  final decoded = GZipDecoder().decodeBytes(bytes);
+  if (decoded.length != input.expectedBytes ||
+      sha256.convert(decoded).toString() != input.hash) {
+    throw const FormatException('render_profile_coverage_integrity');
+  }
+  return decoded;
+}
 
 Future<String> loadHaneokaProfileString(String assetKey) async =>
     (await HaneokaProfileAssets.open()).loadString(assetKey);

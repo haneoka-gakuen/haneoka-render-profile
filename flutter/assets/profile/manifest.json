@@ -11,6 +11,96 @@
     "sourceId": "v25-c0b6a1541e45-3a5d2eec9935-n653c6392",
     "releaseId": "r-31fd4555b15455da7f44"
   },
+  "numericTextures": {
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/bold-0.png": {
+      "asset": "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/bold-0.r8.gz",
+      "width": 256,
+      "height": 256,
+      "format": "r8",
+      "coverageChannel": "red",
+      "compression": "gzip",
+      "decodedBytes": 65536,
+      "decodedSHA256": "18545caf6611b382a693c35223a3d602f28c5384dc41339cf764410c60ef6a5a",
+      "sourceSHA256": "414ee877ccc8550ad40738731358cbf68d52f1dc97a029c639be77c4578be58b"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chat-0.png": {
+      "asset": "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chat-0.r8.gz",
+      "width": 4096,
+      "height": 4096,
+      "format": "r8",
+      "coverageChannel": "red",
+      "compression": "gzip",
+      "decodedBytes": 16777216,
+      "decodedSHA256": "ab34228d3459b138ebaede5e484833ca387403d545dd4be2a296f65e8bb12f8a",
+      "sourceSHA256": "364969eceec9a68ec70b53167d7468d5b8f83505717159043df92d84492d5d8d"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chinese-0.png": {
+      "asset": "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chinese-0.r8.gz",
+      "width": 4096,
+      "height": 4096,
+      "format": "r8",
+      "coverageChannel": "red",
+      "compression": "gzip",
+      "decodedBytes": 16777216,
+      "decodedSHA256": "68d82e94034bcd728043d26045d31e8792f622a7c5030186e3468f8a59642b39",
+      "sourceSHA256": "30865db8c09019948f60480294f6190a8eea149d8d9218bf89ed18ca6fc1b380"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/dialogue-0.png": {
+      "asset": "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/dialogue-0.r8.gz",
+      "width": 4096,
+      "height": 4096,
+      "format": "r8",
+      "coverageChannel": "red",
+      "compression": "gzip",
+      "decodedBytes": 16777216,
+      "decodedSHA256": "7d944b10477261345e4164c1dc74b289cd5e936099fc5f80960d38fb4ddc3e9e",
+      "sourceSHA256": "826f71dc339fe8664b3784589b19a4b1d1c0497561f7b8d5c3d60bb6142d61a3"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/korean-0.png": {
+      "asset": "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/korean-0.r8.gz",
+      "width": 4096,
+      "height": 4096,
+      "format": "r8",
+      "coverageChannel": "red",
+      "compression": "gzip",
+      "decodedBytes": 16777216,
+      "decodedSHA256": "40f8c449b3fe17439c466a4e8ecd17f19cc9b8b1444f5162e6c84b93df1984f1",
+      "sourceSHA256": "238cc8274e353ad5ef901dd3e19891e263dc9b5b1caa784f3fbc4cc4d6661d5c"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/korean-1.png": {
+      "asset": "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/korean-1.r8.gz",
+      "width": 4096,
+      "height": 4096,
+      "format": "r8",
+      "coverageChannel": "red",
+      "compression": "gzip",
+      "decodedBytes": 16777216,
+      "decodedSHA256": "14da9434f5cfd7ab247f7e08f61dbda3617213ba457ab48f297f94d2700e72ad",
+      "sourceSHA256": "e8313e0fde39f074090006c30b43a647ef356273ca5443c3a1ede2d753d9cdb8"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/numeric-0.png": {
+      "asset": "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/numeric-0.r8.gz",
+      "width": 1024,
+      "height": 1024,
+      "format": "r8",
+      "coverageChannel": "red",
+      "compression": "gzip",
+      "decodedBytes": 1048576,
+      "decodedSHA256": "424fdba621510a7796e527659db88761dda31fce2dce8e4ea91a485dbb8259a4",
+      "sourceSHA256": "3ea1b0b5fde9332272d40f07668b64b3d716ba0ab43be9ebfc984472b4e2e53a"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/symbols-0.png": {
+      "asset": "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/symbols-0.r8.gz",
+      "width": 512,
+      "height": 512,
+      "format": "r8",
+      "coverageChannel": "red",
+      "compression": "gzip",
+      "decodedBytes": 262144,
+      "decodedSHA256": "78b9c22520b32d93b3ec112a6e50a1a4cfa3ada159bf09d685a0b7babd56d116",
+      "sourceSHA256": "11c5461620e614fe10347f1a65610a713dedbd18efcc3ce61fb42da06e342fbe"
+    }
+  },
   "files": {
     "packages/haneoka_render_profile_flutter/assets/profile/adv_still_anime_000291.json": {
       "bytes": 50664,
@@ -91,6 +181,10 @@
     "packages/haneoka_render_profile_flutter/assets/profile/effects/textures/wallSide.png": {
       "bytes": 9039,
       "sha256": "31bfe8fb8fbac87dfa30cd95653e87b0782aefa746bd13ae7b1e9d50ff32ebcb"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/font-coverage.json": {
+      "bytes": 4386,
+      "sha256": "0734d196c4c69b7b22c73f63eb9d98a3a4d16f698d2e90adb06fb7bd9d15537d"
     },
     "packages/haneoka_render_profile_flutter/assets/profile/gekisou-effect-profile.json": {
       "bytes": 2328472,
@@ -200,6 +294,10 @@
       "bytes": 9521,
       "sha256": "414ee877ccc8550ad40738731358cbf68d52f1dc97a029c639be77c4578be58b"
     },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/bold-0.r8.gz": {
+      "bytes": 8554,
+      "sha256": "5279146747791c7a4227444f31cbd7deab4af1c559d7ca604158b2fccdcc2c11"
+    },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/bold.json": {
       "bytes": 413,
       "sha256": "2b148f64514e57580c2330d1efc7300923c8c24d5df01f277f47bcb827d756dc"
@@ -207,6 +305,10 @@
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chat-0.png": {
       "bytes": 9741356,
       "sha256": "364969eceec9a68ec70b53167d7468d5b8f83505717159043df92d84492d5d8d"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chat-0.r8.gz": {
+      "bytes": 7715447,
+      "sha256": "fe12a1a9671153367ba4b5b4aa0a05b13328baa17e464c13f8bebf534cd24162"
     },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chat.json": {
       "bytes": 1002733,
@@ -216,6 +318,10 @@
       "bytes": 9035418,
       "sha256": "30865db8c09019948f60480294f6190a8eea149d8d9218bf89ed18ca6fc1b380"
     },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chinese-0.r8.gz": {
+      "bytes": 7371712,
+      "sha256": "fac6529fdbfc8266ea3ff973e8bb3400cf6935a4ea23a7f1c0e9c839b6000921"
+    },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/chinese.json": {
       "bytes": 947580,
       "sha256": "79c8fceca3bde341c1332871cdc813ec9478ac3957c609bfcb71c12a14acc5de"
@@ -223,6 +329,10 @@
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/dialogue-0.png": {
       "bytes": 8065927,
       "sha256": "826f71dc339fe8664b3784589b19a4b1d1c0497561f7b8d5c3d60bb6142d61a3"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/dialogue-0.r8.gz": {
+      "bytes": 7452099,
+      "sha256": "324710ff6db76899da7a2edf1dee818673c84661472f1c05871e28f4e519450f"
     },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/dialogue.json": {
       "bytes": 991702,
@@ -232,9 +342,17 @@
       "bytes": 3121608,
       "sha256": "238cc8274e353ad5ef901dd3e19891e263dc9b5b1caa784f3fbc4cc4d6661d5c"
     },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/korean-0.r8.gz": {
+      "bytes": 1762892,
+      "sha256": "9e62fe241326d163fc68f6a6a47d834e99fe20315c3ed3d9ff185258f975eb7a"
+    },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/korean-1.png": {
       "bytes": 2909628,
       "sha256": "e8313e0fde39f074090006c30b43a647ef356273ca5443c3a1ede2d753d9cdb8"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/korean-1.r8.gz": {
+      "bytes": 1516315,
+      "sha256": "fb885855c1b2aca6d892484aa0cb1aac689920b1568092495f569e0281957ff8"
     },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/korean.json": {
       "bytes": 304524,
@@ -248,6 +366,10 @@
       "bytes": 191525,
       "sha256": "3ea1b0b5fde9332272d40f07668b64b3d716ba0ab43be9ebfc984472b4e2e53a"
     },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/numeric-0.r8.gz": {
+      "bytes": 216796,
+      "sha256": "f587684c68c6ee8cdbc3b4a6129fb9cb273b383f18002866f476dd62b4fb58a5"
+    },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/numeric.json": {
       "bytes": 14876,
       "sha256": "6b1e46443f7db6c627d7ac89e274961b005d47a17231e257b858fa1e7e48e46b"
@@ -255,6 +377,10 @@
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/symbols-0.png": {
       "bytes": 36742,
       "sha256": "11c5461620e614fe10347f1a65610a713dedbd18efcc3ce61fb42da06e342fbe"
+    },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/symbols-0.r8.gz": {
+      "bytes": 26341,
+      "sha256": "583914de1d5bc3530d433108d9fdc1533440d483a556f23353879b10ad9e8a67"
     },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/fonts/symbols.json": {
       "bytes": 1274,
@@ -604,6 +730,10 @@
       "bytes": 2588,
       "sha256": "e679e4fcc79d37e1f2b53ef59e7cf60ce7729110caef00335c2a93fab91ae138"
     },
+    "packages/haneoka_render_profile_flutter/assets/profile/story-ui/source-bindings/localized-font-materials.json": {
+      "bytes": 136646,
+      "sha256": "91782e8a3be69600578e8ff628ea06f5506f406a0e78be13f00f2164478b3c55"
+    },
     "packages/haneoka_render_profile_flutter/assets/profile/story-ui/source-bindings/location-animation.json": {
       "bytes": 10142,
       "sha256": "dc48fb451b0a837ebae24aa8dd31f40c6bc8906b0a4f0899572250f72e63b8ac"
@@ -781,8 +911,8 @@
       "sha256": "508e92238640e05034d4f6ac7d906a3288e82dbe047b7e8f55ff4d993a7523ef"
     },
     "packages/haneoka_render_profile_flutter/shaders/haneoka.shaderbundle": {
-      "bytes": 423688,
-      "sha256": "4b68fd9999e2b89a204357cd86cfbf81604730a6a78015d73ac4a13c9addf066"
+      "bytes": 457160,
+      "sha256": "4873ad865556e17e59805b389163d1fe3c2f4f660c25ba3554db90c57bfed776"
     }
   }
 }

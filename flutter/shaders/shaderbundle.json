@@ -110,5 +110,13 @@
   "HaneokaUiMaskedCoverageMaskFragment": {
     "file": "shaders/ui_masked_coverage_mask.frag",
     "type": "fragment"
+  },
+  "HaneokaSdfRedFragment": {
+    "file": "shaders/sdf_text_r8.frag",
+    "type": "fragment"
+  },
+  "HaneokaUiMaskedSdfRedFragment": {
+    "file": "shaders/ui_masked_sdf_r8.frag",
+    "type": "fragment"
   }
 }

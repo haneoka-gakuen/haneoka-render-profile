@@ -1,3 +1,5 @@
+import 'package:render_contracts/render_contracts.dart' show TextureChannel;
+
 double _number(Object? value, String field) {
   if (value is! num || !value.isFinite) {
     throw FormatException('source_font_$field');
@@ -55,6 +57,7 @@ final class SourceFontData {
     required this.atlasAssets,
     required this.characters,
     required this.glyphs,
+    required this.coverageChannel,
   });
   final String id, sourceHash;
   final double size,
@@ -71,12 +74,14 @@ final class SourceFontData {
   final List<String> atlasAssets;
   final Map<int, (int, double)> characters;
   final Map<int, SourceFontGlyph> glyphs;
+  final TextureChannel coverageChannel;
 
   factory SourceFontData.fromJson(
     Map<String, Object?> data, {
     required String sourceHash,
     required List<String> actualAtlasAssetKeys,
     List? glyphPairs,
+    TextureChannel coverageChannel = TextureChannel.alpha,
   }) {
     if (!RegExp(r'^[a-f0-9]{64}$').hasMatch(sourceHash) ||
         data['id'] is! String ||
@@ -124,6 +129,7 @@ final class SourceFontData {
       atlasAssets: List.unmodifiable(actualAtlasAssetKeys),
       characters: Map.unmodifiable(characters),
       glyphs: Map.unmodifiable(glyphs),
+      coverageChannel: coverageChannel,
     );
     if (font.size <= 0 || font.atlasWidth <= 0 || font.atlasHeight <= 0) {
       throw const FormatException('source_font_dimensions');

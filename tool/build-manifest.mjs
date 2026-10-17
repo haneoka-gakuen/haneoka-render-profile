@@ -43,6 +43,7 @@ const manifest = {
   version: 'formal-1.0.3',
   capabilities: ['haneoka-story-commands-v1', 'our-notes-chart-v1'],
   packetSource: { server: source.server, sourceId: source.sourceId, releaseId: source.releaseId },
+  numericTextures: JSON.parse(readFileSync(join(root, 'assets', 'profile', 'font-coverage.json'))).textures,
   files,
 };
 const json = `${JSON.stringify(manifest, null, 2)}\n`;
