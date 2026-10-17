@@ -911,8 +911,8 @@
       "sha256": "508e92238640e05034d4f6ac7d906a3288e82dbe047b7e8f55ff4d993a7523ef"
     },
     "packages/haneoka_render_profile_flutter/shaders/haneoka.shaderbundle": {
-      "bytes": 457160,
-      "sha256": "4873ad865556e17e59805b389163d1fe3c2f4f660c25ba3554db90c57bfed776"
+      "bytes": 467384,
+      "sha256": "a9a402ce5cf2c968266ff1018f517f354e7956c82bfe242ee834b37578c6f793"
     }
   }
 }

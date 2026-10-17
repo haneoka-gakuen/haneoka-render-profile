@@ -51,10 +51,10 @@ void main() {
   vec4 original=texture(image,min(coord,limit));
   vec3 sampled=original.rgb;
   if(settings.color.y>0.0) {
-    vec2 radial=(coord-0.5)*2.0;
-    vec2 end=coord-radial*dot(radial,radial)*settings.color.y;
-    sampled.g=texture(image,min((coord+end)*0.5,limit)).g;
-    sampled.b=texture(image,min(end,limit)).b;
+    vec2 radial=(uv-0.5)*2.0;
+    vec2 offset=radial*dot(radial,radial)*settings.color.y;
+    sampled.g=texture(image,min(distort(uv-offset*(1.0/3.0)),limit)).g;
+    sampled.b=texture(image,min(distort(uv-offset*(2.0/3.0)),limit)).b;
   }
   vec3 base=settings.center.z>0.5?fastLinear(sampled):sampled;
   vec3 result=base;
