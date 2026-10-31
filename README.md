@@ -51,3 +51,7 @@ node tool/build-manifest.mjs
 ```
 
 Offline coverage export uses Pillow. Run-time decompression and verification are pure Dart, and both Flutter renderers share one texture interface.
+
+## License
+
+[MPL-2.0](LICENSE).
