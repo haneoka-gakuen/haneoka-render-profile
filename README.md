@@ -1,12 +1,12 @@
 # Haneoka render profile
 
-`haneoka_render_profile` 提供纯 Dart 的源数据模型、动画曲线、粒子积分、投影、材质描述和通用绘制契约适配。Vega 和 Cassiopeia 的游戏插件在这里共享原作表现规则。
+`haneoka_render_profile` provides pure Dart source data models, animation curves, particle integration, projection, material descriptions and adapters to the generic drawing contracts. The Vega and Cassiopeia game plugins share the original game's presentation rules here.
 
-`flutter/` 是可选的 `haneoka_render_profile_flutter` 包，负责 Flutter 的资源声明、Shader bundle 和资源地址。应用组合层导入它，并把资源交给加载器。纯计算包和游戏插件使用相对资源标识。
+`flutter/` is the optional `haneoka_render_profile_flutter` package. It declares Flutter assets, the shader bundle and asset addresses. The application layer imports it and hands assets to the loaders. The pure package and game plugins use relative asset identities.
 
 ```mermaid
 flowchart TD
-    App[应用组合层] --> Vega[Vega Flutter renderer]
+    App[Application layer] --> Vega[Vega Flutter renderer]
     App --> Cass[Cassiopeia Flutter renderer]
     Vega --> Kernel[Flutter GPU kernel]
     Cass --> Kernel
@@ -14,35 +14,35 @@ flowchart TD
     App --> Assets[Profile Flutter assets]
     App --> GameVega[Vega Haneoka plugin]
     App --> GameCass[Cassiopeia Our Notes plugin]
-    GameVega --> Profile[纯 Dart profile]
+    GameVega --> Profile[Pure Dart profile]
     GameCass --> Profile
     Profile --> Contracts
 ```
 
-两个 renderer 接收通用场景和资源契约。游戏规则、资源选择与原作动画行为由游戏插件及 profile 提供；Flutter 的窗口、文件、音频和资源定位由宿主组合。
+Both renderers take generic scene and asset contracts. Game rules, asset choice and original animation behaviour come from the game plugins and this profile. The host supplies windows, files, audio and asset location.
 
-独立检查纯 Dart 部分：
+Check the pure Dart part on its own:
 
 ```sh
 dart pub get
 dart analyze lib
 ```
 
-公共绘制合同固定到 `render-kernel-flutter` 的 Git 版本；本地联调可使用各包自己的 `pubspec_overrides.yaml`。根目录的 `assets`、`shaders` 是通向 `flutter/` 的兼容链接，现有资源生产器继续写入同一份文件。
+The drawing contracts are pinned to a Git revision of `render-kernel-flutter`. For local integration, use each package's own `pubspec_overrides.yaml`. The root `assets` and `shaders` are compatibility links into `flutter/`, so existing asset producers keep writing the same files.
 
-主题通过 `flutter/assets/profile/manifest.json` 声明能力、逐文件 SHA-256 和字节长度。更新资源后运行 `node tool/build-manifest.mjs`，发布前用 `node tool/build-manifest.mjs --check` 核对清单。Flutter 加载器在实际读取时验证文件，大型文本沿用 Flutter 的后台解码方式。
+A theme declares its capabilities and each file's SHA-256 and byte length in `flutter/assets/profile/manifest.json`. Run `node tool/build-manifest.mjs` after changing assets, and `node tool/build-manifest.mjs --check` before a release. The Flutter loader verifies files as it reads them, and large text uses Flutter's background decoding.
 
-章节保留提供方、版本和媒体身份，视觉主题另有身份和资源清单。历史测量包的 `sourceId` 记录测量来源；新字体、图像和布局校准分别保留其实际来源。
+Chapters keep their provider, version and media identity, and a visual theme has its own identity and asset manifest. A historical measurement pack's `sourceId` records where it was measured. New fonts, images and layout calibration each keep their real source.
 
-正式故事字体与精灵使用已校验的 descriptor、对象档案和输出文件更新：
+Update the production story fonts and sprites from verified descriptors, object archives and output files:
 
 ```sh
 node tool/export-story-assets.mjs --inputs tool/story-assets-v56.json --profile flutter/assets/profile
 ```
 
-工具沿用正式字体 compact 格式，核验输入 SHA256，记录每份资产的服务器、资源版本和原始输出；布局和动画保持原有来源。生产工具使用 Node.js 24+。
+The tool keeps the production font compact format, verifies input SHA-256, and records each asset's server, resource version and original output. Layout and animation keep their existing sources. The production tools need Node.js 24+.
 
-字体覆盖数据在构建时从原 PNG 的 alpha 通道逐像素导出为 gzip 压缩的 R8。坐标、SDF 边距、字距和采样分辨率保持原值；`font-coverage.json` 记录尺寸、源图像散列与解压后的散列。运行时由 profile 在后台解压并交给通用纹理加载器，SDF 材质明确选择红色覆盖通道。原 alpha 材质继续可用。
+Font coverage data is exported at build time, pixel by pixel from the original PNG alpha channel, as gzip-compressed R8. Coordinates, SDF margins, kerning and sampling resolution keep their original values. `font-coverage.json` records the size and the hashes of the source image and the decompressed data. At run time the profile decompresses it in the background and hands it to the generic texture loader, and SDF materials explicitly select the red coverage channel. The original alpha material still works.
 
 ```sh
 python3 tool/export-font-coverage.py --profile flutter/assets/profile
@@ -50,4 +50,4 @@ node tool/build-shaders.mjs --compiler /path/to/flutter/bin/cache/artifacts/engi
 node tool/build-manifest.mjs
 ```
 
-离线覆盖数据导出使用 Pillow；运行时解压和校验使用纯 Dart，两个 Flutter renderer 共用同一纹理接口。
+Offline coverage export uses Pillow. Run-time decompression and verification are pure Dart, and both Flutter renderers share one texture interface.
